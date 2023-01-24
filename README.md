@@ -20,6 +20,7 @@ Depending on the number of Person documents within a HCL Domino environment, the
 
 1,000,000 Person documents = 15 hours
 
+___
 ## Documentation
 
 Learn how to use the HCL Domino License Analysis Utility with these topics:
@@ -32,20 +33,23 @@ Learn how to use the HCL Domino License Analysis Utility with these topics:
 
 [FAQs and Objections with Answers](..//main/FAQs%20and%20Objections%20with%20Answers.md)
 
+___
 ## Change log
 
 We will keep track of each release in the [CHANGELOG.md](./CHANGELOG.md)
 
-
+___
 ## Code of conduct
 
 To understand our Code of Conduct and how we handle misuse, please read the following:
 [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
 
+___
 ## Contributing
 
 Please read through our [contributing guidelines](./CONTRIBUTING.md).  Included are directions for opening issues.
 
+___
 ## Versioning
 
 The HCL Domino License Analysis Utility will adhere to the following versioning guidelines as much as possible. Releases will be numbered with the following format:
@@ -57,5 +61,6 @@ The HCL Domino License Analysis Utility will adhere to the following versioning 
 * A `minor` or `patch` release will never remove functionality
 * Bug fixes will be addressed as `patch` releases unless they change existing functionality, then they will be `minor` releases
 
+___
 ## Copyright and License
 By contributing your code, you agree to license your contribution under the terms of the the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) for any contributions that are made open source as development progresses.
