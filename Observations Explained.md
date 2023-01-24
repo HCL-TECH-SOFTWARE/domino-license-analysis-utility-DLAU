@@ -13,15 +13,15 @@ Below is a list of the Observations that are captured with a description of what
 ___
 ## Security Observations
 
-The HCL Domino Server ** *"Production/ACME"* ** is not properly secured for HTTP traffic
+The HCL Domino Server **_"Production/ACME"_** is not properly secured for HTTP traffic
 - This observation indicates that HTTP traffic is not using the same level of access security to your HCL Domino servers. When this is the case, even if a user's name is listed in a Deny Access Group, the user has the ability to access the HCL domino servers using a web browser. The HTTP port needs to be properly secured in order to report on user's who are listed in a Deny Access Group properly, else they will be counted as an Authorized User
 
 
-The HCL Domino Server ** *"Production/ACME"* ** is not properly secured for LDAP traffic
+The HCL Domino Server **_"Production/ACME"_** is not properly secured for LDAP traffic
 - This observation indicates that the LDAP traffic is not using the same level of access security to your HCL Domino servers. When this is the case, even if a user's name is listed in a Deny Access Group, the user has the ability to access the HCL domino servers using a web browser. The LDAP port needs to be properly secured in order to report on user's who are listed in a Deny Access Group properly, else they will be counted as an Authorized User
 
-The HCL Domino Server ** *"Production/ACME"* ** is not using any Deny Access Groups to secure server access
+The HCL Domino Server **_"Production/ACME"_** is not using any Deny Access Groups to secure server access
 - This observation is reporting that a Deny Access Group is not listed on the specified HCL Domino server document. therefore, anyone with credentials, either using a Notes ID or internet credentials, has the ability to access the HCL Domino server. Even if an employee leaves the client's organization, they would still have the ability to access the HCL Domino environment.
 
-The Deny Access Group named ** *"ACME Deny Access"* ** appears to be missing from your Domino Directory
+The Deny Access Group named _*"ACME Deny Access"_** appears to be missing from your Domino Directory
 - This observation is reporting that, even though there is a Deny Access group listed on the Domino server document, the actual Deny Access group does not exist. In this scenario, the usage of the Deny Access group will be ignored, and in turn anyone with credentials to the HCL Domino environment will have access to the HCL Domino server.
