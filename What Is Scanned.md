@@ -34,7 +34,7 @@ the information that is aggregates is as follows:
 
 Additional information is aggregated about each user during the subsequent scans.
 
-__
+___
 ## Scan #3: Deny Access Groups and User Membership
 
 The third scan that occurs looks at the values stored on the Server document aggregated data to determine what Deny Access Groups are in use to secure the Domino servers. 
@@ -43,7 +43,7 @@ Using the list of Deny Access Groups that are in use, the scan will retrieve the
 
 Once all this information is retrieved, each of the users that were discovered during the second scan are crossed referenced against the Members of the Deny Access Groups that were discovered. This cross reference determines if the user is listed in a Deny Access Group. If a user's name is discovered, the User information will be updated to indicate this.
 
-__
+___
 ## Scan #4: Entitlement Tracking / User Report Tool Results
 
 The third scan that occurs looks at one of two different systems:
