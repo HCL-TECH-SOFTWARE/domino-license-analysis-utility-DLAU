@@ -24,13 +24,13 @@ Depending on the number of Person documents within a HCL Domino environment, the
 
 Learn how to use the HCL Domino License Analysis Utility with these topics:
 
-[PDF Presentation of the HCL Domino License Utility](..//blob/main/HCL%20Domino%20License%20Analysis%20Utility%20-%20What%20Is%20It.pdf)
+[PDF Presentation of the HCL Domino License Utility](..//main/HCL%20Domino%20License%20Analysis%20Utility%20-%20What%20Is%20It.pdf)
 
-[What Is Scanned by the HCL Domino License Utility](..//blob/main/What%20Is%20Scanned.md)
+[What Is Scanned by the HCL Domino License Utility](..//main/What%20Is%20Scanned.md)
 
-[Explanation of the Observations made by the HCL Domino License Utility](..//blob/main/Observations%20Explained.md)
+[Explanation of the Observations made by the HCL Domino License Utility](..//main/Observations%20Explained.md)
 
-[FAQs and Objections with Answers](..//blob/main/FAQs%20and%20Objections%20with%20Answers.md)
+[FAQs and Objections with Answers](..//main/FAQs%20and%20Objections%20with%20Answers.md)
 
 ## Change log
 
