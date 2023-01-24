@@ -11,7 +11,7 @@ The first scan that occurs goes through the HCL Domino server environment. This 
 - Domino server names
 - Domino Server availability (Online or Offline)
 - Directory Assistance Usage
-- - If DA is in use, discover all additional Domino Directories
+  - If DA is in use, discover all additional Domino Directories
 - Check for secured HTTP and LDAP protocols
 - Capture the name(s) of the Deny Access Groups that are in use on the Domino servers
 - Determine if Domino V12 is in use and, if it is, list which Domino servers are using the Entitlement Tracking system
