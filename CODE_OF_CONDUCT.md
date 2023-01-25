@@ -1,11 +1,3 @@
----
-layout: default
-title: Code of Conduct
-parent: Understanding Open Source Obligations
-grand_parent: Resources
-nav_order: 6
----
-
 # Contributor Covenant Code of Conduct
 
 Projects should foster a positive environment, to ensure active and pleasant participation for all. This is wording for a contributor covenant, amended from [Contributor Covenant 2.0](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).
