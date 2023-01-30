@@ -38,18 +38,18 @@ Learn how to use the HCL Domino License Analysis Utility with these topics:
 ___
 ## Change log
 
-We will keep track of each release in the [CHANGELOG.md](./CHANGELOG.md)
+We will keep track of each release in the [CHANGE LOG](..//main/DLAU%20download/CHANGELOG.md)
 
 ___
 ## Code of Conduct
 
 To understand our Code of Conduct and how we handle misuse, please read the following:
-[CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
+[CODE OF CONDUCT](./CODE_OF_CONDUCT.md).
 
 ___
 ## Contributing
 
-Please read through our [contributing guidelines](./CONTRIBUTING.md).  Included are directions for opening issues.
+Please read through our [Contributing Guidelines](..//main/Documentation/CONTRIBUTING.md).  Included are directions for opening issues.
 
 ___
 ## Versioning
