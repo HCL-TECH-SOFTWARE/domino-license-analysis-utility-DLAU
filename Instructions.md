@@ -20,4 +20,4 @@ The simplest method for opening the utility is to double-click on it in the File
 
 Once the utility is open, you should see the screen below which contains instructions on how to re-sign the design of the utility.
 
-<a href="..//main/images/1.%20Initial%20Launch%20-%20Resign.png"><img src="..//main/images/1.%20Initial%20Launch%20-%20Resign.png" width="400px"></a>
+<a href="..//main/images/1.%20Initial%20Launch%20-%20Resign.png"><img src="..//main/images/1.%20Initial%20Launch%20-%20Resign.png" width="400px" target="_blank"></a>
