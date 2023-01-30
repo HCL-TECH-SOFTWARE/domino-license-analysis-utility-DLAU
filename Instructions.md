@@ -12,13 +12,13 @@ DLAU is designed to work most efficiently on a local hard drive, so there is no 
 
 ___
 ## Step 1 - Launch and Resign Design of DLAU
-Once the DLAU file has been downloaded and transfered into your Notes Data directory, it is now time for you to open the utility and re-sing the design.
+Once the DLAU file has been downloaded and transfered into your Notes Data directory, it is now time for you to open the utility and resign the design.
 
-Re-signing the design is required in order for the environment scans to run in the background. Running the scans in the background will allow you to continue using your HCL Notes Client while the processing is taking place.
+resigning the design is required in order for the environment scans to run in the background. Running the scans in the background will allow you to continue using your HCL Notes Client while the processing is taking place.
 
 The simplest method for opening the utility is to double-click on it in the File Explorer application.
 
-Once the utility is open, you should see the screen below which contains instructions on how to re-sign the design of the utility:
+Once the utility is open, you should see the screen below which contains instructions on how to resign the design of the utility:
 
 <a href="..//main/images/1.%20Initial%20Launch%20-%20Resign.png"><img src="..//main/images/1.%20Initial%20Launch%20-%20Resign.png" width="400px"></a>
 
