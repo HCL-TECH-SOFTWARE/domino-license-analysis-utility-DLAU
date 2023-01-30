@@ -9,7 +9,7 @@ Prior to continuing through this documentation, you will need to download the HC
 
 DLAU is designed to work most efficiently on a local hard drive, so there is no need to copy/replicate the DLAU onto any of your HCL Domino servers.
 
-[Click here to download the DLAU file](raw/main/DLAU%20download/licenseanalysis_V1.0.0h.nsf)
+[Click here to download the DLAU file](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/raw/main/DLAU%20download/licenseanalysis_V1.0.0h.nsf)
 
 ___
 ## Change log
