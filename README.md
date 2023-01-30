@@ -25,15 +25,15 @@ ___
 
 Learn how to use the HCL Domino License Analysis Utility with these topics:
 
-[Step-by-Step Instructions for using the HCL Domino License Utility](..//main/Instructions.md)
+[Step-by-Step Instructions for using the HCL Domino License Utility](..//main/Documentation/Instructions.md)
 
-[PDF Presentation of the HCL Domino License Utility](..//main/HCL%20Domino%20License%20Analysis%20Utility%20-%20What%20Is%20It.pdf)
+[PDF Presentation of the HCL Domino License Utility](..//main/Documentation/HCL%20Domino%20License%20Analysis%20Utility%20-%20What%20Is%20It.pdf)
 
-[What Is Scanned by the HCL Domino License Utility](..//main/What%20Is%20Scanned.md)
+[What Is Scanned by the HCL Domino License Utility](..//main/Documentation/What%20Is%20Scanned.md)
 
-[Explanation of the Observations made by the HCL Domino License Utility](..//main/Observations%20Explained.md)
+[Explanation of the Observations made by the HCL Domino License Utility](..//main/Documentation/Observations%20Explained.md)
 
-[FAQs and Objections with Answers](..//main/FAQs%20and%20Objections%20with%20Answers.md)
+[FAQs and Objections with Answers](..//main/Documentation/FAQs%20and%20Objections%20with%20Answers.md)
 
 ___
 ## Change log
