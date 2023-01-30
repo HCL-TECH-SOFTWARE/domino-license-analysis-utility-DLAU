@@ -34,7 +34,7 @@ Once opened, you will be presented with the following screen:
 
 Once opened, you will be provided some high level information about what the utility will be performing. It also provides you with information on other systems that can contribute to a cleaner result from the DLAU. If you would like to run and/or install the additional systems, click on the links under the "Important Links" area.
 
-To begin the scanning processes, click on the "Next" button.
+To begin the scanning processes, click the **"Next"** button.
 
 ____
 ## Step 3 - HCL Domino Environment Scan
@@ -52,7 +52,6 @@ A listing of what is scanned during this step is below:
 * Determine if Domino V12 is in use and, if it is, list which Domino servers are using the Entitlement Tracking system
 * Determine if Domino License Tracking system is running and on which Domino servers
 
-
 To begin the HCL Domino Environment Scan, click the **Start Environment Scan Now** button:
 
 <a href="..//main/images/3.%20Environment%20Scan%20-%20Start.png"><img src="..//main/images/3.%20Environment%20Scan%20-%20Start.png" width="400px"></a>
@@ -68,3 +67,77 @@ If this is the scenario in your environment, you will be presented the following
 If you select "yes" as your answer, you will be presented with the following dialog which will provide you the opportunity to select either the Additional Domino Directory for CCX users and/or the ability to select the OrgUnit / Org that identifies the CCX users:
 
 <a href="..//main/images/5.%20Environment%20Scan%20-%20External%20Selections.png"><img src="..//main/images/5.%20Environment%20Scan%20-%20External%20Selections.png" width="400px"></a> 
+
+Once the HCL Domino Environment Scan is complete, you will be presented with the results, as shown below:
+
+<a href="..//main/images/6.%20Environment%20Scan%20-%20Results.png"><img src="..//main/images/6.%20Environment%20Scan%20-%20Results.png" width="400px"></a> 
+
+To progress to the next scan, click the **"Next"** button.
+
+___
+## Step 4 - HCL Domino Users Scan
+The second scan is the "HCL Domino Users Scan". This scan will process all Domino Directories and aggregates information from the Person documents it finds.
+
+The information that is aggregated is as follows:
+
+* User's name
+* User's Email address
+* Notes Certificate Expiry Date (if available)
+* Indication if the Internet Password is set (not the actual Internet Password)
+* Domino Directory where the Person document resides
+* Date when user last accessed a Domino Server (only if License Tracking is enabled)
+* Protocols that the user's used to access the Domino servers (only if License Tracking is enabled)
+
+Additional information is aggregated about each user during the subsequent scans.
+
+To begin the HCL Domino Users Scan, click the **Start Users Scan Now** button:
+
+<a href="..//main/images/7.%20User%20Scan%20-%20Start.png"><img src="..//main/images/7.%20User%20Scan%20-%20Start.png" width="400px"></a>
+
+Once the HCL Domino Users Scan is complete, you will be presented with the results, as shown below:
+
+<a href="..//main/images/8.%20User%20Scan%20-%20Results.png"><img src="..//main/images/8.%20User%20Scan%20-%20Results.png" width="400px"></a> 
+
+To progress to the next scan, click the **"Next"** button.
+
+___
+## Step 5 - Deny Access Group Scan
+The third scan is the "Deny Access Group Scan". This scan looks at the values stored on the Server document aggregated data to determine what Deny Access Groups are in use to secure the Domino servers. 
+
+Using the list of Deny Access Groups that are in use, the scan will retrieve the Deny Access Groups, all members of those Groups and also determine if there are Group names within the Deny Access Groups. If additional Group names are discovered, the scan will also retrieve the information for those additional Groups. This recursive scanning of Groups will continue until all Group names have been processed.
+
+Once all this information is retrieved, each of the users that were discovered during the "HCL Domino Users Scan" are crossed referenced against the Members of the Deny Access Groups that were discovered. This cross reference determines if the user is listed in a Deny Access Group. If a user's name is discovered, the User information will be updated to indicate this.
+
+To begin the Deny Access Group Scan, click the **Start Deny Access Scan Now** button:
+
+<a href="..//main/images/9.%20Deny%20Access%20Scan%20-%20Start.png"><img src="..//main/images/9.%20Deny%20Access%20Scan%20-%20Start.png" width="400px"></a>
+
+Once the Deny Access Group Scan is complete, you will be presented with the results, as shown below:
+
+<a href="..//main/images/10.%20Deny%20Access%20Scan%20-%20Results.png"><img src="..//main/images/10.%20Deny%20Access%20Scan%20-%20Results.png" width="400px"></a> 
+
+To progress to the next scan, click the **"Next"** button.
+
+___
+## Step 5 - Entitlement Tracking / User Report Tool Scan
+The fourth and final scan is the "Entitlement Tracking / User Report Tool Scan". This scan will look at one of the next two systems:
+
+1. Entitlement Tracking: this is a new system that was introduced in HCL Domino V12. If the client is using HCL Domino V12, this scan will always occur
+
+2. User Report Tool Results: this is an optional system that is based on the Entitlement Tracking system that is in HCL domino V12, but has been made to be backwards compatible to Domino V9.x. the client will need to download and run the User Report Tool prior to using the DLAU. 
+
+Here is a link to the User Report Tool: [User Report Tool - HCL Knowledgebase Article KB0095328](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095328)
+
+ 
+The information that this scan retrieves will display the highest **Access Control List (ACL)** level that each user has to the HCL Domino environment. This is useful in determining if the user is a CCB or a CCX license user.
+
+To begin the Entitlement Tracking / User Report Tool Scan, click the **Start Entitlement Tracking / User Report Tool Scan Now** button:
+
+<a href="..//main/images/11.%20Entitlement%20Scan%20-%20Start.png"><img src="..//main/images/11.%20Entitlement%20Scan%20-%20Start.png" width="400px"></a>
+
+Once the Entitlement Tracking / User Report Tool is complete, you will be presented with the results, as shown below:
+
+<a href="..//main/images/12.%20Entitlement%20Scan%20-%20Results.png"><img src="..//main/images/12.%20Entitlement%20Scan%20-%20Results.png" width="400px"></a> 
+
+To progress to the next screen, click the **"Next"** button.
+
