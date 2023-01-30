@@ -141,3 +141,12 @@ Once the Entitlement Tracking / User Report Tool is complete, you will be presen
 
 To progress to the next screen, click the **"Next"** button.
 
+___
+## Step 6 - Completion of the Wizard and Review of Results
+Now that all scans are complete, you will be presented with a screen stating that "All Scans Are Complete", as shoen below:
+
+<a href="..//main/images/13.%20Wizard%20Complete.png"><img src="..//main/images/13.%20Wizard%20Complete.png" width="400px"></a>
+
+To review the results of the DLAU Scans, click on the **"View Results"** button. When that button is cliekced, you will be presented with the full results of the DLAU scans, as shown below:
+
+<a href="..//main/images/14.%20Scan%20Results.png"><img src="..//main/images/14.%20Scan%20Results.png" width="400px"></a>
