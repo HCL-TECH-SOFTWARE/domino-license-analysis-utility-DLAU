@@ -3,8 +3,7 @@
 <h2 align="center">How to use the DLAU</h2>
 
 ___
-## Step 0 - Download Utility
-
+## Prerequisite - Download Utility
 Prior to continuing through this documentation, you will need to download the HCL Domino License Analysis Utility (DLAU) into your Notes Data directory.
 
 DLAU is designed to work most efficiently on a local hard drive, so there is no need to copy/replicate the DLAU onto any of your HCL Domino servers.
@@ -12,5 +11,13 @@ DLAU is designed to work most efficiently on a local hard drive, so there is no 
 [Click here to download the DLAU file](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/raw/main/DLAU%20download/licenseanalysis_V1.0.0h.nsf)
 
 ___
-## Change log
+## Step 1 - Launch and Resign Design of DLAU
+Once the DLAU file has been downloaded and transfered into your Notes Data directory, it is now time for you to open the utility and re-sing the design.
 
+Re-signing the design is required in order for the environment scans to run in the background. Running the scans in the background will allow you to continue using your HCL Notes Client while the processing is taking place.
+
+The simplest method for opening the utility is to double-click on it in the File Explorer application.
+
+Once the utility is open, you should see the screen below which contains instructions on how to re-sign the design of the utility.
+
+[![](..//main/images/1.%20Initial%20Launch%20-%20Resign.png)](..//main/images/1.%20Initial%20Launch%20-%20Resign.png)
