@@ -20,7 +20,7 @@ The simplest method for opening the utility is to double-click on it in the File
 
 Once the utility is open, you should see the screen below which contains instructions on how to resign the design of the utility:
 
-<a href="main/images/1.%20Initial%20Launch%20-%20Resign.png"><img src="..//main/images/1.%20Initial%20Launch%20-%20Resign.png" width="400px"></a>
+<a href="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/1.%20Initial%20Launch%20-%20Resign.png"><img src="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/1.%20Initial%20Launch%20-%20Resign.png" width="400px"></a>
 
 Depending on your experience level and how much you want to moniutor the re-singing process, select the appropriate method listed.
 
@@ -30,7 +30,7 @@ Now that the design of the DLAU has been re-singed, you will need to re-open the
 
 Once opened, you will be presented with the following screen:
 
-<a href="..//main/images/2.%20Wizard%20Initial%20Launch.png"><img src="..//main/images/2.%20Wizard%20Initial%20Launch.png" width="400px"></a>
+<a href="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/2.%20Wizard%20Initial%20Launch.png"><img src="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/2.%20Wizard%20Initial%20Launch.png" width="400px"></a>
 
 Once opened, you will be provided some high level information about what the utility will be performing. It also provides you with information on other systems that can contribute to a cleaner result from the DLAU. If you would like to run and/or install the additional systems, click on the links under the "Important Links" area.
 
@@ -54,7 +54,7 @@ A listing of what is scanned during this step is below:
 
 To begin the HCL Domino Environment Scan, click the **Start Environment Scan Now** button:
 
-<a href="..//main/images/3.%20Environment%20Scan%20-%20Start.png"><img src="..//main/images/3.%20Environment%20Scan%20-%20Start.png" width="400px"></a>
+<a href="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/3.%20Environment%20Scan%20-%20Start.png"><img src="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/3.%20Environment%20Scan%20-%20Start.png" width="400px"></a>
 
 The HCL Domino Environment scan will take approximately 5 minutes to complete, depending on the number of HCL Domino Servers in your environment.
 
@@ -62,15 +62,15 @@ If your organization is using additional Domino Directories via the Directory As
 
 If this is the scenario in your environment, you will be presented the following message:
 
-<a href="..//main/images/4.%20Environment%20Scan%20-%20External%20Directory%20Questions.png"><img src="..//main/images/4.%20Environment%20Scan%20-%20External%20Directory%20Questions.png" width="400px"></a> 
+<a href="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/4.%20Environment%20Scan%20-%20External%20Directory%20Questions.png"><img src="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/4.%20Environment%20Scan%20-%20External%20Directory%20Questions.png" width="400px"></a> 
 
 If you select "yes" as your answer, you will be presented with the following dialog which will provide you the opportunity to select either the Additional Domino Directory for CCX users and/or the ability to select the OrgUnit / Org that identifies the CCX users:
 
-<a href="..//main/images/5.%20Environment%20Scan%20-%20External%20Selections.png"><img src="..//main/images/5.%20Environment%20Scan%20-%20External%20Selections.png" width="400px"></a> 
+<a href="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/5.%20Environment%20Scan%20-%20External%20Selections.png"><img src="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/5.%20Environment%20Scan%20-%20External%20Selections.png" width="400px"></a> 
 
 Once the HCL Domino Environment Scan is complete, you will be presented with the results, as shown below:
 
-<a href="..//main/images/6.%20Environment%20Scan%20-%20Results.png"><img src="..//main/images/6.%20Environment%20Scan%20-%20Results.png" width="400px"></a> 
+<a href="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/6.%20Environment%20Scan%20-%20Results.png"><img src="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/6.%20Environment%20Scan%20-%20Results.png" width="400px"></a> 
 
 To progress to the next scan, click the **"Next"** button.
 
@@ -92,11 +92,11 @@ Additional information is aggregated about each user during the subsequent scans
 
 To begin the HCL Domino Users Scan, click the **Start Users Scan Now** button:
 
-<a href="..//main/images/7.%20User%20Scan%20-%20Start.png"><img src="..//main/images/7.%20User%20Scan%20-%20Start.png" width="400px"></a>
+<a href="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/7.%20User%20Scan%20-%20Start.png"><img src="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/7.%20User%20Scan%20-%20Start.png" width="400px"></a>
 
 Once the HCL Domino Users Scan is complete, you will be presented with the results, as shown below:
 
-<a href="..//main/images/8.%20User%20Scan%20-%20Results.png"><img src="..//main/images/8.%20User%20Scan%20-%20Results.png" width="400px"></a> 
+<a href="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/8.%20User%20Scan%20-%20Results.png"><img src="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/8.%20User%20Scan%20-%20Results.png" width="400px"></a> 
 
 To progress to the next scan, click the **"Next"** button.
 
@@ -110,11 +110,11 @@ Once all this information is retrieved, each of the users that were discovered d
 
 To begin the Deny Access Group Scan, click the **Start Deny Access Scan Now** button:
 
-<a href="..//main/images/9.%20Deny%20Access%20Scan%20-%20Start.png"><img src="..//main/images/9.%20Deny%20Access%20Scan%20-%20Start.png" width="400px"></a>
+<a href="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/9.%20Deny%20Access%20Scan%20-%20Start.png"><img src="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/9.%20Deny%20Access%20Scan%20-%20Start.png" width="400px"></a>
 
 Once the Deny Access Group Scan is complete, you will be presented with the results, as shown below:
 
-<a href="..//main/images/10.%20Deny%20Access%20Scan%20-%20Results.png"><img src="..//main/images/10.%20Deny%20Access%20Scan%20-%20Results.png" width="400px"></a> 
+<a href="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/10.%20Deny%20Access%20Scan%20-%20Results.png"><img src="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/10.%20Deny%20Access%20Scan%20-%20Results.png" width="400px"></a> 
 
 To progress to the next scan, click the **"Next"** button.
 
@@ -133,11 +133,11 @@ The information that this scan retrieves will display the highest **Access Contr
 
 To begin the Entitlement Tracking / User Report Tool Scan, click the **Start Entitlement Tracking / User Report Tool Scan Now** button:
 
-<a href="..//main/images/11.%20Entitlement%20Scan%20-%20Start.png"><img src="..//main/images/11.%20Entitlement%20Scan%20-%20Start.png" width="400px"></a>
+<a href="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/11.%20Entitlement%20Scan%20-%20Start.png"><img src="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/11.%20Entitlement%20Scan%20-%20Start.png" width="400px"></a>
 
 Once the Entitlement Tracking / User Report Tool is complete, you will be presented with the results, as shown below:
 
-<a href="..//main/images/12.%20Entitlement%20Scan%20-%20Results.png"><img src="..//main/images/12.%20Entitlement%20Scan%20-%20Results.png" width="400px"></a> 
+<a href="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/12.%20Entitlement%20Scan%20-%20Results.png"><img src="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/12.%20Entitlement%20Scan%20-%20Results.png" width="400px"></a> 
 
 To progress to the next screen, click the **"Next"** button.
 
@@ -145,8 +145,8 @@ ___
 ## Step 6 - Completion of the Wizard and Review of Results
 Now that all scans are complete, you will be presented with a screen stating that "All Scans Are Complete", as shoen below:
 
-<a href="..//main/images/13.%20Wizard%20Complete.png"><img src="..//main/images/13.%20Wizard%20Complete.png" width="400px"></a>
+<a href="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/13.%20Wizard%20Complete.png"><img src="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/13.%20Wizard%20Complete.png" width="400px"></a>
 
 To review the results of the DLAU Scans, click on the **"View Results"** button. When that button is cliekced, you will be presented with the full results of the DLAU scans, as shown below:
 
-<a href="..//main/images/14.%20Scan%20Results.png"><img src="..//main/images/14.%20Scan%20Results.png" width="400px"></a>
+<a href="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/14.%20Scan%20Results.png"><img src="https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/main/images/14.%20Scan%20Results.png" width="400px"></a>
