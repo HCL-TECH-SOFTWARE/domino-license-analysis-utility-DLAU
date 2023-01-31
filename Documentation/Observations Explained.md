@@ -15,12 +15,12 @@ ___
 
 The HCL Domino Server **_"Production/ACME"_** is not properly secured for HTTP traffic
 
-- This observation indicates that HTTP traffic is not using the same level of access security to your HCL Domino servers. When this is the case, even if a user's name is listed in a Deny Access Group, the user has the ability to access the HCL domino servers using a web browser. The HTTP port needs to be properly secured in order to report on user's who are listed in a Deny Access Group properly, else they will be counted as an Authorized User
+- This observation indicates that the server access settings are not enforced for HTTP traffic. When this is the case, even if a user's name is listed in a Deny Access Group, the user has the ability to access the HCL Domino servers using a web browser. The HTTP port needs to be properly secured in order to report on user's who are listed in a Deny Access Group properly, else they will be counted as an Authorized User
 
 
 The HCL Domino Server **_"Production/ACME"_** is not properly secured for LDAP traffic
 
-- This observation indicates that the LDAP traffic is not using the same level of access security to your HCL Domino servers. When this is the case, even if a user's name is listed in a Deny Access Group, the user has the ability to access the HCL domino servers using a web browser. The LDAP port needs to be properly secured in order to report on user's who are listed in a Deny Access Group properly, else they will be counted as an Authorized User
+- This observation indicates that the server access settings are not enforced for LDAP traffic. When this is the case, even if a user's name is listed in a Deny Access Group, the user has the ability to access the HCL Domino servers using an LDAP client. The LDAP port needs to be properly secured in order to report on user's who are listed in a Deny Access Group properly, else they will be counted as an Authorized User
 
 The HCL Domino Server **_"Production/ACME"_** is not using any Deny Access Groups to secure server access
 
