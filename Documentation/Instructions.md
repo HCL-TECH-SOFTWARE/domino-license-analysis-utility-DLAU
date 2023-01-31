@@ -20,7 +20,7 @@ The simplest method for opening the utility is to double-click on it in the File
 
 Once the utility is open, you should see the screen below which contains instructions on how to resign the design of the utility:
 
-<a href="..//images/1.%20Initial%20Launch%20-%20Resign.png"><img src="..//main/images/1.%20Initial%20Launch%20-%20Resign.png" width="400px"></a>
+<a href="..//raw/main/images/1.%20Initial%20Launch%20-%20Resign.png"><img src="..//main/images/1.%20Initial%20Launch%20-%20Resign.png" width="400px"></a>
 
 Depending on your experience level and how much you want to moniutor the re-singing process, select the appropriate method listed.
 
