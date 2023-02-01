@@ -70,3 +70,13 @@ This value will list all additional Domino Directories that are in your organiza
 If the first value listed is shown in the color Blue, this indicates that the Domino directory listed is being used to list "External Users" - users that are not employees of the organization but are still being granted limited access to the HCL domino servers.
 
 If the Directory Assistance system is not in use, this information will not be shown.
+
+___
+### Observations
+The values shown in the 'Observations" section list all Environment Observations that were discovered during the scanning process.
+
+The Observations can range from "Informational" (minor items that can improve the value of the data collected), "Warnings" (items that may be an issue in your HCL Domino environment), and "Security" (items that will affect the secure nature of your HCL Domino environment and will have an effect on the "Authorized User" count).
+
+#### For the "Security" Observations, it is recommended that you address each of them and then re-run the scans again. this will provide a better representation of the true Authorized Users.
+
+for more information on each possible Observation, please open this link [Observations Explained](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/Observations%20Explained.md)
