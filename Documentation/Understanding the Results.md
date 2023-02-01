@@ -59,7 +59,9 @@ For more information on the "User Report Tool", please view this page: [User Rep
 
 ___
 ### Directory Assistance Information
-This value will show where the Directory Assistance Catalog is located in your HCL Domino environment. If the Directory Assistance system is not in use, this information will not be shown.
+This value will show where the Directory Assistance Catalog is located in your HCL Domino environment.
+
+If the Directory Assistance system is not in use, this information will not be shown.
 
 ___
 ### Additional Domino Directories
