@@ -1,0 +1,8 @@
+# Site settings
+theme: jekyll-theme-minimal
+title: HCL Domino License Analysis Utility
+description: All the information needed to download and use the HCL Domino License Analysis Utility
+version: 1.0
+git_url: "https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU"
+baseurl: "/domino-license-analysis-utility-DLAU"
+permalink: pretty
