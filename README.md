@@ -21,6 +21,14 @@ Depending on the number of Person documents within a HCL Domino environment, the
 1,000,000 Person documents = 15 hours
 
 ___
+## HCL Domino License Analysis Utility - File Download
+If you have already used and/or understand how this new utility works, you can proceed directly to the file download.
+
+#### [Click Here](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/raw/main/DLAU%20download/licenseanalysis_V1.0.0h.nsf) to download the latest release.
+
+Be sure to review the changes that are included in this release by opening the [CHANGE LOG](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/DLAU%20download/CHANGELOG.md)
+
+___
 ## Documentation
 
 Learn how to use the HCL Domino License Analysis Utility with these topics:
