@@ -43,9 +43,9 @@ Learn how to use the HCL Domino License Analysis Utility with these topics:
 
 [Explanation of the Observations made by the HCL Domino License Utility](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/Observations%20Explained.md)
 
-[FAQs and Objections with Answers](..//main/Documentation/FAQs%20and%20Objections%20with%20Answers.md)
+[FAQs and Objections with Answers](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/FAQs%20and%20Objections%20with%20Answers.md)
 
-[DLAU Functional Limitations](..//main/Documentation/Limitations.md)
+[DLAU Functional Limitations](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/Limitations.md)
 
 ___
 ## Change log
