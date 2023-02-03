@@ -45,6 +45,8 @@ Learn how to use the HCL Domino License Analysis Utility with these topics:
 
 [FAQs and Objections with Answers](..//main/Documentation/FAQs%20and%20Objections%20with%20Answers.md)
 
+[DLAU Functional Limitations](..//main/Documentation/Limitations.md)
+
 ___
 ## Change log
 
