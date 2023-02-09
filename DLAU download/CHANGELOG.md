@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+___
+## UPDATES INCLUDED IN V1.0.9
+
+FIX - If the HCL Domino servers each have different Directory Assistance Catalogs and/or there are multiple Directory Assistance Configurations which point to the same Domino Directory, but are on separate Domino servers, the DLAU was scanning those Domino Directories miultiple times. A correction to the scan has beendesinged to ensure that only one instance of a Domino Directory is added to the scanning list
+
+CHANGE - Numerous minor UI/UX changes, including better UI spacing to fit smaller resolution screens and a new application icon which uses the resources available in teh "HCL Domino Design Guide"
+
+CHANGE - The version numbering system that is now being used adheres to the Versioning infomration found on the main page of this site.
+
 ---
 ## UPDATES INCLUDED IN V1.0.0h
 
