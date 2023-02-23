@@ -21,7 +21,7 @@ The scans within the utility run in a background task. The user’s Notes Client
 1 - 3+ hours, depending on the number of Person documents and HCL Domino servers in the environment. For example, a small deployment (~200 users) will take 45 minutes, medium deployments (~5000 users) will take under 2 hours.
 
 
-### How can I substantiate needed enbtitlements?
+### How can I substantiate needed entitlements?
 
 Within the “Scan Results” page, there is a button labeled “View Printable Result”. When that is clicked, you will be presented with a printable report that you can share with HCL as a PDF (Print to PDF) if needed for renewal discussions.
 
