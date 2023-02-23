@@ -24,7 +24,7 @@ ___
 ## HCL Domino License Analysis Utility - File Download
 If you have already used and/or understand how this new utility works, you can proceed directly to the file download.
 
-#### [Click Here](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/raw/main/DLAU%20download/licenseanalysis_V1.0.9.nsf) to download the latest release.
+### [Click Here](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/raw/main/DLAU%20download/licenseanalysis_V1.0.9.nsf) to download the latest release.
 
 Be sure to review the changes that are included in this release by opening the [CHANGE LOG](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/DLAU%20download/CHANGELOG.md)
 
@@ -43,7 +43,7 @@ Learn how to use the HCL Domino License Analysis Utility with these topics:
 
 [Explanation of the Observations made by the HCL Domino License Utility](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/Observations%20Explained.md)
 
-[FAQs and Objections with Answers](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/FAQs%20and%20Objections%20with%20Answers.md)
+[Frequently Asked Questions](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/FAQs.md)
 
 [DLAU Functional Limitations](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/Limitations.md)
 
