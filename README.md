@@ -24,7 +24,7 @@ ___
 ## HCL Domino License Analysis Utility - File Download
 If you have already used and/or understand how this new utility works, you can proceed directly to the file download.
 
-### [Click Here](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/raw/main/DLAU%20download/licenseanalysis_V1.0.9.nsf) to download the latest release.
+### [Click Here](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/raw/main/DLAU%20download/licenseanalysis_V1.0.10.nsf) to download the latest release (V1.0.10)
 
 Be sure to review the changes that are included in this release by opening the [CHANGE LOG](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/DLAU%20download/CHANGELOG.md)
 

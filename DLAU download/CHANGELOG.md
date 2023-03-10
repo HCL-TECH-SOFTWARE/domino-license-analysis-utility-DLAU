@@ -3,20 +3,39 @@
 All notable changes to this project will be documented in this file.
 
 ___
+## UPDATES INCLUDED IN V1.0.10
+
+NEW - The DLAU can now differentiate between Complete Collaboration for Business (CCB) and Complete Collaboration for External Users (CCX). New values are now displayed on the "Scan Results" page with a breakdown of each license type.
+
+CHANGE - the "Previous Results" page has been updated to reflect the new CCB & CCX calculations
+
+FIX - A sporadic hang and eventual shut down of the HCL Notes client was occurring during the question dialog about External Users. The display of the dialog has been moved to later in the logic to stop the Notes Client issues
+
+FIX - An incorrect message was being displayed on the Printable Report page which indicated that an LDAP directory was in use when no LDAP Directories are configured
+
+FIX - The "User Information Export" was not working when a subset of the User data was selected for export
+
+FIX - On the "Observations" details page, there were labels showing for a programmatic tabbed table in the UI when they should be non-visible
+
+FIX - When viewing the Printable Report, when the user is asked for their "Client Information" the functionality would allow the user to progress without entering their information. This has changed to enforce the entry of the information prior to seeing the printable report
+
+FIX - There was a sporadic failure in completing the Scan Wizard in very specific situations if the User Report Tool Output was not indicated for older Domino environments
+
+___
 ## UPDATES INCLUDED IN V1.0.9
 
 FIX - If the HCL Domino servers each have different Directory Assistance Catalogs and/or there are multiple Directory Assistance Configurations which point to the same Domino Directory, but are on separate Domino servers, the DLAU was scanning those Domino Directories miultiple times. A correction to the scan has beendesinged to ensure that only one instance of a Domino Directory is added to the scanning list
 
 CHANGE - Numerous minor UI/UX changes, including better UI spacing to fit smaller resolution screens and a new application icon which uses the resources available in teh "HCL Domino Design Guide"
 
-CHANGE - The version numbering system that is now being used adheres to the Versioning infomration found on the main page of this site.
+CHANGE - The version numbering system that is now being used adheres to the Versioning infomration found on the main page of this site
 
 ---
 ## UPDATES INCLUDED IN V1.0.0h
 
 FIX - In HCL Notes Client (64Bit version only) the NotesTimer event would crash the HCL Notes Client if it was triggered while a Dialogbox was being displayed on the user's screen
 
-NEW - this version now indicates the number of Domino Mail Users that are configured in the Domino directories if they are also an Authorized User
+NEW - This version now indicates the number of Domino Mail Users that are configured in the Domino directories if they are also an Authorized User
 
 NEW - If there are LDAP Directories configured in the Directory Assistance Catalog, a new Observation is captured, and an On-Screen message is displayed to the user stating that the utility currently does not support scanning of LDAP Directories
 
