@@ -35,9 +35,9 @@ Learn how to use the HCL Domino License Analysis Utility with these topics:
 
 [Step-by-Step Instructions for using the HCL Domino License Utility](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/Instructions.md)
 
-[Understanding the DLAU Results](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/Caltulating%20CCB%20and%20CCX%20Licenses.md)
+[Understanding the DLAU Results](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/Understanding%20the%20Results.md)
 
-[How CCB and CCX Licenses Are Calculated](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/Understanding%20the%20Results.md)
+[How CCB and CCX Licenses Are Calculated](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/Calculating%20CCB%20and%20CCX%20Licenses.md)
 
 [PDF Presentation of the HCL Domino License Utility](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/HCL%20Domino%20License%20Analysis%20Utility%20-%20What%20Is%20It.pdf)
 
