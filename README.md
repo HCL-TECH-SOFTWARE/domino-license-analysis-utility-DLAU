@@ -2,11 +2,11 @@
 
 This new utility will assist HCL Domino Administrators in determining your Authorized User Count within their HCL Domino environment.
 
+In large deployments **without the use of the HCL Domino License Analysis Utility** (more than 5,000 users) this process can be very time consuming, taking days, if not weeks, to determine who can access the HCL Domino environment.
+
 HCL Domino Administrators will no longer need to scour though all the different systems to determine who their Authorized Users are!
 
 The purpose of this utility is to provide fast and accurate Authorized User counts for HCL Domino environments by aggregating the information that a Domino Administrator would normally have to perform manually.
-
-In large deployments (more than 5,000 users) this process can be very time consuming, taking days, if not weeks, to determine who can access the HCL Domino environment.
 
 The DLAU automates the process by aggregating all the information that is needed to accurately determine the Authorized User counts in a fraction of the time.
 
