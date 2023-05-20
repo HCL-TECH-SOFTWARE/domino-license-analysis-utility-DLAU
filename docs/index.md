@@ -11,7 +11,7 @@ has_children: true
 
 ---
 
-# HCL Domino License Analysis Utility
+<h1> HCL Domino License Analysis Utility</h1>
 
 <details close markdown="block">
   <summary>
@@ -37,6 +37,7 @@ The DLAU automates the process by aggregating all the information that is needed
 ## Download
 If you have already used and/or understand how this new utility works, you can proceed directly to the file download.
 
+[Download Latest Release](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/releases/latest){: .btn }
 ***[Click Here](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/releases/latest) to download the latest release***
 
 Be sure to review the changes that are included in this release by opening the [CHANGE LOG](changelog.md)
@@ -53,6 +54,7 @@ Learn how to use the HCL Domino License Analysis Utility with these topics:
 * [Explanation of Observations](/docs/observations.md)
 * [Frequently Asked Questions](/docs/faqs.md)
 * [Limitations](/docs/limitations.md)
+
 ___
 ## Runtime
 

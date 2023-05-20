@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "TOU"
+title: "Terms of use"
 nav_order: 6
 description: "Terms of Use"
 has_children: false
