@@ -7,7 +7,8 @@ description: "What is being scanned?"
 has_children: false
 ---
 
-# What is scanned ?
+<h1> What is scanned ?</h1>
+Below is a description of what is scanned by the HCL Domino License Analysis Utility
 
 <details close markdown="block">
   <summary>
@@ -17,8 +18,6 @@ has_children: false
 1. TOC
 {:toc}
 </details>
-
-Below is a description of what is scanned by the HCL Domino License Analysis Utility
 
 ___
 ## Scan #1: HCL Domino Server Environment

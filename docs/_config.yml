@@ -4,7 +4,7 @@ remote_theme: pmarsceill/just-the-docs
 title: HCL Domino License Analysis Utility
 description: The HCL Domino License Analysis Utility
 version: 1.0
-logo: "/assets/svg/Domino.svg"
+
 git_url: "https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU"
 baseurl: "/domino-license-analysis-utility-DLAU"
 permalink: pretty
@@ -21,7 +21,7 @@ exclude:
   ]
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/just-the-docs.png"
+logo: "/assets/svg/Domino.svg"
 favicon_ico: "/assets/images/favicon.ico"
 
 # Enable or disable the site search

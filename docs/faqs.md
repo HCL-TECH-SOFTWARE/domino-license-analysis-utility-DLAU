@@ -6,6 +6,7 @@ description: "Frequently Asked Questions"
 parent: "Overview"
 has_children: false
 ---
+<h1>Frequently Asked Questions</h1>
 
 <details open markdown="block">
   <summary>

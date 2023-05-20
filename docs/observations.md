@@ -3,14 +3,12 @@ layout: default
 title: "Observations"
 parent: "Overview"
 nav_order: 4
-description: "Observations"
+description: "Observations Explained"
 parent: "Overview"
 has_children: false
 ---
 
-<img src="/docs/assets/png/HCL+Domino_Color_Icon_300.png" alt="HCL Domino" width="75px;">
-
-# Observations
+<h1>Observations Explained<h1>
 
 <details close markdown="block">
   <summary>
