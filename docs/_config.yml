@@ -21,7 +21,7 @@ exclude:
   ]
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/svg/Domino.svg"
+logo: "/assets/images/svg/Domino.svg"
 favicon_ico: "/assets/images/favicon.ico"
 
 # Enable or disable the site search
