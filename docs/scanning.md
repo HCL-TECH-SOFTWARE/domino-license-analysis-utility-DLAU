@@ -4,7 +4,7 @@ title: "What is scanned"
 parent: "Overview"
 nav_order: 2
 description: "What is being scanned?"
-has_children: true
+has_children: false
 ---
 
 # What is scanned ?
