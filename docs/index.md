@@ -6,7 +6,7 @@ description: "HCL Domino License Analysis Utility"
 has_children: true
 ---
 
-[Download Latest Release]([instructions.md](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/releases/latest)){: .btn }
+[Download Latest Release](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/releases/latest){: .btn }
 [View it on GitHub](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/){: .btn }
 
 ---
@@ -34,6 +34,26 @@ HCL Domino Administrators will no longer need to scour though all the different 
 
 The DLAU automates the process by aggregating all the information that is needed to accurately determine the Authorized User counts in a fraction of the time.
 
+## Download
+If you have already used and/or understand how this new utility works, you can proceed directly to the file download.
+
+***[Click Here](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/releases/latest) to download the latest release***
+
+Be sure to review the changes that are included in this release by opening the [CHANGE LOG](changelog.md)
+
+## Documentation
+
+Learn how to use the HCL Domino License Analysis Utility with these topics:
+
+* [Step-by-Step Instructions](/docs/instructions.md)
+* [Understanding the Results](/docs/results.md)
+* [How Licenses Are Calculated](/docs/licensecalc.md)
+* [PDF Presentation of the HCL Domino License Utility](/docs/assets/pdf/HCL%20Domino%20License%20Analysis%20Utility%20-%20What%20Is%20It.pdf)
+* [What Is Scanned](/docs/scanning.md)
+* [Explanation of Observations](/docs/observations.md)
+* [Frequently Asked Questions](/docs/faqs.md)
+* [Limitations](/docs/limitations.md)
+___
 ## Runtime
 
 Depending on the number of Person documents within a HCL Domino environment, the entire process can take anywhere from 45 minutes to 4 hours on average.
@@ -44,57 +64,3 @@ Depending on the number of Person documents within a HCL Domino environment, the
 5,000 | 90 minutes
 10 k | 2 hours
 1 Million | 15 hours
-
-___
-## HCL Domino License Analysis Utility - File Download
-If you have already used and/or understand how this new utility works, you can proceed directly to the file download.
-
-### [Click Here](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/raw/main/DLAU%20download/licenseanalysis_V1.0.11.nsf) to download the latest release (V1.0.11)
-
-Be sure to review the changes that are included in this release by opening the [CHANGE LOG](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/DLAU%20download/CHANGELOG.md)
-
-___
-## Documentation
-
-Learn how to use the HCL Domino License Analysis Utility with these topics:
-
-* [Step-by-Step Instructions](/docs/instructions.md)
-* [Understanding the Results](/docs/results.md)
-* [How Licenses Are Calculated](/docs/licensecalc.md)
-* [PDF Presentation of the HCL Domino License Utility](/docs/assets/pdf/HCL%20Domino%20License%20Analysis%20Utility%20-%20What%20Is%20It.pdf)
-* [What Is Scanned](/docs/scanning.md)
-* [Explanation of Observations](/observations.md)
-* [Frequently Asked Questions](/docs/faqs.md)
-* [Limitations](/docs/limitations.md)
-
-___
-## Change log
-
-We will keep track of each release in the [CHANGE LOG](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/DLAU%20download/CHANGELOG.md)
-
-___
-## Code of Conduct
-
-To understand our Code of Conduct and how we handle misuse, please read the following:
-[CODE OF CONDUCT](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/CODE_OF_CONDUCT.md).
-
-___
-## Contributing
-
-Please read through our [Contributing Guidelines](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/CONTRIBUTING.md).  Included are directions for opening issues.
-
-___
-## Versioning
-
-The HCL Domino License Analysis Utility will adhere to the following versioning guidelines as much as possible. Releases will be numbered with the following format:
-
-`<major>.<minor>.<patch>`
-
-* A release may update the design, look-and-feel, or branding of an existing version
-* We will not intentionally release a `patch` version update that breaks previous functionality
-* A `minor` or `patch` release will never remove functionality
-* Bug fixes will be addressed as `patch` releases unless they change existing functionality, then they will be `minor` releases
-
-___
-## Copyright and License
-By contributing your code, you agree to license your contribution under the terms of the the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) for any contributions that are made open source as development progresses.

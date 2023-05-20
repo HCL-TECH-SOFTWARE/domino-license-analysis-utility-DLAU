@@ -49,7 +49,7 @@ Learn how to use the HCL Domino License Analysis Utility with these topics:
 ___
 ## Change log
 
-We will keep track of each release in the [CHANGE LOG](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/DLAU%20download/CHANGELOG.md)
+We will keep track of each release in the [CHANGE LOG](/docs/changelog.md)
 
 ___
 ## Code of Conduct
