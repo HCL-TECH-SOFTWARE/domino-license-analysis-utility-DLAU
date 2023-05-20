@@ -2,7 +2,7 @@
 layout: default
 title: "What is scanned"
 parent: "Overview"
-nav_order: 2
+nav_order: 3
 description: "What is being scanned?"
 has_children: false
 ---

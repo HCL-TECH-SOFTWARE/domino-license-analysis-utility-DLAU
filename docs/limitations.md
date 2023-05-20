@@ -6,9 +6,11 @@ description: "Known Limitations"
 has_children: false
 ---
 
-# Known Limitations
+<h1>Known Limitations</h1>
 
-<details close markdown="block">
+Below is a list of current limitations that will be encountered in certain HCL Domino environments when using the Domino License Analysis Utility
+
+<details open markdown="block">
   <summary>
     Table of contents
   </summary>
@@ -17,9 +19,6 @@ has_children: false
 {:toc}
 </details>
 
-
-Below is a list of current limitations that will be encountered in certain HCL Domino environments when using the Domino License Analysis Utility
-
 ___
 ## LDAP/ActiveDirectory 
 
@@ -27,7 +26,8 @@ If one or more of your Domino servers are configured to use an external LDAP/Act
 
 Therefore, a manual counting of all users who are accessing the HCL domino server(s) in this manner will need to take place. 
 
-{: .highlight } 
+{: .highlight } Coming soon
+{: .label .label-yellow }
 We are working on scanning LDAP / AD directories and cross reference the users found in those against the findings in the License Tracking System.
 
 ___
@@ -41,7 +41,8 @@ It is required that you use different copies of the DLAU, one copy per Domino Do
 
 Then, a manual deduplication of discovered Notes Users will need to occur. This is to ensure that a single user that is listed in each Domino Domain is only counted once.
 
-#### Special Note: 
+{: .note }
+{: .label .label-yellow }
 We are working on a solution that will allow for multiple Domino Domains to be scanned at the same time by allowing multiple Domino Administration servers to be selected.
 
 ___

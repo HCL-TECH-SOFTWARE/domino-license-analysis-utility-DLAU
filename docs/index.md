@@ -6,14 +6,14 @@ description: "HCL Domino License Analysis Utility"
 has_children: true
 ---
 
-[Download Latest Release](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/releases/latest){: .btn }
-[View it on GitHub](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/){: .btn }
+[Download Latest Release](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/releases/latest){: .btn .btn-green }
+[View on GitHub](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/){: .btn }
 
 ---
 
 <h1> HCL Domino License Analysis Utility</h1>
 
-<details close markdown="block">
+<details open markdown="block">
   <summary>
     Table of contents
   </summary>

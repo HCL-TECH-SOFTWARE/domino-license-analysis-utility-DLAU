@@ -21,7 +21,8 @@ exclude:
   ]
 
 # Set a path/url to a logo that will be displayed instead of the title
-#logo: "/assets/images/just-the-docs.png"
+logo: "/assets/images/just-the-docs.png"
+favicon_ico: "/assets/images/favicon.ico"
 
 # Enable or disable the site search
 # Supports true (default) or false
@@ -74,7 +75,11 @@ back_to_top_text: "Back to top"
 
 next_page: true
 
-footer_content: "HCL Domino License Analysis Utility"
+footer_content: "Copyright &copy; 2023 HCLSoftware. Distributed as <a href=\"https://https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/license\">Apache 2.0 license.</a>"
+
+aux_links:
+  "Download":
+    - "https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/releases/latest"
 
 # Footer last edited timestamp
 # last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter

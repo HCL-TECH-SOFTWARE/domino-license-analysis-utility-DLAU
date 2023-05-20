@@ -2,14 +2,12 @@
 layout: default
 title: "Understanding Results"
 parent: "Overview"
-nav_order: 3
+nav_order: 4
 description: "Understanding the Results"
 has_children: false
 ---
 
-<img src="/docs/assets/png/HCL+Domino_Color_Icon_300.png" alt="HCL Domino" width="75px;">
-# Understanding The Results
-
+<h1>Understanding The Results</h1>
 
 <details close markdown="block">
   <summary>

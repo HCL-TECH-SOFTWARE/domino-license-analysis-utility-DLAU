@@ -6,7 +6,7 @@ description: "License Calculation"
 has_children: false
 ---
 
-# How CCB and CCX Licenses Are Calculated
+<h1>How CCB and CCX Licenses Are Calculated</h1>
 
 <details close markdown="block">
   <summary>
