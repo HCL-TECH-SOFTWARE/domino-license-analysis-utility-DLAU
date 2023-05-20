@@ -1,4 +1,4 @@
-<h1><img src="https://www.hcltechsw.com/wps/wcm/connect/30a9835c-7d44-4b53-8302-9357b6e41b65/HCL+Domino_Color_Icon_300.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE-30a9835c-7d44-4b53-8302-9357b6e41b65-o8PYNwY" alt="HCL Domino" width="75px;">HCL Domino License Analysis Utility</h1>
+<h1><img src="/docs/assets/png/HCL+Domino_Color_Icon_300.png" alt="HCL Domino" width="75px;">HCL Domino License Analysis Utility</h1>
 
 Below is a description of what is scanned by the HCL Domino License Analysis Utility
 
@@ -49,9 +49,7 @@ ___
 The third scan that occurs looks at one of two different systems:
 
 1. Entitlement Tracking: this is a new system that was introduced in HCL Domino V12. If the client is using HCL Domino V12, this scan will always occur
-2. User Report Tool Results: this is an optional system that is based on the Entitlement Tracking system that is in HCL domino V12, but has been made to be backwards compatible to Domino V9.x. the client will need to download and run the User Report Tool prior to using the DLAU. 
-
-Here is a link to the User Report Tool: https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095328
+2. User Report Tool Results: this is an optional system that is based on the Entitlement Tracking system that is in HCL domino V12, but has been made to be backwards compatible to Domino V9.x. Customers will need to download and run the [User Report Tool](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095328) prior to using the DLAU. 
 
 
 The information that this scan retrieves will display the user's highest Access Control List level that each user has to the HCL Domino environment. This is useful in determining if the user is a CCB or a CCX license user.

@@ -1,4 +1,13 @@
-<h1><img src="https://www.hcltechsw.com/wps/wcm/connect/30a9835c-7d44-4b53-8302-9357b6e41b65/HCL+Domino_Color_Icon_300.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE-30a9835c-7d44-4b53-8302-9357b6e41b65-o8PYNwY" alt="HCL Domino" width="75px;">HCL Domino License Analysis Utility</h1>
+<h1><img src="/docs/assets/png/HCL+Domino_Color_Icon_300.png" alt="HCL Domino" width="75px;">HCL Domino License Analysis Utility</h1>
+
+<details close markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 During the scanning processes, a number of HCL Domino environment observations are captured. These can range form simple informational observations to more serious security vulnerabilities in a clients HCL Domino environment.
 

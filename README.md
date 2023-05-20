@@ -1,24 +1,28 @@
-<h1><img src="https://www.hcltechsw.com/wps/wcm/connect/30a9835c-7d44-4b53-8302-9357b6e41b65/HCL+Domino_Color_Icon_300.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE-30a9835c-7d44-4b53-8302-9357b6e41b65-o8PYNwY" alt="HCL Domino" width="75px;">HCL Domino License Analysis Utility</h1>
+<h1><img src="/docs/assets/png/HCL+Domino_Color_Icon_300.png" alt="HCL Domino" width="75px;">HCL Domino License Analysis Utility</h1>
 
-This new utility will assist HCL Domino Administrators in determining your Authorized User Count within their HCL Domino environment.
+# HCL Domino License Analysis Utility
 
-In large deployments **without the use of the HCL Domino License Analysis Utility** (more than 5,000 users) this process can be very time consuming, taking days, if not weeks, to determine who can access the HCL Domino environment.
+This utility will assist HCL Domino Administrators in determining your Authorized User Count within their HCL Domino environment according to the CCB & CCX license model.
+
+## Purpose
+The purpose of this utility is to provide fast and accurate Authorized User counts for HCL Domino environments by aggregating information that a Domino Administrator would otherwise have to collect manually.
+
+In large deployments **without the use of this utility** this process can be very time consuming, taking days, if not weeks, to determine who can access the HCL Domino environment.
 
 HCL Domino Administrators will no longer need to scour though all the different systems to determine who their Authorized Users are!
 
-The purpose of this utility is to provide fast and accurate Authorized User counts for HCL Domino environments by aggregating the information that a Domino Administrator would normally have to perform manually.
-
 The DLAU automates the process by aggregating all the information that is needed to accurately determine the Authorized User counts in a fraction of the time.
 
-Depending on the number of Person documents within a HCL Domino environment, the entire process will take anywhere from 45 minutes to 4 hours on average.
+## Runtime
 
-1,000 Person documents = 45 minutes
+Depending on the number of Person documents within a HCL Domino environment, the entire process can take anywhere from 45 minutes to 4 hours on average.
 
-5,000 Person documents = 90 minutes
-
-10,000 Person documents = 2 hours
-
-1,000,000 Person documents = 15 hours
+ Person Docs | Expected runtime 
+--- | --- 
+1.000 | 45 minutes
+5,000 | 90 minutes
+10 k | 2 hours
+1 Million | 15 hours
 
 ___
 ## HCL Domino License Analysis Utility - File Download
@@ -33,21 +37,14 @@ ___
 
 Learn how to use the HCL Domino License Analysis Utility with these topics:
 
-[Step-by-Step Instructions for using the HCL Domino License Utility](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/Instructions.md)
-
-[Understanding the DLAU Results](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/Understanding%20the%20Results.md)
-
-[How CCB and CCX Licenses Are Calculated](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/Calculating%20CCB%20and%20CCX%20Licenses.md)
-
-[PDF Presentation of the HCL Domino License Utility](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/HCL%20Domino%20License%20Analysis%20Utility%20-%20What%20Is%20It.pdf)
-
-[What Is Scanned by the HCL Domino License Utility](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/What%20Is%20Scanned.md)
-
-[Explanation of the Observations made by the HCL Domino License Utility](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/Observations%20Explained.md)
-
-[Frequently Asked Questions](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/FAQs.md)
-
-[DLAU Functional Limitations](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/Limitations.md)
+* [Step-by-Step Instructions](/docs/instructions.md)
+* [Understanding the Results](/docs/results.md)
+* [How Licenses Are Calculated](/docs/licenses.md)
+* [PDF Presentation of the HCL Domino License Utility](/docs/assets/pdf/)
+* [What Is Scanned](/docs/What%20Is%20Scanned.md)
+* [Explanation of Observations](/observations.md)
+* [Frequently Asked Questions](/docs/faqs.md)
+* [Limitations](/docs/limitations.md)
 
 ___
 ## Change log

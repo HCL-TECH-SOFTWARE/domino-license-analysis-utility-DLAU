@@ -1,4 +1,18 @@
-<h1><img src="https://www.hcltechsw.com/wps/wcm/connect/30a9835c-7d44-4b53-8302-9357b6e41b65/HCL+Domino_Color_Icon_300.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE-30a9835c-7d44-4b53-8302-9357b6e41b65-o8PYNwY" alt="HCL Domino" width="75px;">HCL Domino License Analysis Utility</h1>
+
+![HCL Domino License Analysis Utility](assets/png/HCL+Domino_Color_Icon_300.png) 
+
+# HCL Domino License Analysis Utility
+
+Frequently asked questions
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 
 ### I am not allowed to introduce any new features / functionality to my Production HCL Domino servers”

@@ -1,8 +1,23 @@
-<h1><img src="https://www.hcltechsw.com/wps/wcm/connect/30a9835c-7d44-4b53-8302-9357b6e41b65/HCL+Domino_Color_Icon_300.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE-30a9835c-7d44-4b53-8302-9357b6e41b65-o8PYNwY" alt="HCL Domino" width="75px;">HCL Domino License Analysis Utility</h1>
+---
+layout: default
+title: "How CCB and CCX Licenses Are Calculated"
+nav_order: 2
+description: "License Calculation"
+has_children: false
+---
 
-# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How CCB and CCX Licenses Are Calculated
+<details close markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
-HCL has two license types for HCL Domino environments:
+# How CCB and CCX Licenses Are Calculated
+
+HCL Domino provides two license types:
 
 ### Complete Collaboration for Business (CCB)
 
@@ -16,8 +31,6 @@ This level of licensing has some restrictions that must be in place in order to 
 
 ## CCB and CCX License Calculations by the DLAU
 There are two important aspects to determining CCX Licenses in the DLAU:
-
- 
 
 ### 1. The client needs to indicate that they have external users that need to be licensed as CCX.
 
@@ -33,8 +46,8 @@ When the User Information scan occurs, if the Person document is either in the E
 ### 2. The client must either be running Domino V12+ with Entitlement Tracking running OR provide the output from the User Report Tool. 
 
 If no Entitlement Tracking systems can be located or if they are running V11 or lower, they will have an opportunity to select the User Report Tool output db. If neither of these systems are available, ALL users will be tagged as a CCB license.
-<br/><br/><br/>
-Once all of the above aligns, when the DLAu is performing the final scan, we cross reference those "potential" CCX users with the users highest ACL level based on the information obtained from the Entitlement Tracking / User Report Tool output. If the user has a maximum of "Author" or below ACL Access, they are tagged as a CCX License. If their ACL level is "Editor" or above, they are tagged as a CCB license REGARDLESS of if they are also tagged as a potential CCX license.
+
+Once all of the above aligns, when the DLAU is performing the final scan, we cross reference those "potential" CCX users with the users highest ACL level based on the information obtained from the Entitlement Tracking / User Report Tool output. If the user has a maximum of "Author" or below ACL Access, they are tagged as a CCX License. If their ACL level is "Editor" or above, they are tagged as a CCB license REGARDLESS of if they are also tagged as a potential CCX license.
 
 We also take into account when the user last accessed the Domino server(s) by also aggregating information from the "Domino User License Tracking" system. If a CCX user has accessed the Domino server(s) in the past 30 days, they are tagged as an Active CCX user. If they have not accessed the Domino server(s) in more than 30 days, they are tagged as an Inactive CCX User.
 
