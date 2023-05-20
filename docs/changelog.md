@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "CHANGELOG"
-parent: "Overview"
 nav_order: 3
 description: "Change Log"
 has_children: false
