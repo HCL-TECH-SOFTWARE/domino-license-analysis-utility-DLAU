@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Privacy"
-parent: "Overview"
+parent: "Home"
 nav_order: 4
 description: "Privacy"
 parent: "Overview"

@@ -1,13 +1,13 @@
 ---
 layout: default
 title: "What is scanned"
-parent: "Overview"
+parent: "Home"
 nav_order: 3
 description: "What is being scanned?"
 has_children: false
 ---
 
-<h1> What is scanned ?</h1>
+<h1>What is scanned?</h1>
 Below is a description of what is scanned by the HCL Domino License Analysis Utility
 
 <details close markdown="block">

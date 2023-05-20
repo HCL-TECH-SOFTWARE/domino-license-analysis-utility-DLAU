@@ -7,7 +7,7 @@ has_children: false
 has_toc: true
 ---
 
-# Change Log
+<h1>Change Log</h1>
 
 <details close markdown="block">
   <summary>

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to use"
-parent: "Overview"
+parent: "Home"
 nav_order: 2
 description: "Step by Step Instructions"
 has_children: false

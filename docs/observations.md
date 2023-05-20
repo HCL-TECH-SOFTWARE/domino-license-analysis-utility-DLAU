@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Observations"
-parent: "Overview"
+parent: "Home"
 nav_order: 4
 description: "Observations Explained"
 parent: "Overview"
