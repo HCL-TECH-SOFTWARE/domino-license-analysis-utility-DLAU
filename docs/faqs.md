@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "FAQ"
-nav_order: 1
+nav_order: 5
 description: "Frequently Asked Questions"
 parent: "Overview"
 has_children: false

@@ -6,7 +6,7 @@ description: "HCL Domino License Analysis Utility"
 has_children: true
 ---
 
-[Step by Step Instructions](instructions.md){: .btn }
+[Download]([instructions.md](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/raw/main/DLAU%20download/licenseanalysis_V1.0.11.nsf)){: .btn }
 [View it on GitHub](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/){: .btn }
 
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: "Observations"
 parent: "Overview"
-nav_order: 5
+nav_order: 4
 description: "Observations"
 parent: "Overview"
 has_children: false

@@ -2,7 +2,7 @@
 layout: default
 title: "Step by Step Instructions"
 parent: "Overview"
-nav_order: 2
+nav_order: 1
 description: "Step by Step Instructions"
 has_children: false
 has_toc: true

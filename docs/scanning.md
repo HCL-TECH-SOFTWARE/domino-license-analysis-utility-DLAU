@@ -2,12 +2,10 @@
 layout: default
 title: "What is scanned"
 parent: "Overview"
-nav_order: 1
+nav_order: 2
 description: "What is being scanned?"
 has_children: true
 ---
-
-<img src="/docs/assets/png/HCL+Domino_Color_Icon_300.png" alt="HCL Domino" width="75px;">
 
 # What is scanned ?
 
