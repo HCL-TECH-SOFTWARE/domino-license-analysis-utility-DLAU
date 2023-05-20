@@ -39,7 +39,7 @@ The simplest method for opening the utility is to double-click on it in the File
 
 Once the utility is open, you should see the screen below which contains instructions on how to resign the design of the utility:
 
-![Sign](assets/images/png/1.%20Initial%20Launch%20-%20Resign.png)
+![Sign](/assets/images/png/1.%20Initial%20Launch%20-%20Resign.png)
 
 Depending on your experience level and how much you want to moniutor the re-singing process, select the appropriate method listed.
 
@@ -49,7 +49,7 @@ Now that the design of the DLAU has been signed, you will need to re-open the ut
 
 Once opened, you will be presented with the following screen:
 
-![Launch](assets/images/png/2.%20Wizard%20Initial%20Launch.png)
+![Launch](/assets/images/png/2.%20Wizard%20Initial%20Launch.png)
 
 Once opened, you will be provided some high level information about what the utility will be performing. It also provides you with information on other systems that can contribute to a cleaner result from the DLAU. If you would like to run and/or install the additional systems, click on the links under the "Important Links" area.
 
