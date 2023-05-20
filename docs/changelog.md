@@ -1,4 +1,23 @@
+---
+layout: default
+title: "CHANGELOG"
+parent: "Overview"
+nav_order: 3
+description: "Change Log"
+has_children: false
+has_toc: true
+---
+
 # Change Log
+
+<details close markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 All notable changes to this project will be documented in this file.
 
