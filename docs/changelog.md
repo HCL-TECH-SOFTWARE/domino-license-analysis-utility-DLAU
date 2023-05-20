@@ -1,15 +1,16 @@
 ---
 layout: default
 title: "CHANGELOG"
-nav_order: 7
+nav_order: 4
 description: "Change Log"
 has_children: false
 has_toc: true
 ---
 
 <h1>Change Log</h1>
+All notable changes to this project will be documented in this file.
 
-<details close markdown="block">
+<details open markdown="block">
   <summary>
     Table of contents
   </summary>
@@ -18,32 +19,40 @@ has_toc: true
 {:toc}
 </details>
 
-All notable changes to this project will be documented in this file.
-
 ___
+
 ## UPDATES INCLUDED IN V1.0.11
 
-CHANGE - Remove "# Members" column from "Deny Access Groups" View to lessen the confusiojn between the # of user names listed in the Deny Access Group versus how many Deny Access Users were discovered in the Domino environment
+{: .highlight }
+CHANGE
+Remove "# Members" column from "Deny Access Groups" View to lessen the confusiojn between the # of user names listed in the Deny Access Group versus how many Deny Access Users were discovered in the Domino environment
 
-CHANGE - Add a disclaimer to the "Priintable Report" screen for US Federal Government clients indicating who to limit sharing the results of the DLAU with
+{: .highlight }
+CHANGE
+Add a disclaimer to the "Priintable Report" screen for US Federal Government clients indicating who to limit sharing the results of the DLAU with
 
-CHANGE - Add a message to the "Scan Results" screen when 1 or more Security Observations are discovered
+{: .highlight }
+CHANGE
+Add a message to the "Scan Results" screen when 1 or more Security Observations are discovered
 
-CHANGE - Update the "Printable Report" screen to include the "CCX License Count"
+{: .highlight }
+CHANGE
+Update the "Printable Report" screen to include the "CCX License Count"
 
-CHANGE - Modify method for displaying the number of Deny Access Groups that are captured in the DLAU
+- CHANGE - Modify method for displaying the number of Deny Access Groups that are captured in the DLAU
 
+{: .highlight }
 FIX - The labels for CCB Users, CCX Active Users, and CCX Inactive Users were being displayed when those calculations are not being performed
 
-FIX - When calculating "Mail Users" the DLAU was not checking if the Domino Mail server that the user was configured for is an Active Domiuno server
+- FIX - When calculating "Mail Users" the DLAU was not checking if the Domino Mail server that the user was configured for is an Active Domiuno server
 
-FIX - The DLAu was reporting that a LDAP Directory was in use when the configured LDAP Directory was disabled
+- FIX - The DLAu was reporting that a LDAP Directory was in use when the configured LDAP Directory was disabled
 
-FIX - for Pre-V12 Domino environments, the "User Report Tool" area on the "Scan Results" screen was displayed with blank values when the "user Report Tool" was not selected
+- FIX - for Pre-V12 Domino environments, the "User Report Tool" area on the "Scan Results" screen was displayed with blank values when the "user Report Tool" was not selected
 
-FIX - users were receiving a sporadic "Object Variable Not Set" error when attempting to set a value onto the Scan Results controlling document
+- FIX - users were receiving a sporadic "Object Variable Not Set" error when attempting to set a value onto the Scan Results controlling document
 
-FIX - If a Domino server document had a carriage return in the "Server Name" field, the DLAU would display an empty Domino server name in the "Observations" list
+- FIX - If a Domino server document had a carriage return in the "Server Name" field, the DLAU would display an empty Domino server name in the "Observations" list
 
 ___
 ## UPDATES INCLUDED IN V1.0.10

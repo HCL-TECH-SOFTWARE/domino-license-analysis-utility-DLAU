@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How CCB and CCX Licenses Are Calculated"
+title: "License Calculation"
 nav_order: 2
 description: "License Calculation"
 has_children: false

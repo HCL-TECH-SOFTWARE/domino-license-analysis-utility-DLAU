@@ -7,6 +7,7 @@ has_children: true
 ---
 
 [Download Latest Release](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/releases/latest){: .btn .btn-green }
+
 [View on GitHub](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/){: .btn }
 
 <h1> HCL Domino License Analysis Utility</h1>
@@ -42,6 +43,8 @@ Learn how to use the HCL Domino License Analysis Utility with these topics:
 * [Explanation of Observations](observations.md)
 * [Frequently Asked Questions](faqs.md)
 * [Limitations](limitations.md)
+
+## Compatibilty
 
 ## Runtime
 

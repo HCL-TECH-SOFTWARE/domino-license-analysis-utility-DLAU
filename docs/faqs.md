@@ -3,7 +3,7 @@ layout: default
 title: "FAQ"
 nav_order: 5
 description: "Frequently Asked Questions"
-parent: "Overview"
+parent: "Home"
 has_children: false
 ---
 <h1>Frequently Asked Questions</h1>
