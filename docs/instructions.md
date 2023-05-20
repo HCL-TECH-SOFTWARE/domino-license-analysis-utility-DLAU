@@ -8,7 +8,7 @@ has_children: false
 has_toc: true
 ---
 
-<h1> How to use the HCL Domino License Analysis Utility</h1>
+<h1>How to use the HCL Domino License Analysis Utility</h1>
 
 <details close markdown="block">
   <summary>
@@ -26,6 +26,8 @@ Prior to continuing through this documentation, you will need to download the HC
 DLAU is designed to work most efficiently on a local hard drive, so there is no need to copy/replicate the DLAU onto any of your HCL Domino servers.
 
 [Download Latest Release](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/releases/latest){: .btn .btn-green }
+
+Please verify if your environment meets the [system requirements](requirements.md)
 
 ___
 ## Step 1 - Launch and Sign Design of DLAU

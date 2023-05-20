@@ -4,7 +4,6 @@ title: "Observations"
 parent: "Home"
 nav_order: 4
 description: "Observations Explained"
-parent: "Overview"
 has_children: false
 ---
 

@@ -23,36 +23,38 @@ ___
 
 ## UPDATES INCLUDED IN V1.0.11
 
-{: .highlight }
-CHANGE
+{: .update }
 Remove "# Members" column from "Deny Access Groups" View to lessen the confusiojn between the # of user names listed in the Deny Access Group versus how many Deny Access Users were discovered in the Domino environment
 
-{: .highlight }
-CHANGE
+{: .update }
 Add a disclaimer to the "Priintable Report" screen for US Federal Government clients indicating who to limit sharing the results of the DLAU with
 
-{: .highlight }
-CHANGE
+{: .update }
 Add a message to the "Scan Results" screen when 1 or more Security Observations are discovered
 
-{: .highlight }
-CHANGE
+{: .update }
 Update the "Printable Report" screen to include the "CCX License Count"
 
-- CHANGE - Modify method for displaying the number of Deny Access Groups that are captured in the DLAU
+{: .update }
+Modify method for displaying the number of Deny Access Groups that are captured in the DLAU
 
-{: .highlight }
-FIX - The labels for CCB Users, CCX Active Users, and CCX Inactive Users were being displayed when those calculations are not being performed
+{: .fix }
+The labels for CCB Users, CCX Active Users, and CCX Inactive Users were being displayed when those calculations are not being performed
 
-- FIX - When calculating "Mail Users" the DLAU was not checking if the Domino Mail server that the user was configured for is an Active Domiuno server
+{: .fix }
+When calculating "Mail Users" the DLAU was not checking if the Domino Mail server that the user was configured for is an Active Domiuno server
 
-- FIX - The DLAu was reporting that a LDAP Directory was in use when the configured LDAP Directory was disabled
+{: .fix }
+The DLAu was reporting that a LDAP Directory was in use when the configured LDAP Directory was disabled
 
-- FIX - for Pre-V12 Domino environments, the "User Report Tool" area on the "Scan Results" screen was displayed with blank values when the "user Report Tool" was not selected
+{: .fix }
+for Pre-V12 Domino environments, the "User Report Tool" area on the "Scan Results" screen was displayed with blank values when the "user Report Tool" was not selected
 
-- FIX - users were receiving a sporadic "Object Variable Not Set" error when attempting to set a value onto the Scan Results controlling document
+{: .fix }
+users were receiving a sporadic "Object Variable Not Set" error when attempting to set a value onto the Scan Results controlling document
 
-- FIX - If a Domino server document had a carriage return in the "Server Name" field, the DLAU would display an empty Domino server name in the "Observations" list
+{: .fix }
+If a Domino server document had a carriage return in the "Server Name" field, the DLAU would display an empty Domino server name in the "Observations" list
 
 ___
 ## UPDATES INCLUDED IN V1.0.10

@@ -2,9 +2,8 @@
 layout: default
 title: "Privacy"
 parent: "Home"
-nav_order: 4
-description: "Privacy"
-parent: "Overview"
+nav_order: 5
+description: "Data Privacy"
 has_children: false
 ---
 
@@ -23,4 +22,4 @@ has_children: false
 
 ## Privacy
 
-This utility is performing all activity on-premises. No data is sent back to HCL without the explicit consent. 
+This utility is performing all activity on-premises with. No data is sent back to HCL without the explicit consent. 

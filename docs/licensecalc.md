@@ -32,7 +32,7 @@ This level of licensing has some restrictions that must be in place in order to 
 ## CCB and CCX License Calculations by the DLAU
 There are two important aspects to determining CCX Licenses in the DLAU:
 
-### 1. The client needs to indicate that they have external users that need to be licensed as CCX.
+### 1. The customer needs to indicate that they have external users that need to be licensed as CCX.
 
 During the initial Domino Environment Scan if multiple Domino directories and / or multiple ORG / ORGUnit values are discovered to be in use in their Domino environment it is presumed that they may have External users. This is the method that Product Engineering and our Licensing Office have determined is the most common scenario for our clients to use.
 
@@ -43,7 +43,7 @@ When this scenario is discovered by the DLAU, the user will first be asked if th
 When the User Information scan occurs, if the Person document is either in the External Domino Directory OR their User Name contains one of the selected ORGs/ORGUnits, the aggregated data for the User Info is tagged to indicate that it is a potential CCX license (more about the "potential" in the next part).
 
 
-### 2. The client must either be running Domino V12+ with Entitlement Tracking running OR provide the output from the User Report Tool. 
+### 2. The customer must either be running Domino V12+ with Entitlement Tracking running OR provide the output from the User Report Tool. 
 
 If no Entitlement Tracking systems can be located or if they are running V11 or lower, they will have an opportunity to select the User Report Tool output db. If neither of these systems are available, ALL users will be tagged as a CCB license.
 

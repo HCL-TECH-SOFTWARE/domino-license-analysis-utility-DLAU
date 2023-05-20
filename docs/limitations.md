@@ -22,7 +22,8 @@ Below is a list of current limitations that will be encountered in certain HCL D
 ___
 ## LDAP/ActiveDirectory 
 
-Coming soon {: .label .label-yellow }
+Coming soon
+{: .label .label-yellow }
 
 If one or more of your Domino servers are configured to use an external LDAP/Active Directory for authentication of web users, these types of directory connections are not currently being scanned.
 
@@ -52,4 +53,5 @@ The DLAU will only process additional Domino Directories if the Domino Administr
 
 If you have the scenario where your Domino Administration server does NOT use Directory Assistance, but one or more of your other Domino servers ARE using Directory Assistance, the additional Domino directories will not be processed.
 
-{: .highlight } Note: this issue is being assesed now and plans for advanced Directory Assistance scanning will be scheduled for a near future release.
+{: .highlight } 
+Note: this issue is being assesed now and plans for advanced Directory Assistance scanning will be scheduled for a near future release.

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "FAQ"
-nav_order: 5
+nav_order: 6
 description: "Frequently Asked Questions"
 parent: "Home"
 has_children: false
@@ -35,7 +35,7 @@ The scans within the utility run in a background task. The user’s Notes Client
 
 ### How long will the process take?
 
-1 - 3+ hours, depending on the number of Person documents and HCL Domino servers in the environment. For example, a small deployment (~200 users) will take 45 minutes, medium deployments (~5000 users) will take under 2 hours.
+It depends, typically it should take 1 to 3+ hours, depending on the number of Person documents and HCL Domino servers in the environment. For example, a small deployment (~200 users) will take 45 minutes, medium deployments (~5000 users) will take under 2 hours. 
 
 
 ### How can I substantiate needed entitlements?
