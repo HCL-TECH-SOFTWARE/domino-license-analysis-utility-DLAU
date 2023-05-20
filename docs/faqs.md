@@ -3,12 +3,9 @@ layout: default
 title: "FAQ"
 nav_order: 1
 description: "Frequently Asked Questions"
-has_children: true
+parent: "Overview"
+has_children: false
 ---
-
-![HCL Domino License Analysis Utility](assets/png/HCL+Domino_Color_Icon_300.png) 
-
-# Frequently asked questions
 
 <details open markdown="block">
   <summary>

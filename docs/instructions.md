@@ -1,16 +1,14 @@
 ---
 layout: default
 title: "Step by Step Instructions"
+parent: "Overview"
 nav_order: 2
 description: "Step by Step Instructions"
 has_children: false
 has_toc: true
 ---
 
-![HCL Domino](/docs/assets/png/HCL+Domino_Color_Icon_300.png)
-
-
-# HCL Domino License Analysis Utility
+# How to use the HCL Domino License Analysis Utility
 
 <details close markdown="block">
   <summary>
@@ -20,8 +18,6 @@ has_toc: true
 1. TOC
 {:toc}
 </details>
-
-# How to use the HCL Domino License Analysis Utility
 
 ___
 ## Prerequisites - Download Utility

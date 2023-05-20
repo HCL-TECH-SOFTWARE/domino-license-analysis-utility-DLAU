@@ -11,8 +11,6 @@ has_children: true
 
 ---
 
-<img src="/docs/assets/png/HCL+Domino_Color_Icon_300.png" alt="HCL Domino" width="75px;">
-
 # HCL Domino License Analysis Utility
 
 <details close markdown="block">
@@ -64,7 +62,7 @@ Learn how to use the HCL Domino License Analysis Utility with these topics:
 * [Understanding the Results](/docs/results.md)
 * [How Licenses Are Calculated](/docs/licensecalc.md)
 * [PDF Presentation of the HCL Domino License Utility](/docs/assets/pdf/HCL%20Domino%20License%20Analysis%20Utility%20-%20What%20Is%20It.pdf)
-* [What Is Scanned](/docs/What%20Is%20Scanned.md)
+* [What Is Scanned](/docs/scanning.md)
 * [Explanation of Observations](/observations.md)
 * [Frequently Asked Questions](/docs/faqs.md)
 * [Limitations](/docs/limitations.md)

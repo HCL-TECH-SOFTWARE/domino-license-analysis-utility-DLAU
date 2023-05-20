@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "What is scanned"
+parent: "Overview"
 nav_order: 1
 description: "What is being scanned?"
 has_children: true

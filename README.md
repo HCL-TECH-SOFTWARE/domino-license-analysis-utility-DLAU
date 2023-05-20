@@ -41,7 +41,7 @@ Learn how to use the HCL Domino License Analysis Utility with these topics:
 * [Understanding the Results](/docs/results.md)
 * [How Licenses Are Calculated](/docs/licenses.md)
 * [PDF Presentation of the HCL Domino License Utility](/docs/assets/pdf/)
-* [What Is Scanned](/docs/What%20Is%20Scanned.md)
+* [What Is Scanned](/docs/scanning.md)
 * [Explanation of Observations](/observations.md)
 * [Frequently Asked Questions](/docs/faqs.md)
 * [Limitations](/docs/limitations.md)

@@ -1,8 +1,10 @@
 ---
 layout: default
 title: "Observations"
-nav_order: 4
+parent: "Overview"
+nav_order: 5
 description: "Observations"
+parent: "Overview"
 has_children: false
 ---
 
