@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Intro"
-nav_order: 1
-description: "Domino License Analysis Tool"
-has_children: true
-has_toc: false
+title: "Step by Step Instructions"
+nav_order: 2
+description: "Step by Step Instructions"
+has_children: false
+has_toc: true
 ---
 
 ![HCL Domino](/docs/assets/png/HCL+Domino_Color_Icon_300.png)

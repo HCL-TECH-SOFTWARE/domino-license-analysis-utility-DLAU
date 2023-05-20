@@ -1,10 +1,12 @@
 ---
 layout: default
 title: "How CCB and CCX Licenses Are Calculated"
-nav_order: 2
+nav_order: 3
 description: "License Calculation"
 has_children: false
 ---
+
+# How CCB and CCX Licenses Are Calculated
 
 <details close markdown="block">
   <summary>
@@ -15,7 +17,6 @@ has_children: false
 {:toc}
 </details>
 
-# How CCB and CCX Licenses Are Calculated
 
 HCL Domino provides two license types:
 

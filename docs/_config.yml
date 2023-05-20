@@ -4,7 +4,7 @@ remote_theme: pmarsceill/just-the-docs
 title: HCL Domino License Analysis Utility
 description: The HCL Domino License Analysis Utility
 version: 1.0
-logo: "/assets/images/svg/Domino.svg"
+logo: "/assets/svg/Domino.svg"
 git_url: "https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU"
 baseurl: "/domino-license-analysis-utility-DLAU"
 permalink: pretty

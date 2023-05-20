@@ -1,4 +1,23 @@
-<h1><img src="/docs/assets/png/HCL+Domino_Color_Icon_300.png" alt="HCL Domino" width="75px;">HCL Domino License Analysis Utility</h1>
+---
+layout: default
+title: "What is scanned"
+nav_order: 1
+description: "What is being scanned?"
+has_children: true
+---
+
+<img src="/docs/assets/png/HCL+Domino_Color_Icon_300.png" alt="HCL Domino" width="75px;">
+
+# What is scanned ?
+
+<details close markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 Below is a description of what is scanned by the HCL Domino License Analysis Utility
 

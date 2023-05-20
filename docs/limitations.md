@@ -1,4 +1,12 @@
-# HCL Domino License Analysis Utility
+---
+layout: default
+title: "Known Limitations"
+nav_order: 5
+description: "Known Limitations"
+has_children: false
+---
+
+# Known Limitations
 
 <details close markdown="block">
   <summary>
@@ -9,7 +17,6 @@
 {:toc}
 </details>
 
-# Known Limitations
 
 Below is a list of current limitations that will be encountered in certain HCL Domino environments when using the Domino License Analysis Utility
 

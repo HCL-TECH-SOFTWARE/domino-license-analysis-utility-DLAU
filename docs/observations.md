@@ -1,4 +1,14 @@
-<h1><img src="/docs/assets/png/HCL+Domino_Color_Icon_300.png" alt="HCL Domino" width="75px;">HCL Domino License Analysis Utility</h1>
+---
+layout: default
+title: "Observations"
+nav_order: 4
+description: "Observations"
+has_children: false
+---
+
+<img src="/docs/assets/png/HCL+Domino_Color_Icon_300.png" alt="HCL Domino" width="75px;">
+
+# Observations
 
 <details close markdown="block">
   <summary>

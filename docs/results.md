@@ -1,6 +1,23 @@
-<h1><img src="/docs/assets/png/HCL+Domino_Color_Icon_300.png" alt="HCL Domino" width="75px;">HCL Domino License Analysis Utility</h1>
+---
+layout: default
+title: "Understanding Results"
+nav_order: 4
+description: "Understanding the Results"
+has_children: false
+---
 
-<h1>Understanding The Results</h1>
+<img src="/docs/assets/png/HCL+Domino_Color_Icon_300.png" alt="HCL Domino" width="75px;">
+# Understanding The Results
+
+
+<details close markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 ___
 Once you have completed the scans, you will be presented with a Results page that will look similar to the image below:
