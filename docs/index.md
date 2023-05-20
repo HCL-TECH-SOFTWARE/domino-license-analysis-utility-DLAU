@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Overview"
+title: "Home"
 nav_order: 1
 description: "HCL Domino License Analysis Utility"
 has_children: true
@@ -10,7 +10,7 @@ has_children: true
 [View on GitHub](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/){: .btn }
 
 <h1> HCL Domino License Analysis Utility</h1>
-This utility will assist HCL Domino Administrators in determining your Authorized User Count within their HCL Domino environment according to the CCB & CCX license model.
+This utility will assist HCL Domino Administrators in determining the Authorized User Count within an HCL Domino environment according to the CCB & CCX license model. 
 
 <details open markdown="block">
   <summary>

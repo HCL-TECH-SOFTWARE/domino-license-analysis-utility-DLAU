@@ -8,7 +8,7 @@ parent: "Overview"
 has_children: false
 ---
 
-<h1>Observations Explained<h1>
+<h1>Observations Explained</h1>
 
 <details close markdown="block">
   <summary>
@@ -19,7 +19,7 @@ has_children: false
 {:toc}
 </details>
 
-During the scanning processes, a number of HCL Domino environment observations are captured. These can range form simple informational observations to more serious security vulnerabilities in a clients HCL Domino environment.
+During the scanning processes, a number of observations are captured. These can range form simple informational observations to more serious potential security vulnerabilities of the HCL Domino environment.
 
 These observations are captured while the scans are occurring and are provided to the user once all scans are completed.
 

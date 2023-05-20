@@ -22,16 +22,17 @@ Below is a list of current limitations that will be encountered in certain HCL D
 ___
 ## LDAP/ActiveDirectory 
 
+Coming soon {: .label .label-yellow }
+
 If one or more of your Domino servers are configured to use an external LDAP/Active Directory for authentication of web users, these types of directory connections are not currently being scanned.
 
 Therefore, a manual counting of all users who are accessing the HCL domino server(s) in this manner will need to take place. 
 
-{: .highlight } Coming soon
-{: .label .label-yellow }
+{: .highlight } 
 We are working on scanning LDAP / AD directories and cross reference the users found in those against the findings in the License Tracking System.
 
 ___
-## HCL Domino Environments with Multiple, disconnected Domains
+## Multiple/disconnected HCL Domino Domains
 
 For HCL Domino environments that have different, unique Domino Domains that are not connected using any type of Directory Assistance, the DLAU will only scan the Domino Domain that was discovered based on your current HCL Notes Location document.
 
@@ -42,7 +43,6 @@ It is required that you use different copies of the DLAU, one copy per Domino Do
 Then, a manual deduplication of discovered Notes Users will need to occur. This is to ensure that a single user that is listed in each Domino Domain is only counted once.
 
 {: .note }
-{: .label .label-yellow }
 We are working on a solution that will allow for multiple Domino Domains to be scanned at the same time by allowing multiple Domino Administration servers to be selected.
 
 ___
