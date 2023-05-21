@@ -170,3 +170,5 @@ To review the results of the Scans, click on the **"View Results"** button. When
 ![Scan Results](assets/images/png/14.%20Scan%20Results.png)
 
 Please see [understanding the results](results.md) - if in doubt, please contact your HCL representative or open a support ticket at 
+
+![HCL Domino](assets/images/png/HCL+Domino_Color_Icon_300.png)
