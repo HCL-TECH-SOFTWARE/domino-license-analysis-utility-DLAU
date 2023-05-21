@@ -39,7 +39,7 @@ The simplest method for opening the utility is to double-click on it in the File
 
 Once the utility is open, you should see the screen below which contains instructions on how to resign the design of the utility:
 
-![Sign](/docs/assets/images/png/1.%20Initial%20Launch%20-%20Resign.png)
+![Sign](assets/images/png/1.%20Initial%20Launch%20-%20Resign.png)
 
 Depending on your experience level and how much you want to moniutor the re-singing process, select the appropriate method listed.
 
@@ -49,7 +49,7 @@ Now that the design of the DLAU has been signed, you will need to re-open the ut
 
 Once opened, you will be presented with the following screen:
 
-![Launch](/docs/assets/images/png/2.%20Wizard%20Initial%20Launch.png)
+![Launch](assets/images/png/2.%20Wizard%20Initial%20Launch.png)
 
 Once opened, you will be provided some high level information about what the utility will be performing. It also provides you with information on other systems that can contribute to a cleaner result from the DLAU. If you would like to run and/or install the additional systems, click on the links under the "Important Links" area.
 
@@ -73,7 +73,7 @@ A listing of what is scanned during this step is below:
 
 To begin the HCL Domino Environment Scan, click the **Start Environment Scan Now** button:
 
-![Start](/docs/assets/images/png/3.%20Environment%20Scan%20-%20Start.png)
+![Start](assets/images/png/3.%20Environment%20Scan%20-%20Start.png)
 
 The HCL Domino Environment scan will take approximately **5 minutes** to complete, depending on the number of HCL Domino Servers in your environment.
 
@@ -155,7 +155,7 @@ To begin the Entitlement Tracking / User Report Tool Scan, click the **Start Ent
 
 Once the Entitlement Tracking / User Report Tool is complete, you will be presented with the results, as shown below:
 
-![Entitlements Results](assets/images/png/12.%20Entitlement%20Scan%20-%20Results.png)
+![Entitlements Results](assets/images/png/12-entitlement-scan-results.png)
 
 To progress to the next screen, click the **"Next"** button.
 
@@ -163,12 +163,14 @@ ___
 ## Step 6 - Completion of the Wizard and Review of Results
 Now that all scans are complete, you will be presented with a screen stating that "All Scans Are Complete", as shoen below:
 
-![Wizzard Complete](assets/images/png/13.%20Wizard%20Complete.png)
+![Wizzard Complete](assets/images/png/13-wizard-complete.png)
 
 To review the results of the Scans, click on the **"View Results"** button. When that button is cliekced, you will be presented with the full results of the DLAU scans, as shown below:
 
-![Scan Results](assets/images/png/14.%20Scan%20Results.png)
+![Scan Results](assets/images/png/14-scan-results.png)
 
 Please see [understanding the results](results.md) - if in doubt, please contact your HCL representative or open a support ticket at 
 
+
 ![HCL Domino](assets/images/png/HCL+Domino_Color_Icon_300.png)
+{: mx-auto }
