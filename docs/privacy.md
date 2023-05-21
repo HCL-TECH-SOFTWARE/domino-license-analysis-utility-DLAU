@@ -22,4 +22,4 @@ has_children: false
 
 ## Privacy
 
-This utility is performing all activity on-premises with. No data is sent back to HCL without the explicit consent. 
+This utility is performing all activity on-premises with. No data is sent back to HCL without the explicit consent. This tool has been released as open source for you to be able to verify this statement by reviewing the source code.

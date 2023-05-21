@@ -12,7 +12,7 @@ has_children: true
 <h1> HCL Domino License Analysis Utility</h1>
 This utility will assist HCL Domino Administrators in determining the Authorized User Count within an HCL Domino environment according to the CCB & CCX license model. 
 
-<details open markdown="block">
+<details close markdown="block">
   <summary>
     Table of contents
   </summary>
@@ -22,6 +22,7 @@ This utility will assist HCL Domino Administrators in determining the Authorized
 </details>
 
 ## Purpose
+
 The purpose of this utility is to provide fast and accurate Authorized User counts for HCL Domino environments by aggregating information that a Domino Administrator would otherwise have to collect manually. It automates the process by aggregating all the information that is needed to accurately determine the Authorized User counts in a fraction of the time.
 
 ## Documentation
@@ -44,7 +45,7 @@ see [system requirements](requirements.md)
 
 Depending on the number of Person documents within a HCL Domino environment, the entire process can take anywhere from 45 minutes to 4 hours on average.
 
- Person Docs | Expected runtime 
+Person Docs | Expected runtime 
 --- | --- 
 1.000 | 45 minutes
 5,000 | 90 minutes

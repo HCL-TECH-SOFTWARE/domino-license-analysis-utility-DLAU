@@ -18,17 +18,17 @@ has_children: false
 </details>
 
 
-### I am not allowed to introduce any new features / functionality to my Production HCL Domino servers”
+### Do I need to change the configuration of my HCL Domino servers?
 
 This utility does not require any additional functionality to be added to ANY HCL Domino servers. It runs completely on the local drive of the HCL Domino Administrator who is running the utility
  
 
-### If this is a Licensing Audit, I will need to involve our legal / compliance team(s)
+### Is this a Licensing Audit? Will I need to involve our legal / compliance team(s)?
 
 This utility is not an audit tool. It is meant to automate the manual processes that the HCL Domino Administrator would need to perform in order to obtain the same results. This utility will perform the same analysis that the HCL Domino Administrator would have to perform, but with 100% accuracy.
 
  
-### I do not have the time to ‘Babysit’ this type of analysis. I have a lot of things to do.
+### Will this type of analysis block my Notes Client?
 
 The scans within the utility run in a background task. The user’s Notes Client can be used as normal during the scanning processes. The user only needs to “check in” periodically to see if the current scan is complete and to progress to the next scan.
 
