@@ -111,10 +111,10 @@ Additional information is aggregated about each user during the subsequent scans
 
 To begin the HCL Domino Users Scan, click the **Start Users Scan Now** button:
 
-![User Scan](/docs/assets/images/png/7.%20User%20Scan%20-%20Start.png)
+![User Scan](/assets/images/png/7.%20User%20Scan%20-%20Start.png)
 
 Once the HCL Domino Users Scan is complete, you will be presented with the results, as shown below:
-![User Scan Results](/docs/assets/images/png/8.%20User%20Scan%20-%20Results.png)
+![User Scan Results](assets/images/png/8.%20User%20Scan%20-%20Results.png)
 
 To progress to the next scan, click the **"Next"** button.
 
