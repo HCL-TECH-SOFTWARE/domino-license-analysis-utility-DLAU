@@ -39,7 +39,7 @@ The simplest method for opening the utility is to double-click on it in the File
 
 Once the utility is open, you should see the screen below which contains instructions on how to resign the design of the utility:
 
-![Sign](assets/images/png/1.%20Initial%20Launch%20-%20Resign.png)
+![Sign](assets/images/png/1-initial-launch-resign.png)
 
 Depending on your experience level and how much you want to moniutor the re-singing process, select the appropriate method listed.
 
@@ -49,7 +49,7 @@ Now that the design of the DLAU has been signed, you will need to re-open the ut
 
 Once opened, you will be presented with the following screen:
 
-![Launch](assets/images/png/2.%20Wizard%20Initial%20Launch.png)
+![Launch](assets/images/png/2-wizard-initial-launch.png)
 
 Once opened, you will be provided some high level information about what the utility will be performing. It also provides you with information on other systems that can contribute to a cleaner result from the DLAU. If you would like to run and/or install the additional systems, click on the links under the "Important Links" area.
 
@@ -73,7 +73,7 @@ A listing of what is scanned during this step is below:
 
 To begin the HCL Domino Environment Scan, click the **Start Environment Scan Now** button:
 
-![Start](assets/images/png/3.%20Environment%20Scan%20-%20Start.png)
+![Start](assets/images/png/3-environment-scan-start.png)
 
 The HCL Domino Environment scan will take approximately **5 minutes** to complete, depending on the number of HCL Domino Servers in your environment.
 
@@ -81,15 +81,15 @@ If your organization is using additional Domino Directories via the Directory As
 
 If this is the scenario in your environment, you will be presented the following message:
 
-![External User](assets/images/png/4.%20Environment%20Scan%20-%20External%20Directory%20Questions.png)
+![External User](assets/images/png/4-environment-scan-external-directory-questions.png)
 
 If you select "yes" as your answer, you will be presented with the following dialog which will provide you the opportunity to select either the Additional Domino Directory for CCX users and/or the ability to select the OrgUnit / Org that identifies the CCX users:
 
-![External Selections](assets/images/png/5.%20Environment%20Scan%20-%20External%20Selections.png)
+![External Selections](assets/images/png/5-environment-scan-external-selections.png)
 
 Once the HCL Domino Environment Scan is complete, you will be presented with the results, as shown below:
 
-![Results](assets/images/png/6.%20Environment%20Scan%20-%20Results.png)
+![Results](assets/images/png/6-environment-scan-results.png)
 
 To progress to the next scan, click the **"Next"** button.
 
@@ -111,10 +111,10 @@ Additional information is aggregated about each user during the subsequent scans
 
 To begin the HCL Domino Users Scan, click the **Start Users Scan Now** button:
 
-![User Scan](assets/images/png/7.%20User%20Scan%20-%20Start.png)
+![User Scan](assets/images/png/7-user-scan-start.png)
 
 Once the HCL Domino Users Scan is complete, you will be presented with the results, as shown below:
-![User Scan Results](assets/images/png/8.%20User%20Scan%20-%20Results.png)
+![User Scan Results](assets/images/png/8-user-scan-results.png)
 
 To progress to the next scan, click the **"Next"** button.
 
@@ -128,11 +128,11 @@ Once all this information is retrieved, each of the users that were discovered d
 
 To begin the Deny Access Group Scan, click the **Start Deny Access Scan Now** button:
 
-![Scan Deny Groups](assets/images/png/9.%20Deny%20Access%20Scan%20-%20Start.png)
+![Scan Deny Groups](assets/images/png/9-denyaccess-scan-start.png)
 
 Once the Deny Access Group Scan is complete, you will be presented with the results, as shown below:
 
-![Results Deny Groups](assets/images/png/10.%20Deny%20Access%20Scan%20-%20Results.png)
+![Results Deny Groups](assets/images/png/10-denyaccess-scan-results.png)
 
 To progress to the next scan, click the **"Next"** button.
 
@@ -151,7 +151,7 @@ The information that this scan retrieves will display the highest **Access Contr
 
 To begin the Entitlement Tracking / User Report Tool Scan, click the **Start Entitlement Tracking / User Report Tool Scan Now** button:
 
-![Scan Entitlements](assets/images/png/11.%20Entitlement%20Scan%20-%20Start.png)
+![Scan Entitlements](assets/images/png/11-entitlement-scan-start.png)
 
 Once the Entitlement Tracking / User Report Tool is complete, you will be presented with the results, as shown below:
 
@@ -169,7 +169,7 @@ To review the results of the Scans, click on the **"View Results"** button. When
 
 ![Scan Results](assets/images/png/14-scan-results.png)
 
-Please see [understanding the results](results.md) - if in doubt, please contact your HCL representative or open a support ticket at 
+Please see [understanding the results](results.md) - if in doubt, please contact your HCL representative or open a support ticket at [HCL Customer Support](https://support.hcltechsw.com/csm)
 
 
 ![HCL Domino](assets/images/png/HCL+Domino_Color_Icon_300.png)

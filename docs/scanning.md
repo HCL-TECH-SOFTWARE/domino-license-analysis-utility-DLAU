@@ -7,7 +7,7 @@ description: "What is being scanned?"
 has_children: false
 ---
 
-<h1>What is scanned?</h1>
+<h1>What is being scanned?</h1>
 Below is a description of what is scanned by the HCL Domino License Analysis Utility
 
 <details close markdown="block">
@@ -27,7 +27,7 @@ The first scan that occurs goes through the HCL Domino server environment. This 
 - Discovery of Domino Administration server
 - Domino server names
 - Domino Server availability (Online or Offline)
-- Directory Assistance Usage
+- Directory Assistance (DA) Usage
   - If DA is in use, discover all additional Domino Directories
 - Check for secured HTTP and LDAP protocols
 - Capture the name(s) of the Deny Access Groups that are in use on the Domino servers
@@ -50,6 +50,7 @@ the information that is aggregates is as follows:
 - Protocols that the user's used to access the Domino servers (only if License Tracking is enabled)
 
 Additional information is aggregated about each user during the subsequent scans.
+Please note that all this information is kept locally on your computer only. For more information see [our privacy statement](privacy.md)
 
 ___
 ## Scan #3: Deny Access Groups and User Membership
