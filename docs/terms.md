@@ -21,7 +21,7 @@ To understand our Code of Conduct and how we handle misuse, please read the foll
 ___
 ## Contributing
 
-Please read through our [Contributing Guidelines](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/Documentation/CONTRIBUTING.md).  Included are directions for opening issues.
+Please read through our [Contributing Guidelines](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/blob/main/CONTRIBUTING.md).  Included are directions for opening issues.
 
 ___
 ## Versioning
