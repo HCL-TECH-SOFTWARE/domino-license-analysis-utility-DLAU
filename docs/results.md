@@ -21,7 +21,7 @@ has_children: false
 ___
 Once you have completed the scans, you will be presented with a Results page that will look similar to the image below:
 
-![Scan Results](assets/images/png/14.%20Scan%20Results.png)
+![Scan Results](assets/images/png/14-scan-results.png)
 
 This is the findings from the scans that were performed. But what do these mean? Below is a description of what each area means and how the DLAU came to those values.
 
