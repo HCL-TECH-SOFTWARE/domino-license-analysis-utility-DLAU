@@ -82,7 +82,7 @@ callouts:
     title: Bugfix
     color: yellow
   update:
-    title: update
+    title: Update
     color: grey-lt
 
 # Footer content
