@@ -12,17 +12,7 @@ The DLAU automates the process by aggregating all the information that is needed
 ___
 ## Documentation
 
-Documentation 
-Learn how to use the HCL Domino License Analysis Utility with these topics:
-
-* [Step-by-Step Instructions](/docs/instructions.md)
-* [Understanding the Results](/docs/results.md)
-* [How Licenses Are Calculated](/docs/licenses.md)
-* [PDF Presentation of the HCL Domino License Utility](/docs/assets/pdf/)
-* [What Is Scanned](/docs/scanning.md)
-* [Explanation of Observations](/observations.md)
-* [Frequently Asked Questions](/docs/faqs.md)
-* [Limitations](/docs/limitations.md)
+Please refer to <h2>[this page](https://opensource.hcltechsw.com/domino-license-analysis-utility-DLAU/)</h2>
 
 ___
 ## Change log
