@@ -10,7 +10,7 @@ has_children: true
 [View on GitHub](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/){: .btn }
 
 <h1> HCL Domino License Analysis Utility</h1>
-This utility will assist HCL Domino Administrators in doing a health check based on deplopyment best practices and determining the Authorized User Count within an HCL Domino environment according to the CCB & CCX license model.
+This utility will assist HCL Domino Administrators in doing a health check based on deployment best practices and determining the Authorized User Count within an HCL Domino environment according to the CCB & CCX license model.
 
 <details close markdown="block">
   <summary>

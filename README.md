@@ -1,8 +1,8 @@
-<h1><img src="/docs/assets/png/HCL+Domino_Color_Icon_300.png" alt="HCL Domino" width="75px;">HCL Domino License Analysis Utility</h1>
+<h1><img src="docs/assets/images/png/HCL+Domino_Color_Icon_300.png" alt="HCL Domino" width="75px;">HCL Domino License Analysis Utility</h1>
 
 # HCL Domino License Analysis Utility
 
-This utility will assist HCL Domino Administrators in determining your Authorized User Count within their HCL Domino environment according to the CCB & CCX license model.
+This utility will assist HCL Domino Administrators in doing a health check based on deployment best practices and determining the Authorized User Count within an HCL Domino environment according to the CCB & CCX license model.
 
 ## Purpose
 The purpose of this utility is to provide fast and accurate Authorized User counts for HCL Domino environments by aggregating information that a Domino Administrator would otherwise have to collect manually.
