@@ -83,7 +83,10 @@ callouts:
     color: yellow
   update:
     title: Update
-    color: grey-lt
+    color: green
+  new:
+    title: New
+    color: green
 
 # Footer content
 # appears at the bottom of every page's main content
