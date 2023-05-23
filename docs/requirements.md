@@ -24,7 +24,7 @@ The following requirements must be met in order to run the utility.
 ## Software
 
 - Windows 7 or higher
-- Notes Client version 9.0.1 or higher
+- Notes Client version 8.5 or higher
 - Domino Server version 8.5 or higher
 
 ## Access rights
