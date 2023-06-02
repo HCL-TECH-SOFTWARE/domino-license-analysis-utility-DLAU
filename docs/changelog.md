@@ -27,7 +27,7 @@ ___
 Remove any reliance on JavaScript code. This is to allow organizations that have user Policies that block usage of JavaqScript in Notes applications
 
 {: .update }
-The DALU is now backwards compatible to Lotus Notes V7.0.2
+The DLAU is now backwards compatible to Lotus Notes V7.0.2
 
 {: .update }
 Modify the "Required Fields" for the "Printable Report" to make user information optional (GDPR Compliance)
