@@ -24,7 +24,7 @@ ___
 ## UPDATES INCLUDED IN V1.0.12
 
 {: .update }
-Remove any reliance on JavaScript code. This is to allow organizations that have user Policies that block usage of JavaqScript in Notes applications
+Remove any reliance on JavaScript code. This is to allow organizations that have user Policies that block usage of JavaScript in Notes applications
 
 {: .update }
 The DLAU is now backwards compatible to Lotus Notes V7.0.2
@@ -33,7 +33,7 @@ The DLAU is now backwards compatible to Lotus Notes V7.0.2
 Modify the "Required Fields" for the "Printable Report" to make user information optional (GDPR Compliance)
 
 {: .fix }
-Adjust the layout of the "Printable Report" so that it shows the correct User Counts dependant on how the DLAU was run (with and without CCB/CCX counts)
+Adjust the layout of the "Printable Report" so that it shows the correct User Counts dependent on how the DLAU was run (with and without CCB/CCX counts)
 
 {: .fix }
 Modify the method for generating the final User Counts to occur at the end of the scanning process so that the User Counts are based on the final results, not partial results.
