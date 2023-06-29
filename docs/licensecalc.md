@@ -44,6 +44,7 @@ This level of licensing has some restrictions that must be in place to identify 
 Calculating CCB licenses is very straight forward: Count the number of valid Person Documents (valid meaning that there is a Notes ID associated with the Person document, the user listed on the Person Document is not a member of an active Deny Access Group, and the “CCB User” has access to at least one of the Domino servers).
 
 Calculating CCX users is more complex and requires two (2) additional functions of the Domino server to be running / available at the time of the DLAU scans.
+
 ___
 
 ## Domino User License Tracking
@@ -72,6 +73,7 @@ For example, if the following number of CCX users accessed the Domino environmen
 i.e. 14,000 CCX entitlements needed for this configuration.
 
 To obtain this information for use in the DLAU, you must enable the License Tracking system on ALL Domino servers. Follow this link for instructions on enabling License Tracking: [License Tracking Eablement Instructions](https://help.hcltechsw.com/domino/12.0.2/admin/conf_licensetracking_t.html)
+
 ___
 
 ## Entitlement Tracking / Domino User Report Tool
