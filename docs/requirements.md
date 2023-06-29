@@ -30,5 +30,5 @@ The following requirements must be met in order to run the utility.
 ## Access rights
 
 - READ access to the Domino Directory and other system databases
-- ACL role "[NetModifier]" in the Domino Directory
+- ACL role "[DenyAccessRead]" in the Domino Directory
  

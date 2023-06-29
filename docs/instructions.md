@@ -137,7 +137,7 @@ Once the Deny Access Group Scan is complete, you will be presented with the resu
 To progress to the next scan, click the **"Next"** button.
 
 ___
-## Step 5 - Entitlement Tracking / User Report Tool Scan
+## Step 6 - Entitlement Tracking / User Report Tool Scan
 The fourth and final scan is the "Entitlement Tracking / User Report Tool Scan". This scan will look at one of the next two systems:
 
 1. Entitlement Tracking: this is a new system that was introduced in HCL Domino V12. If the client is using HCL Domino V12, this scan will always occur
@@ -160,7 +160,7 @@ Once the Entitlement Tracking / User Report Tool is complete, you will be presen
 To progress to the next screen, click the **"Next"** button.
 
 ___
-## Step 6 - Completion of the Wizard and Review of Results
+## Step 7 - Completion of the Wizard and Review of Results
 Now that all scans are complete, you will be presented with a screen stating that "All Scans Are Complete", as shoen below:
 
 ![Wizzard Complete](assets/images/png/13-wizard-complete.png)

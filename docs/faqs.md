@@ -46,3 +46,10 @@ Within the “Scan Results” page, there is a button labeled “View Printable 
 
 While this is not an audit tool, it usually provides acurate information of your current environment. If you have any doubts of the report being incorrect, please reach out to your HCL representative or [report an issue](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues).  
 Statistically, our early adopters of the utility are reporting a 96% accuracy. The 4% generally are seen to be special Administration or Design Signing users. 
+
+add new FAQ about CCB / CCX calculations and then link to the June 29 Blog Post
+
+### What is the difference between CCB and CCX Licenses?
+
+For more information on the differences between CCB and CCX licenses, please refer this HCL Blog Post: 
+[All You Ever Wanted to Know About Domino CCB Licensing and DLAU Tool](https://blog.hcltechsw.com/domino/all-you-ever-wanted-to-know-about-domino-ccb-licensing-and-dlau-tool/?referrer=opensource.hcltechsw.com/domino-license-analysis-utility-DLAU/)

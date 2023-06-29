@@ -17,38 +17,77 @@ has_children: false
 {:toc}
 </details>
 
-HCL Domino provides two license types:
+The two (2) strategic licenses for HCL Domino, are:
 
-### Complete Collaboration for Business (CCB)
+**Complete Collaboration Business Edition (CCB) -and-
+Complete Collaboration eXternal user (CCX)**
 
-Complete Collaboration for Business (CCB) licenses allow the users access to all functionality in the HCL Domino environments. these licenses are granted to employees at the organization and allows them unfettered access to all functionality that is deployed onto the HCL Domino servers. This includes the ability to modify documents within the HCL Domino applicationsthat are in use.
+CCB entitlements are needed for all of the employees and contractors in your enterprise needing access to your Domino CCB servers – covering all B2E (Business-to-Employees) scenarios. All CCB users have access to the full spectrum of Domino capabilities.
 
-### Complete Collaboration for External Users (CCX)
+A server licensed under CCB also include unlimited external web user access as needed for most B2C (Business-to-Consumer/Citizen) scenarios:
 
-Complete Collaboration for External Users (CCX) licenses are intended for external users of an organization. An example of an "External User" would be contract workers, Business Partners, or clients. 
+* Guests: unlimited anonymous browser users can freely access your Domino based websites.
+* Known Guests: unlimited registered users with credentials to login for read-only access to applications.
 
-This level of licensing has some restrictions that must be in place in order to identify them correctly. The most importent restriction is that the CCX users cannot have an Access Control List level higher than "Author" access. This means that a CCX user can create data (on documents) within a HCL Domino application, but cannot modify those or other documents or data.
+(see further here [“Licensing Update: Domino V12 and Key CCX Enhancement”](https://blog.hcltechsw.com/domino/licensing-update-domino-v12-and-key-ccx-enhancement/)).
 
-## CCB and CCX License Calculations by the DLAU
-There are two important aspects to determining CCX Licenses in the DLAU:
+The volume of entitlements needed for a CCB configuration is the count of all credentials in Domino directories or any other authentication source used by the enterprise.
 
-### 1. The customer needs to indicate that they have external users that need to be licensed as CCX.
+For B2B (Business-to-Business) or advanced B2C scenarios, where the external users need to fully engage in applications beyond the read/only access permitted for Known Guests, HCL introduced the CCX entitlement as an add-on for CCB environments. The typical CCX user is a business partner, external agents, etc.
 
-During the initial Domino Environment Scan if multiple Domino directories and / or multiple ORG / ORGUnit values are discovered to be in use in their Domino environment it is presumed that they may have External users. This is the method that Product Engineering and our Licensing Office have determined is the most common scenario for our clients to use.
+CCX users have full functionality to use Domino and Domino Leap (if installed) applications and workflows but cannot create applications themselves. CCX users do not have a personal mailbox but can use task/functional mail for workflow routing or applications generating mail.
 
+Like the CCB Authorized User entitlement, the CCX Authorized User entitlement is also unique, however, can logically be reassigned after 30 days of inactivity. Consequently, you need entitlements to cover actual/expected CCX users in any 30-day period.
 
-When this scenario is discovered by the DLAU, the user will first be asked if they indeed have External Users. If they say "Yes" when prompted, they will then be presented with a dialog where they can select which additional domino Directory contains their External Users and / or they can select the ORGs / ORGUnits that indicate that the Person document is for an external user.
+This level of licensing has some restrictions that must be in place to identify them correctly. The most important restriction is that the CCX users cannot have an Access Control List level higher than “Author” access. This means that a CCX user can create data (on documents) within a HCL Domino application but cannot modify those or other documents or data.
 
+Calculating CCB licenses is very straight forward: Count the number of valid Person Documents (valid meaning that there is a Notes ID associated with the Person document, the user listed on the Person Document is not a member of an active Deny Access Group, and the “CCB User” has access to at least one of the Domino servers).
 
-When the User Information scan occurs, if the Person document is either in the External Domino Directory OR their User Name contains one of the selected ORGs/ORGUnits, the aggregated data for the User Info is tagged to indicate that it is a potential CCX license (more about the "potential" in the next part).
+Calculating CCX users is more complex and requires two (2) additional functions of the Domino server to be running / available at the time of the DLAU scans.
+___
 
+## Domino User License Tracking
 
-### 2. The customer must either be running Domino V12+ with Entitlement Tracking running OR provide the output from the User Report Tool. 
+The Domino User License Tracking is a system that is built into every Domino server since Domino V7. It is a system for monitoring and capturing when users log into a Domino server. It monitors logins from multiple different protocols as well (NRPC, HTTP, LDAP, SMTP, POP3, IMAP, IIOP).
 
-If no Entitlement Tracking systems can be located or if they are running V11 or lower, they will have an opportunity to select the User Report Tool output db. If neither of these systems are available, ALL users will be tagged as a CCB license.
+The information that is captured is used in the DLAU scans to determine the last login date for each user. This, in turn, allows the DLAU to determine when a potential CCX user was last active.
 
-Once all of the above aligns, when the DLAU is performing the final scan, we cross reference those "potential" CCX users with the users highest ACL level based on the information obtained from the Entitlement Tracking / User Report Tool output. If the user has a maximum of "Author" or below ACL Access, they are tagged as a CCX License. If their ACL level is "Editor" or above, they are tagged as a CCB license REGARDLESS of if they are also tagged as a potential CCX license.
+CCX Licenses are calculated on the average number of users who have accessed a Domino server over a twelve (12) month period, having this system active is required.
 
-We also take into account when the user last accessed the Domino server(s) by also aggregating information from the "Domino User License Tracking" system. If a CCX user has accessed the Domino server(s) in the past 30 days, they are tagged as an Active CCX user. If they have not accessed the Domino server(s) in more than 30 days, they are tagged as an Inactive CCX User.
+For example, if the following number of CCX users accessed the Domino environment over a twelve (12) month period, the CCX licenses would be the high-water mark of the twelve (12) months’ worth of findings:
+
+- Jan:	12,000
+- Feb:	11,000
+- Mar:	10,000
+- Apr:	10,500
+- May:	12,500
+- Jun:	14,000
+- Jul:	13,500
+- Aug:	12,000
+- Sep:	13,000
+- Oct:	14,000
+- Nov:	12,500
+- Dec:	11,000
+
+i.e. 14,000 CCX entitlements needed for this configuration.
+
+To obtain this information for use in the DLAU, you must enable the License Tracking system on ALL Domino servers. Follow this link for instructions on enabling License Tracking: [License Tracking Eablement Instructions](https://help.hcltechsw.com/domino/12.0.2/admin/conf_licensetracking_t.html)
+___
+
+## Entitlement Tracking / Domino User Report Tool
+Another important aspect of calculating CCX licenses is ensuring that CCX users have a maximum Access Control List (ACL) level of “Author” to all Domino applications.
+
+HCL has created two (2) systems for reporting on the ACL Levels of Domino Users. 
+
+As of Domino 12.0, a new internal mechanism titled the “Entitlement Tracking System” is provided for collecting the highest entitlement that individual users have across a Domino domain. When a user appears in the ACL of a database with Reader access or above and that person has the right to access the server, the user is said to be an entitled user.
+
+A similar tool has been created for clients that are using earlier versions of Domino called the “Domino User Report Tool”. This system performs almost identical processes as the Entitlement Tracking system and reports the information into a Domino application which DLAU will access.  DLAU will for now use the Domino User Report Tool for consistency across Domino versions now deployed.
+
+The Entitlement Tracking system is automatically available on HCL Domino V12.0 and above servers.
+
+The Domino User Report Tool is provided as an executable program which can run on any Notes client from V9.0.1 – V11.0.1. The Domino User Report Tool needs to be downloaded and deployed on a Domino Administrators computer. 
+
+To obtain the Domino User Report Tool, follow this URL link: [User Report Tool for gathering data on users' maximum access levels across a set of servers](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095328)
+
 
  
