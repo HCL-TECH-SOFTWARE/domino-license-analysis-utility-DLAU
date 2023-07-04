@@ -21,6 +21,30 @@ All notable changes to this project will be documented in this file.
 
 
 ___
+## UPDATES INCLUDED IN V1.1.0
+
+{: .new }
+On the "Printable Report" screen, add the ability for the user to send the results to HCL using a specially formatted email.
+
+{: .new }
+Calculate "Known Guests" in a similar fashoin to how "CCX Users" are calculated, with the "Highest ACL Level" check to ensure that the user has ACL Level "Reader" or lower
+
+{: .update }
+Adjust "User Information" View to show the User Categories ("CCB Users", CCX Active Users", "CCX Inactive Users", "Known Guest Users")
+
+{: .update }
+Update the "Printable Report" screen to include the "CCX Inactive Count" and "Known Guests Count"
+
+{: .update }
+On the "Printable Report" screen, update the instructions for use and message for US Federal Government customers
+
+{: .update }
+Sort the Members List on the Deny Access Group documents
+
+{: .fix }
+for the "External Users" dialog, ensure that values are selected if the user clicks the "OK" button
+
+___
 ## UPDATES INCLUDED IN V1.0.12
 
 {: .update }
@@ -36,7 +60,7 @@ Modify the "Required Fields" for the "Printable Report" to make user information
 Adjust the layout of the "Printable Report" so that it shows the correct User Counts dependent on how the DLAU was run (with or without CCB/CCX counts)
 
 {: .fix }
-Modify the method for generating the final User Counts to occur at the end of the scanning process so that the User Counts are based on the final results, not partial results.
+Modify the method for generating the final User Counts to occur at the end of the scanning process so that the User Counts are based on the final results, not partial results
 
 
 ___
@@ -46,7 +70,7 @@ ___
 Remove "# Members" column from "Deny Access Groups" View to lessen the confusiojn between the # of user names listed in the Deny Access Group versus how many Deny Access Users were discovered in the Domino environment
 
 {: .update }
-Add a disclaimer to the "Priintable Report" screen for US Federal Government clients indicating who to limit sharing the results of the DLAU with
+Add a disclaimer to the "Printable Report" screen for US Federal Government clients indicating who to limit sharing the results of the DLAU with
 
 {: .update }
 Add a message to the "Scan Results" screen when 1 or more Security Observations are discovered
