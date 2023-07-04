@@ -175,5 +175,4 @@ To review the results of the Scans, click on the **"View Results"** button. When
 The figures calculated by the tool are representing your current environment configuration. However, they may not meet your future configuration, so please see [understanding the results](results.md) - if in doubt, please contact your HCL representative or open a support ticket at [HCL Customer Support](https://support.hcltechsw.com/csm)
 
 
-![HCL Domino](assets/images/png/HCL+Domino_Color_Icon_300.png)
 {: mx-auto }
