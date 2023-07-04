@@ -27,7 +27,7 @@ ___
 On the "Printable Report" screen, add the ability for the user to send the results to HCL using a specially formatted email.
 
 {: .new }
-Calculate "Known Guests" in a similar fashoin to how "CCX Users" are calculated, with the "Highest ACL Level" check to ensure that the user has ACL Level "Reader" or lower
+Calculate "Known Guests" in a similar fashion to how "CCX Users" are calculated, with the "Highest ACL Level" check to ensure that the user has ACL Level "Reader" or lower
 
 {: .update }
 Adjust "User Information" View to show the User Categories ("CCB Users", CCX Active Users", "CCX Inactive Users", "Known Guest Users")
