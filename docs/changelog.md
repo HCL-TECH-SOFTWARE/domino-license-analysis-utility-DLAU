@@ -42,7 +42,7 @@ On the "Printable Report" screen, update the instructions for use and message fo
 Sort the Members List on the Deny Access Group documents
 
 {: .fix }
-for the "External Users" dialog, ensure that values are selected if the user clicks the "OK" button
+For the "External Users" dialog, ensure that values are selected if the user clicks the "OK" button
 
 ___
 ## UPDATES INCLUDED IN V1.0.12
