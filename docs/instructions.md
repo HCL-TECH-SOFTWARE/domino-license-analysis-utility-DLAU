@@ -165,7 +165,7 @@ Now that all scans are complete, you will be presented with a screen stating tha
 
 ![Wizzard Complete](assets/images/png/13-wizard-complete.png)
 
-To review the results of the Scans, click on the **"View Results"** button. When that button is cliekced, you will be presented with the full results of the DLAU scans, as shown below:
+To review the results of the Scans, click on the **"View Results"** button. When that button is clicked, you will be presented with the full results of the DLAU scans, as shown below:
 
 ![Scan Results](assets/images/png/14-scan-results.png)
 

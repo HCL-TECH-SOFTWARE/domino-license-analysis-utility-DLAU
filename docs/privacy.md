@@ -2,7 +2,7 @@
 layout: default
 title: "Privacy"
 parent: "Home"
-nav_order: 5
+nav_order: 8
 description: "Data Privacy"
 has_children: false
 ---

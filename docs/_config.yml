@@ -87,6 +87,9 @@ callouts:
   new:
     title: New
     color: green
+  notice:
+    title: Special Notice
+    color: red
 
 # Footer content
 # appears at the bottom of every page's main content

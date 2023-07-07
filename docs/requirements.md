@@ -2,7 +2,7 @@
 layout: default
 title: "Requirements"
 parent: "Home"
-nav_order: 4
+nav_order: 6
 description: "System Requirements"
 has_children: false
 ---
