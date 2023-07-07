@@ -72,6 +72,7 @@ ___
 A second option for submitting your License Information is to provide the results as a PDF file. To use this option, click on the "Print Report" button. This will invoke the Print Document functionality in the Notes Client. 
 
 When the "Print Document" dialog is displayed, be sure to select a PDF Rendering printer from the list provided, as shown below:
+
 ![Print Report](assets/images/png/print-report.png)
 
 Once the PDF of the report has been created, it can be provided to your HCL Sales Representative directly.
