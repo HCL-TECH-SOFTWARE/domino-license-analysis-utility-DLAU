@@ -93,6 +93,7 @@ The values shown in the 'Observations" section list all Environment Observations
 
 The Observations can range from "Informational" (minor items that can improve the value of the data collected), "Warnings" (items that may be an issue in your HCL Domino environment), and "Security" (items that will affect the secure nature of your HCL Domino environment and will have an effect on the "Authorized User" count).
 
-{: .notice } For "Security" Observations, it is recommended to address each of them and then run the scan again. This will provide a better representation of the true Authorized Users.
+{: .notice } 
+For "Security" Observations, it is recommended to address each of them and then run the scan again. This will provide a better representation of the true Authorized Users.
 
 For more information on each possible Observation, please open this link [Observations Explained](observations.md)
