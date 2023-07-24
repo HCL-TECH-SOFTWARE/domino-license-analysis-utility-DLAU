@@ -23,6 +23,7 @@ All notable changes to this project will be documented in this file.
 
 ___
 ## UPDATES INCLUDED IN V1.1.1
+
 {: .new }
 There is now a new set of user calculations included on the "Scan Results" page to display the various User Counts for active users over a 1-year (365 days) time period.
 
