@@ -20,6 +20,18 @@ All notable changes to this project will be documented in this file.
 </details>
 
 
+
+___
+## UPDATES INCLUDED IN V1.1.1
+{: .new }
+There is now a new set of user calculations included on the "Scan Results" page to display the various User Counts for active users over a 1-year (365 days) time period.
+
+{: .fix }
+When prompted for "External User Calculations" during the HCL Domino Environment Scan, the list of Orgs/OrgUnits was not being populated properly due to an incorrect listing in the completed Domino environment scan.
+
+{: .fix }
+If a user's name in their Person document contains a quote ( " ), the Deny Access Groups scan would fail with a LotusScript error.
+
 ___
 ## UPDATES INCLUDED IN V1.1.0
 
