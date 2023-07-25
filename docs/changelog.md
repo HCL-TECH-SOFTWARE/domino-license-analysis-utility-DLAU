@@ -22,6 +22,12 @@ All notable changes to this project will be documented in this file.
 
 
 ___
+## UPDATES INCLUDED IN V1.1.2
+
+{: .fix }
+If all different User License types are not captured in a Domino environment, the Report page may cause a calculation error.
+
+___
 ## UPDATES INCLUDED IN V1.1.1
 
 {: .new }
