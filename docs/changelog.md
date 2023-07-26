@@ -22,6 +22,15 @@ All notable changes to this project will be documented in this file.
 
 
 ___
+## UPDATES INCLUDED IN V1.1.3
+
+{: .fix }
+In the Scan Wizard, if the "Cancel' button is pressed prior to the completion of all scans, the user is presented with an error message "Division by zero"
+
+{: .fix }
+If there are no CCX or Known User counts, the Report page may cause a calculation error.
+
+___
 ## UPDATES INCLUDED IN V1.1.2
 
 {: .fix }
