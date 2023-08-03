@@ -22,10 +22,22 @@ All notable changes to this project will be documented in this file.
 
 
 ___
+## UPDATES INCLUDED IN V1.1.4
+
+{: .new }
+Each of the DLAU Scans will now log any errors that are encountered during the scan process. If a critical error is encountered, the user will be provided the opportunity to view the Scan Log.
+
+{: .update }
+For the message asking the user if they has External Users / Known Guests, the buttons on the message have been changed to "Yes" and "No" to reduce user confusion.
+
+{: .fix }
+During the User Count Calculations, there has been identified a LotusScript Regression Issue in newer versions of the Notes Client (V12.0.2) where a call to obtain a collectiohn of documents can fail to return the proper results if more than one Search Key is used.
+
+___
 ## UPDATES INCLUDED IN V1.1.3
 
 {: .fix }
-In the Scan Wizard, if the "Cancel' button is pressed prior to the completion of all scans, the user is presented with an error message "Division by zero"
+In the Scan Wizard, if the "Cancel' button is pressed prior to the completion of all scans, the user is presented with an error message "Division by zero".
 
 {: .fix }
 If there are no CCX or Known User counts, the Report page may cause a calculation error.
