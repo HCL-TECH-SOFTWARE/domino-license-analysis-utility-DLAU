@@ -24,7 +24,7 @@ No. This utility does not require any additional functionality to be added to AN
 
 ### Is this a Licensing Audit? Will I need to involve our legal / compliance team(s)?
 
-This utility is not an audit tool. It is meant to automate the manual processes that the HCL Domino Administrator would need to perform in order to obtain the same results. This utility will perform the same analysis that the HCL Domino Administrator would have to perform, but with 100% accuracy.
+It is important to note that DLAU is not conducting a license audit, which is always an in-depth hindsight analysis. Instead, DLAU is creating a baseline to help you and HCLSoftware have a meaningful forward-looking conversation for your renewal or restart or move to CCB or Volt MX Go. The baseline must be augmented by the customer in terms of future deployment plans as the customer is continually responsible for license compliance going forward.
 
  
 ### Will the process block my Notes Client?
