@@ -33,6 +33,16 @@ The following requirements must be met in order to run the utility.
 - ACL role "[DenyAccessRead]" in the Domino Directory
 - Group membership in the "LocalDomainAdmins" Group
 
+## JavaScript Support in Notes Client Preferences
+
+We use JavaScript within DLAU to move through the different scan processes, therefore JavaScript support must be enabled.
+
+If JavaScript is not enabled for the Notes Client, DLAU will not work.
+
+In the Notes Client, this can be enabled by opening the Notes Client Preferences (from the Notes Client Menu, select "File -> Preferences...") and then enabling three (3) JavaScript options, as shown below:
+
+![Preferences](assets/images/png/notes-preferences.png)
+
 
 ## Additional Requirements for CCX/Known Guest Calculations
 

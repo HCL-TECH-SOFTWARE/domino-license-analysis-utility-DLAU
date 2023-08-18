@@ -29,9 +29,11 @@ ___
 In order for our HCL Sales Team to be able to contact your organization, you will need to provide information that will assist them in contacting you.
 
 On the "Scan Results" screen, there will be a button labeled "View Report", as shown in the image below:
+
 ![Scan Results](assets/images/png/14-scan-results.png)
 
 When that button is clicked for the first time after the scanning process is completed, the user will be presented with a dialog box where they can provide information about their organization, as shown in the image below:
+
 ![Corporate Information Input](assets/images/png/corporate-information-input.png)
 
 At a minimum, you will need to provide your Company Name and HCL Account #. For a faster response from HCL, you can also provide your Name, Email Address and Direct Phone #. These three (3) values are optional.
