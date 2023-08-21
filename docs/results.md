@@ -38,6 +38,25 @@ The "Authorized Users" value is the total number of users who are authorized, or
 The Authorized Users number is what is used for license purposes.
 
 ___
+### CCB Users
+The "CCB Users" value is the total number of Internal Employees of the organization that have the ability to use and access the Domino environment.
+
+As noted in the CCB License Agreement:
+
+*Licensee must obtain separate, dedicated CCB entitlements for each Internal User. “Internal User” shall mean permanent or temporary or transient employee, or person paid for, or acting on behalf of Licensee’s Enterprise ("Licensee’s Enterprise" is Licensee and all Affiliates per
+MLA §1.1) who is assigned A/U access to the Program in any manner directly or indirectly (for example: via a multiplexing program, device, or application server) through any means.
+In addition, Licensee must obtain separate, dedicated CCB entitlements to assign A/U credentials to a specific task or role or other such entities.*
+
+___
+### CCX Users
+The "CCX Users" value is the total number of External Users of the organization that have gthe ability to Create and Read documents in the Domino environment.
+
+As noted in the CCB License Agreement:
+
+*Licensee must obtain separate, dedicated CCX entitlements for
+each External User. An "External User" is a unique person not included in above Internal Users, who is assigned Authorized User access to the Program with restricted maximum level of Domino application access (ACL) as "AUTHOR". A CCX A/U entitlement is unique, but may be reassigned to another user after thirty (30) days of inactivity.*
+
+___
 ### Person Documents
 The "Person Documents" value is the total number of Person documents contained within all Domino Directories within the HCL Domino environment.
 
