@@ -27,7 +27,7 @@ favicon_ico: "/assets/images/favicon.ico"
 # External navigation links
 nav_external_links:
   - title: Report an issue
-    url: issues.md
+    url: https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues
     hide_icon: false
 
 # Enable or disable the site search
