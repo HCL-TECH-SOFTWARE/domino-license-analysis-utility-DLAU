@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "License Calculation"
+title: "Reportin an Issue"
 nav_order: 2
-description: "License Calculation"
+description: "Reporting an Issue"
 has_children: false
 ---
 
-#Reporting an Issue
+# Reporting an Issue
 
 <details close markdown="block">
   <summary>

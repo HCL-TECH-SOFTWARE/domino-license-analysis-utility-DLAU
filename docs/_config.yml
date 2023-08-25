@@ -24,11 +24,6 @@ exclude:
 logo: "/assets/images/svg/Domino.svg"
 favicon_ico: "/assets/images/favicon.ico"
 
-# External navigation links
-nav_external_links:
-  - title: Report an issue
-    url: issues.md
-    hide_icon: false
 
 # Enable or disable the site search
 # Supports true (default) or false
