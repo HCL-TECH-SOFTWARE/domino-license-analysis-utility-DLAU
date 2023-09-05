@@ -20,6 +20,20 @@ All notable changes to this project will be documented in this file.
 </details>
 
 
+___
+## UPDATES INCLUDED IN V1.1.5
+
+{: .update }
+The methods for indicating the version of DLAU has changed. In DLAU, there is now a Shared Field that is used for displaying the DLAU version.
+
+{: .fix }
+The User Interface for the list of Observations and their decrpitions/instructions has been adjusted to provide more room for the descriptions/instructions.
+
+{: .fix}
+An adjustment has been made to the User Information scan to accommodate for Person documents that were created in a background process that do not contain all Field values that are expected.
+
+{: .fix}
+The Field Description popup has been adjusted to provide proper messages for CCB and CCX user counts.
 
 ___
 ## UPDATES INCLUDED IN V1.1.4
