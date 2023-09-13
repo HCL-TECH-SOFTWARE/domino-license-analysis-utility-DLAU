@@ -21,6 +21,12 @@ All notable changes to this project will be documented in this file.
 
 
 ___
+## UPDATES INCLUDED IN V1.1.6
+
+{: .fix }
+Due to a failing LotusScript Method, the time difference calculation of when the user's Notes Certificate is expiring was not functioning correctly if the Notes Certificate expiry date is more than 69 years into the future.
+
+___
 ## UPDATES INCLUDED IN V1.1.5
 
 {: .update }
