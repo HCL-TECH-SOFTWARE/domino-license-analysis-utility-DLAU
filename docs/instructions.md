@@ -181,5 +181,7 @@ To review the results of the Scans, click on the **"View Results"** button. When
 
 The figures calculated by the tool are representing your current environment configuration. However, they may not meet your future configuration, so please see [understanding the results](results.md) - if in doubt, please contact your HCL representative or open a support ticket at [HCL Customer Support](https://support.hcltechsw.com/csm)
 
+Now you can continue with reporting the results to HCL, details are described [in here](reporting.md)
+
 
 {: mx-auto }
