@@ -30,7 +30,9 @@ For more information, please refer this HCL Blog Post:
 
 ## Intro
 
-[![Intro to DLAU](https://img.youtube.com/vi/zBPAdHMGzzo/0.jpg)](https://yewtu.be/embed/zBPAdHMGzzo)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=zBPAdHMGzzo
+" target="_blank"><img src="http://img.youtube.com/vi/zBPAdHMGzzo/0.jpg" 
+alt="Intro to DLAU" /></a>
 
 ## Documentation
 Learn how to use the HCL Domino License Analysis Utility with these topics:
