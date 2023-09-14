@@ -50,7 +50,7 @@ In order to properly calculate CCX and Known guests in a Domino environment, add
 
 CCX users have certain rules that must be adhered to. Specifically, a CCX User is only allowed to have a maximum Access Control List level of "Author" to all the Domino applications. DLAU also uses information about the CCX Users' last successful login to a Domino server to calculate if the CCX user is Active or Inactive.
 
-Similarly, a Known Guest is only allowed to have a maximum Access Control List level of "Author" to all the Domino applications.
+Similarly, a Known Guest is only allowed to have a maximum Access Control List level of "Reader" to all the Domino applications.
 
 To provide the information that DLAU requires to make these calculations, two additional systems must be running in your Domino server environment:
 
