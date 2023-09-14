@@ -30,6 +30,13 @@ DLAU is designed to work most efficiently on a local hard drive, so there is no 
 Please verify if your environment meets the [system requirements](requirements.md)
 
 ___
+## Recommendations
+
+Before starting, please acknowledge a few comments which we have received from customers that may help to get better results:
+- Leverage "Deny Access" Groups to block a user from accessing the server
+- Make sure to enable "Enforce Server Access" settings in the server document AND in the the Internet Ports for HTTP
+- Review access levels of your Domino applications prior running DLAU. This can be done e.g. by using the database catalog (catalog.nsf)
+
 ## Step 1 - Launch and Sign the Design
 Once the DLAU file has been downloaded and transfered into your Notes Data directory, it is now time for you to open the utility and resign the design.
 

@@ -30,7 +30,7 @@ Whether you are an existing client or you are returning to the HCL Domino platfo
 
 
 ## Reporting a Defect in DLAU
-If you are encoiuntering a defect in DLAU (there is an error number that references a portion of the design code), then you can also submit a Defect Report.
+If you are encountering a defect in DLAU (there is an error number that references a portion of the design code), then you can also submit a Defect Report.
 
 [Click here to Report a Defect in DLAU](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues){:target="_blank2"}
 
