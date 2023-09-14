@@ -27,8 +27,12 @@ The purpose of this utility is to provide fast and accurate Authorized User coun
 
 For more information, please refer this HCL Blog Post: 
 [All You Ever Wanted to Know About Domino CCB Licensing and DLAU Tool](https://blog.hcltechsw.com/domino/all-you-ever-wanted-to-know-about-domino-ccb-licensing-and-dlau-tool/?referrer=opensource.hcltechsw.com/domino-license-analysis-utility-DLAU/)
-## Documentation
 
+## Intro
+
+[![Intro to DLAU](https://img.youtube.com/vi/zBPAdHMGzzo/0.jpg)](https://yewtu.be/embed/zBPAdHMGzzo)
+
+## Documentation
 Learn how to use the HCL Domino License Analysis Utility with these topics:
 
 * [Step-by-Step Instructions](instructions.md)
