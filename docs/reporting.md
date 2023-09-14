@@ -2,7 +2,7 @@
 layout: default
 title: "Reporting Results"
 parent: "Home"
-nav_order: 3
+nav_order: 4
 description: "How to report the results to HCL"
 has_children: false
 has_toc: true
