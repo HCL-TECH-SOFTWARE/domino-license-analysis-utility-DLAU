@@ -51,7 +51,7 @@ Each of the DLAU Scans will now log any errors that are encountered during the s
 For the message asking the user if they has External Users / Known Guests, the buttons on the message have been changed to "Yes" and "No" to reduce user confusion.
 
 {: .fix }
-During the User Count Calculations, there has been identified a LotusScript Regression Issue in newer versions of the Notes Client (V12.0.2) where a call to obtain a collectiohn of documents can fail to return the proper results if more than one Search Key is used.
+During the User Count Calculations, there has been identified a LotusScript Regression Issue in newer versions of the Notes Client (V12.0.2) where a call to obtain a collection of documents can fail to return the proper results if more than one Search Key is used.
 
 ___
 ## UPDATES INCLUDED IN V1.1.3
