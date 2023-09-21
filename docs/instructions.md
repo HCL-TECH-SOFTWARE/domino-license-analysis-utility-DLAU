@@ -37,8 +37,19 @@ Before starting, please acknowledge a few comments which we have received from c
 - Make sure to enable "Enforce Server Access" settings in the server document AND in the the Internet Ports for HTTP
 - Review access levels of your Domino applications prior running DLAU. This can be done e.g. by using the database catalog (catalog.nsf)
 
-## Step 1 - Launch and Sign the Design
-Once the DLAU file has been downloaded and transfered into your Notes Data directory, it is now time for you to open the utility and resign the design.
+## Step 1 - Create the Application from the Template
+As of release 1.2.0, DLAU is now shipped as a template and you must create an application from the template. Save the [NTF](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/releases/latest) from the latest release to your Notes Data directory. Once it is there, open the HCL Notes Client and proceed to File - New Application.
+
+
+![New-Application](assets/images/png/new-application.png)
+In the resulting dialog, in the top section, choose `Local` for the Server, for the Title use `HCL Domino License Analysis Utility` and the file name of `licenseanalysis.nsf`.
+
+In the template section, select `Local` for the Server and then locate the `HCL Domino License Analysis Utility` template in the list. Once this is done, select the `OK` button to finish the creation of the Application. Once the creation is complete, it will launch and you can proceed.
+
+![New-Application-Dialog](assets/images/png/new-application-dialog.png)
+
+## Step 2 - Sign the Design
+Now that the DLAU Application is created, it is now time for you to re-sign the design.
 
 It is required to sign the design elements in order for the environment scans to run in the background. Running the scans in the background will allow you to continue using your HCL Notes Client while the processing is taking place.
 
@@ -48,11 +59,11 @@ Once the utility is open, you should see the screen below which contains instruc
 
 ![Sign](assets/images/png/1-initial-launch-resign.png)
 
-Depending on your experience level and how much you want to moniutor the re-singing process, select the appropriate method listed.
+Depending on your experience level and how much you want to monitor the re-signing process, select the appropriate method listed.
 
 ___
 ## Step 2 - Re-Open
-Now that the design of the DLAU has been signed, you will need to re-open the utility. When you initially opened the DLAU a Domino applicaiton icon will have been added to your Workspace. Locate and open the DLAU.
+Now that the design of the DLAU has been signed, you will need to re-open the utility. When you initially opened the DLAU a Domino application icon will have been added to your Workspace. Locate and open the DLAU.
 
 Once opened, you will be presented with the following screen:
 
@@ -127,7 +138,7 @@ To progress to the next scan, click the **"Next"** button.
 
 ___
 ## Step 5 - Deny Access Group Scan
-The third scan is the "Deny Access Group Scan". This scan looks at the values stored on the Server document aggregated data to determine what Deny Access Groups are in use to secure the Domino servers. 
+The third scan is the "Deny Access Group Scan". This scan looks at the values stored on the Server document aggregated data to determine what Deny Access Groups are in use to secure the Domino servers.
 
 Using the list of Deny Access Groups that are in use, the scan will retrieve the Deny Access Groups, all members of those Groups and also determine if there are Group names within the Deny Access Groups. If additional Group names are discovered, the scan will also retrieve the information for those additional Groups. This recursive scanning of Groups will continue until all Group names have been processed.
 
@@ -149,11 +160,11 @@ The fourth and final scan is the "Entitlement Tracking / User Report Tool Scan".
 
 1. Entitlement Tracking: this is a new system that was introduced in HCL Domino V12. If the client is using HCL Domino V12, this scan will always occur
 
-2. User Report Tool Results: this is an optional system that is based on the Entitlement Tracking system that is in HCL domino V12, but has been made to be backwards compatible to Domino V9.x. the client will need to download and run the User Report Tool prior to using the DLAU. 
+2. User Report Tool Results: this is an optional system that is based on the Entitlement Tracking system that is in HCL domino V12, but has been made to be backwards compatible to Domino V9.x. the client will need to download and run the User Report Tool prior to using the DLAU.
 
 Here is a link to the User Report Tool: [User Report Tool - HCL Knowledgebase Article KB0095328](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095328)
 
- 
+
 The information that this scan retrieves will display the highest **Access Control List (ACL)** level that each user has to the HCL Domino environment. This is useful in determining if the user is a CCB or a CCX license user.
 
 To begin the Entitlement Tracking / User Report Tool Scan, click the **Start Entitlement Tracking / User Report Tool Scan Now** button:
@@ -170,7 +181,7 @@ ___
 ## Step 7 - Completion of the Wizard and Review of Results
 Now that all scans are complete, you will be presented with a screen stating that "All Scans Are Complete", as shoen below:
 
-![Wizzard Complete](assets/images/png/13-wizard-complete.png)
+![Wizard Complete](assets/images/png/13-wizard-complete.png)
 
 To review the results of the Scans, click on the **"View Results"** button. When that button is clicked, you will be presented with the full results of the DLAU scans, as shown below:
 
