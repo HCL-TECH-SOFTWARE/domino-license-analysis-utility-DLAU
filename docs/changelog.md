@@ -19,6 +19,17 @@ All notable changes to this project will be documented in this file.
 {:toc}
 </details>
 
+___
+## UPDATES INCLUDED IN V1.2.0
+
+{: .new }
+DLAU is now shipped as a template
+
+{: .new }
+DLAU is now signed by Open Source Template/Domino Development
+
+{: .update }
+Modified non-warranted license included
 
 ___
 ## UPDATES INCLUDED IN V1.1.6
@@ -233,7 +244,7 @@ UI/UX - some of the wording for the Information Popup Messages to better clarify
 
 {: .fix }
 A regression issue was introduced that ignored an open environment if an HCL Domino server did not have secured HTTP and / or LDAP ports
- 
+
 ___
 ## UPDATES INCLUDED IN V1.0.0e
 
