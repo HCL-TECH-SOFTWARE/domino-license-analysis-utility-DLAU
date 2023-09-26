@@ -14,7 +14,7 @@ Sie lesen die deutsche Übersetzung [dieser Seite](../index.md)
 <h1>HCL Domino License Analysis Utility</h1>
 Dieses Tool unterstützt Domino Administratoren bei der Durchführung eines Health Checks und der Ermittelung der Anzahl der Authorisierten Benutzer einer vorhandenen HCL Domino Umgebung gemäß des CCB & CCX Lizenzmodelles
 
-<details close markdown="block">
+<details markdown="block">
   <summary>
     Inhalt
   </summary>

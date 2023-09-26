@@ -29,7 +29,6 @@ Nachfolgend finden Sie eine Liste der erfassten Beobachtungen mit einer Beschrei
 
 **Hinweis:** Informationen in **_fett / kursiv_** sind nur als Beispiel zu verstehen.
 
-##########
 ___
 ## Security Observations
 

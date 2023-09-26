@@ -50,7 +50,7 @@ MLA §1.1) who is assigned A/U access to the Program in any manner directly or i
 In addition, Licensee must obtain separate, dedicated CCB entitlements to assign A/U credentials to a specific task or role or other such entities."*
 
 ___
-### CCX Users
+### CCX Benutzer
 Der Wert "CCX-Benutzer" ist die Gesamtzahl der externen Benutzer der Organisation, die die Möglichkeit haben, Dokumente in der Domino-Umgebung zu erstellen und zu lesen.
 
 Auszug aus der Lizenzvereinbarung:
@@ -59,22 +59,27 @@ Auszug aus der Lizenzvereinbarung:
 each External User. An "External User" is a unique person not included in above Internal Users, who is assigned Authorized User access to the Program with restricted maximum level of Domino application access (ACL) as "AUTHOR". A CCX A/U entitlement is unique, but may be reassigned to another user after thirty (30) days of inactivity."*
 
 ___
-### Person Documents
+### Personendokumente
 Der Wert "Personendokumente" ist die Gesamtzahl der Personendokumente, die in allen Domino-Verzeichnissen innerhalb der HCL-Domino-Umgebung enthalten sind.
+
 ___
-### Mail Users
+### Mail Benutzer
 Der Wert "Mail Users" ist die Gesamtzahl der Benutzer, die für den Zugriff auf HCL Domino Mail konfiguriert sind. Dies ist auch ein wichtiger Wert bei der Bestimmung des erforderlichen Lizenztyps, wenn Sie nicht bereits für Complete Collaboration for Business (CCB)-Lizenzen lizenziert sind.
+
 ___
-### Deny Access Groups
+### Deny Access Gruppen
 Der Wert "Deny Access Groups" ist die Anzahl der Deny Access Groups, die auf Ihren HCL Domino-Servern verwendet werden. Diese Zahl umfasst auch alle rekursiven Gruppen, die beim Auffinden der verwendeten Deny Access Groups entdeckt wurden.
+
 ___
 ### Administration Server
 Dies ist der HCL-Domino-Administrationsserver, der als Grundlage für alle durchgeführten Scans verwendet wurde.
+
 __
-### All Domino Servers in Environment
+### Alle Domino Servers in der Umgebung
 Dies ist eine Liste aller HCL-Domino-Server, die in der Umgebung konfiguriert sind. Sie basiert auf den Server-Dokumenten, die in allen gescannten Domino-Verzeichnissen gefunden wurden.
 
 In dieser Liste wird auch angezeigt, ob der Server online (verfügbar) oder offline ist.
+
 ___
 ### Entitlement Tracking Enabled Servers
 Für HCL Domino V12.x-Umgebungen wurde ein neues System mit der Bezeichnung "Entitlement Tracking" eingeführt. Diese Liste enthält alle HCL Domino-Server in der Umgebung, auf denen das System "Entitlement Tracking" läuft.
@@ -82,7 +87,7 @@ Für HCL Domino V12.x-Umgebungen wurde ein neues System mit der Bezeichnung "Ent
 Weitere Informationen zum "Entitlement Tracking System" finden Sie unter [Entitlement Tracking System](https://help.hcltechsw.com/domino/12.0.0/admin/admn_entitlementtracking.html)
 
 ___
-### User Report Tool Output Location
+### User Report Tool 
 Für HCL Domino Server V9 - V11.x gibt es ein System namens "User Report Tool". Dieses System entspricht dem "Entitlement Tracking System", ist aber für HCL Domino Versionen kleiner als V12.x ausgelegt.
 
 Der angezeigte Wert ist der Ort, an dem sich die Ergebnisse des User Report Tools befinden.
@@ -104,12 +109,12 @@ Wenn der erste aufgelistete Wert in der Farbe Blau angezeigt wird, bedeutet dies
 Wenn das Auskunftssystem nicht in Gebrauch ist, wird diese Information nicht angezeigt.
 
 ___
-### Observations
-Die im Abschnitt "Beobachtungen" angezeigten Werte listen alle Ergebnisse auf, die während des Scanvorgangs entdeckt wurden.
+### Anmerkungen
+Die im Abschnitt "Observations" angezeigten Werte listen alle Ergebnisse auf, die während des Scanvorgangs entdeckt wurden.
 
 Die Beobachtungen können von "Informational" (kleinere Punkte, die den Wert der gesammelten Daten verbessern können) über "Warnings" (Punkte, die in Ihrer HCL Domino-Umgebung ein Problem darstellen können) bis hin zu "Security" (Punkte, die die Sicherheit Ihrer HCL Domino-Umgebung beeinträchtigen und sich auf die Anzahl der "Authorized User" auswirken) reichen.
 
 {: .notice } 
 Bei Sicherheitsrelevante Ergebnisse ist es empfehlenswert, sich mit jedem dieser Punkte zu befassen und den Scan dann erneut durchzuführen. Auf diese Weise erhalten Sie eine bessere Darstellung der tatsächlichen autorisierten Benutzer.
 
-Weitere Informationen zu den einzelnen möglichen Beobachtungen finden Sie unter folgendem Link [Observations Explained](observations.md)
+Weitere Informationen zu den einzelnen möglichen Beobachtungen finden Sie unter [Anmerkungen](observations.md)
