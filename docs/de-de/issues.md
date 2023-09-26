@@ -2,7 +2,7 @@
 layout: default
 title: "Fehler melden"
 parent: "Home (German-Deutsch)"
-nav_order: 2
+nav_order: 8
 description: "Fehler melden"
 has_children: false
 ---

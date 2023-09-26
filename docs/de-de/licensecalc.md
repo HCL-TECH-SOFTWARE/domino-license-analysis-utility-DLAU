@@ -18,17 +18,18 @@ has_children: false
 {:toc}
 </details>
 
-Es gibt zwei Lizenzmodelle für HCL Domino die mit Hilfe von DLAU analysiert werden können, diese sind:
+Es gibt zwei Lizenzmodelle für HCL Domino, die mit Hilfe von DLAU analysiert werden können, diese sind:
 
-**Complete Collaboration Business Edition (CCB) -und-
-Complete Collaboration eXternal user (CCX)**
+* Complete Collaboration Business Edition (CCB) 
+-und-
+* Complete Collaboration eXternal user (CCX)
 
 ## Complete Collaboration Business Edition (CCB) 
 
 CCB Lizenzen sind für alle Mitarbeiter und Vertragsarbeiter des eigenen Unternehmens 
-notwendig wenn diese auf Domino Server Zugriff haben - damit sind alle B2E (Business-to-Employee) Scenarien gemeint. Alle CCB Benutzer können den kompletten Funktionsumfang von HCL Domino nutzen.
+, wenn diese auf Domino Server Zugriff haben - damit sind alle B2E (Business-to-Employee) Scenarien gemeint. Alle CCB Benutzer können den kompletten Funktionsumfang von HCL Domino nutzen.
 
-Zusätzlich enthält ein Server welcher unter CCB Lizensiert ist enthält eine unbegrenzte Zahl von Nutzern für folgende B2C (Business-to-Consumer/Citizen)  Szenarien:
+Zusätzlich enthält ein Server, welcher unter CCB Lizensiert ist, eine unbegrenzte Zahl von Nutzern für folgende B2C (Business-to-Consumer/Citizen)  Szenarien:
 
 * Gäste: unbegrenzter Anonymer Zugriff via Browser um Domino-basierte Webseiten zu besuchen
 * Bekannte Gäste: unbegrenter namentlicher Zugriff, d.h. Anmeldung am System mit höchstens Lesezugriff.

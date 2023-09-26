@@ -12,7 +12,7 @@ Sie lesen die deutsche Übersetzung [dieser Seite](../index.md)
 [Auf GitHub ansehen](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/){: .btn }
 
 <h1>HCL Domino License Analysis Utility</h1>
-Dieses Tool unterstützt Domino Administratoren bei der Durchführung eines Health Checks und der Ermittelung der Anzahl der Authorisierten Benutzer einer vorhandenen HCL Domino Umgebung gemäß desCCB & CCX Lizenzmodelles
+Dieses Tool unterstützt Domino Administratoren bei der Durchführung eines Health Checks und der Ermittelung der Anzahl der Authorisierten Benutzer einer vorhandenen HCL Domino Umgebung gemäß des CCB & CCX Lizenzmodelles
 
 <details close markdown="block">
   <summary>
@@ -66,4 +66,4 @@ Personendokumente | Laufzeit
 
 ## Änderungen
 
-Das Tool wird regelmäßig aktualisiert - welche Änderungen in dieser Version vorgenommen worden sind lesen sie im [CHANGE LOG](changelog.md)
+Das Tool wird regelmäßig aktualisiert - welche Änderungen in dieser Version vorgenommen worden sind lesen sie im [CHANGE LOG](../changelog.md)
