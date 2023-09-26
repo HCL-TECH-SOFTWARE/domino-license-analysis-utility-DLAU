@@ -6,14 +6,6 @@ nav_order: 5
 description: "Was wird geprüft?"
 has_children: false
 ---
----
-layout: default
-title: "Datenschutz"
-parent: "Home (German-Deutsch)"
-nav_order: 8
-description: "Datenschutz"
-has_children: false
----
 
 Sie lesen die deutsche Übersetzung [dieser Seite](../scanning.md)
 
