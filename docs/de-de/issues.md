@@ -24,9 +24,9 @@ Es gibt zwei (2) Methoden um Fehler zu melden
 ## Support Ticket
 Ganz gleich, ob Sie bereits Kunde sind oder zur HCL Domino-Plattform zurückkehren, unser Support-Team ist bereit, Sie zu unterstützen.
 
-Wenn Sie Hilfe bei der Ausführung von DLAU benötigen oder ein Problem auftritt, sollte Ihre erste Anlaufstelle [HCL Support] (https://support.hcltechsw.com/csm) sein. Nur wenn Sie ein Support-Ticket öffnen, können Sie eine zeitnahe Antwort erwarten.
+Wenn Sie Hilfe bei der Ausführung von DLAU benötigen oder ein Problem auftritt, sollte Ihre erste Anlaufstelle [HCL Support](https://support.hcltechsw.com/csm) sein. Nur wenn Sie ein Support-Ticket öffnen, können Sie eine zeitnahe Antwort erwarten.
 
-[HCL Customer Support Page](https://support.hcltechsw.com/csm/){:target="_blank"}
+[HCL Customer Support Webseite](https://support.hcltechsw.com/csm/){:target="_blank"}
 
 
 ## Github Issues

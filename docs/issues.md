@@ -25,7 +25,7 @@ There are two (2) methods for reporting an issue:
 Whether you are an existing client or you are returning to the HCL Domino platform, our Support Team is ready to assist you.
 If you need assistence with the execution of DLAU or if you encounter an issue, your first point of contact should be [HCL Support](https://support.hcltechsw.com/csm) - Only when you open a support ticket you can expect a timely response.
 
-[Click here to access the HCL Customer Support Page](https://support.hcltechsw.com/csm/){:target="_blank"}
+[Click here to open a support ticket](https://support.hcltechsw.com/csm/){:target="_blank"}
 
 
 

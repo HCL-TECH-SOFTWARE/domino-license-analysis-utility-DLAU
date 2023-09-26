@@ -48,22 +48,21 @@ CCX Benutzer können den vollständigen Funktionsumfang der Domino und, sofern i
 
 Beachten Sie in diesem Zusammenhang, Sie müssen genügend CCX Lizenzen vorhalten um die aktuelle und ggf zukünftige/schwankende Benutzermenge abzudecken.
 
-Das CCX Lizenzmodell unterliegt einigen Einschränkungen, werden diese nicht erfüllt gilt ein Benutzer nicht als CCX sondern als CCB Benutzer. Die wichtigste Einschränkung für CCX Benutzer ist das Max. Zugriffsrecht von höchstens "Author", d.h. ein CCX Benutzer kann zwar Dokumente in einer Datenbank erstellen, aber keine Dokumente von anderen Benutzern editieren (dafür sind Editoren-Rechte erforderlich). 
+Das CCX Lizenzmodell unterliegt einigen Einschränkungen, werden diese nicht erfüllt gilt ein Benutzer nicht als CCX sondern als CCB Benutzer. Die wichtigste Einschränkung für CCX Benutzer ist das dieser höchstens die Berechtigungsstufe "Author" haben darf, d.h. ein CCX Benutzer kann zwar Dokumente in einer Datenbank erstellen, aber keine Dokumente von anderen Benutzern editieren (dafür sind Editoren-Rechte erforderlich). 
 
 Die Berechnung von CCB Lizenzen ist relativ einfach: Gezählt werden die Anzahl gültiger Personendokumente - gültig in diesem Fall heisst, daß es eine NotesID oder ein Kennwort zur Authentifizierung gibt, der Benutzername nicht in einer Deny-Access Gruppe aufgeführt ist, und der Benutzer mindestens zu einem Server der Umgebung Zugriff hat.
 
-Die Berechnung von CCX Benutzern ist weitaus komplexer und erfordert zwei zustzliche Funktionen die auf dem Domino Server bzw den Domino servern aktiviert sein müssen bevor der DLAU scan ausgeführt werden kann:
+Die Berechnung von CCX Benutzern ist weitaus komplexer und erfordert zwei zustzliche Funktionen, die auf dem Domino Server bzw den Domino servern aktiviert sein müssen bevor der DLAU scan ausgeführt werden kann:
 
 ___
 
 ## Domino User License Tracking
 
-Domino User License Tracking ist eine Funktion in Domino die es seit version 7 gibt.
-Es wurde entwickelt um dem Administrator einen Überblick zu geben welche Benutzer sich am System anmelden, und über welche Protokolle (NRPC, HTTP, LDAP, SMTP, POP3, IMAP, IIOP) die Benutzer Zugriff erhalten
+Domino User License Tracking ist eine Funktion in Domino, die es seit Version 7 gibt. Es wurde entwickelt um dem Administrator einen Überblick darüber zu geben, welche Benutzer sich am System anmelden und über welche Protokolle (NRPC, HTTP, LDAP, SMTP, POP3, IMAP, IIOP) die Benutzer zugreifen.
 
 Diese Informationen werden von DLAU benötigt um festzustellen wann ein Benutzer sich zuletzt angemeldet hat. Wie oben beschrieben ist diese Information wichtig um die Anzahl der benötigten CCX Lizenzen zu ermitteln.
 
-CCZ Lizenzen werden von DLAU als *Höchstwert* der Benutzer die sich in den letzten 12 Monaten angemeldet haben gezählt. Für eine korrekte Berechnung ist notwendig [Domino User License Tracking zu aktivieren](https://help.hcltechsw.com/domino/12.0.2/admin/conf_licensetracking_t.html) und die Informationen über den gesamten Zeitraum zu sammeln.
+CCX Lizenzen werden von DLAU als Höchstwert der Benutzer gezählt, die sich in den letzten 12 Monaten angemeldet haben. Für eine korrekte Berechnung ist es erforderlich das [Domino User License Tracking zu aktivieren](https://help.hcltechsw.com/domino/12.0.2/admin/conf_licensetracking_t.html) und die Informationen über den gesamten Zeitraum zu sammeln.
 
 Zum Beispiel: 
 Die Anzahl der CCX Benutzer schwankt im laufe eines Jahres wie in nachfolgender Tabelle dargestellt. DLAU wird den höchsten Wert innerhalb der letzten 12 Monate verwenden: 
@@ -81,9 +80,9 @@ Die Anzahl der CCX Benutzer schwankt im laufe eines Jahres wie in nachfolgender 
 - Nov:	12.500
 - Dec:	11.000
 
-d.h. in dieser Konfiguration würden 14.000 CCX entitlements benötigt werden.
+d.h. in dieser Konfiguration würden 14.000 CCX Lizenzen benötigt werden.
 
-Damit DLAU diese Informationen nutzen kann ist es notwendig das User License Tracking System auf ALLEN(!) Domino Servern zu aktivieren. Für weitere Informationen zur Akivierung lesen Sie bitte [License Tracking Enablement Instructions](https://help.hcltechsw.com/domino/12.0.2/admin/conf_licensetracking_t.html)
+Das User License Tracking System muß auf ALLEN(!) Domino Servern aktiviert werden, damit DLAU diese Informationen nutzen kann. Für weitere Informationen zur Akivierung lesen Sie bitte [License Tracking Enablement Instructions](https://help.hcltechsw.com/domino/12.0.2/admin/conf_licensetracking_t.html)
 
 ___
 

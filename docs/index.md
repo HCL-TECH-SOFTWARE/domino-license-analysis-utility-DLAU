@@ -26,7 +26,7 @@ ___
 The purpose of this utility is to provide fast and accurate Authorized User counts for HCL Domino environments by aggregating information that a Domino Administrator would otherwise have to collect manually. It automates the process by aggregating all the information that is needed to accurately determine the Authorized User counts in a fraction of the time.
 
 For more information, please refer this HCL Blog Post: 
-[All You Ever Wanted to Know About Domino CCB Licensing and DLAU Tool](https://blog.hcltechsw.com/domino/all-you-ever-wanted-to-know-about-domino-ccb-licensing-and-dlau-tool/?referrer=opensource.hcltechsw.com/domino-license-analysis-utility-DLAU/)
+[All You Ever Wanted to Know About Domino CCB Licensing and DLAU Tool](https://www.hcl-software.com/blog/domino/all-you-ever-wanted-to-know-about-domino-ccb-licensing-and-dlau-tool/)
 
 ## Intro
 

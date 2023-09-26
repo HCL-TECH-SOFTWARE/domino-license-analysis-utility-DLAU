@@ -2,7 +2,7 @@
 layout: default
 title: "Voraussetzungen"
 parent: "Home (German-Deutsch)"
-nav_order: 3
+nav_order: 1
 description: "Systemanforderungen"
 has_children: false
 ---
