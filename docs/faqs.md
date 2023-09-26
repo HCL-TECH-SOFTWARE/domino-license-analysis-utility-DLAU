@@ -44,7 +44,7 @@ Within the “Scan Results” page, there is a button labeled “View Printable 
  
 ### How accurate are the results of the scans?
 
-While this is not an audit tool, it usually provides acurate information of your current environment. If you have any doubts of the report being incorrect, please reach out to your HCL representative or [report an issue](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues).  
+While this is not an audit tool, it usually provides acurate information of your current environment. If you have any doubts of the report being incorrect, please reach out to your HCL representative or [report an issue](issues.md).  
 Statistically, our early adopters of the utility are reporting a 96% accuracy. The 4% generally are seen to be special Administration or Design Signing users. 
 
 add new FAQ about CCB / CCX calculations and then link to the June 29 Blog Post
