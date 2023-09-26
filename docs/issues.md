@@ -20,17 +20,20 @@ has_children: false
 There are two (2) methods for reporting an issue:
 
 
-## Issues with running DLAU
-If during the execution of DLAU you encounter an issue, your first step should be to contact HCL Support.
+## Support Ticket
 
 Whether you are an existing client or you are returning to the HCL Domino platform, our Support Team is ready to assist you.
+If you need assistence with the execution of DLAU or if you encounter an issue, your first point of contact should be [HCL Support](https://support.hcltechsw.com/csm) - Only when you open a support ticket you can expect a timely response.
 
 [Click here to access the HCL Customer Support Page](https://support.hcltechsw.com/csm/){:target="_blank"}
 
 
 
-## Reporting a Defect in DLAU
-If you are encountering a defect in DLAU (there is an error number that references a portion of the design code), then you can also submit a Defect Report.
+## Github Issue
+This is an open source project and you are also welcome to report technical issues (e.g. an error number that references a portion of the design code) by submitting a [Github issue](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues){:target="_blank2"}
+Please note:
+* these issues are public, so any information shared in there will be visible to anyone on the internet!
+* Issues are not handled like a support ticket, if you do expect a timely response please open a [support ticket](https://support.hcltechsw.com/csm/)
 
 [Click here to Report a Defect in DLAU](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues){:target="_blank2"}
 

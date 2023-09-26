@@ -20,7 +20,7 @@ This utility will assist HCL Domino Administrators in doing a health check based
 1. TOC
 {:toc}
 </details>
-
+___
 ## Purpose
 
 The purpose of this utility is to provide fast and accurate Authorized User counts for HCL Domino environments by aggregating information that a Domino Administrator would otherwise have to collect manually. It automates the process by aggregating all the information that is needed to accurately determine the Authorized User counts in a fraction of the time.
