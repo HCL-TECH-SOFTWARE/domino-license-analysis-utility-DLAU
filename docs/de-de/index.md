@@ -45,7 +45,7 @@ Erfahren Sie mehr über das HCL Domino License Analysis Utility in folgenden Art
 * [Lizenzberechnung](/de-de/licensecalc.md)
 * [Was ist das Domino License Utility (PDF)](../../assets/pdf/what-Is-the-domino-license-analysis-utility.pdf)
 * [Was wird gescannt](/de-de/scanning.md)
-* [Erklärung der Erkenntnisse](observations.md)
+* [Erklärung der Anmerkungen](observations.md)
 * [Fragen und Antworten](/de-de/faqs.md)
 * [Einschränkungen](/de-de/limitations.md)
 
