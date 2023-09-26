@@ -30,7 +30,7 @@ Ziel dieses Tools ist es schnell und zuverlässig die genaue Anzahl der autorisi
 DLAU automatisiert den Prozess der Berechung indem es die benötigten Informationen die zur Ermittelung der Benutzeranzahl erforderlich sind in kürzester Zeit einsammelt und lokal auswertet.
 
 Weitere Informationen zum Lizenzmodell sind in diesem Blogpost verfügbar:
-[All You Ever Wanted to Know About Domino CCB Licensing and DLAU Tool](https://blog.hcltechsw.com/domino/all-you-ever-wanted-to-know-about-domino-ccb-licensing-and-dlau-tool/?referrer=opensource.hcltechsw.com/domino-license-analysis-utility-DLAU/)
+[All You Ever Wanted to Know About Domino CCB Licensing and DLAU Tool](https://blog.hcltechsw.com/domino/all-you-ever-wanted-to-know-about-domino-ccb-licensing-and-dlau-tool/)
 
 ## Einleitung
 
@@ -40,18 +40,18 @@ Weitere Informationen zum Lizenzmodell sind in diesem Blogpost verfügbar:
 ## Dokumentation
 Erfahren Sie mehr über das HCL Domino License Analysis Utility in folgenden Artikeln:
 
-* [Schritt für Schritt Anleitung](/de-de/instructions.md)
-* [Ergebnisse verstehen](/de-de/results.md)
-* [Lizenzberechnung](/de-de/licensecalc.md)
+* [Schritt für Schritt Anleitung](instructions.md)
+* [Ergebnisse verstehen](results.md)
+* [Lizenzberechnung](licensecalc.md)
 * [Was ist das Domino License Utility (PDF)](../../assets/pdf/what-Is-the-domino-license-analysis-utility.pdf)
-* [Was wird gescannt](/de-de/scanning.md)
+* [Was wird gescannt](scanning.md)
 * [Erklärung der Anmerkungen](observations.md)
-* [Fragen und Antworten](/de-de/faqs.md)
-* [Einschränkungen](/de-de/limitations.md)
+* [Fragen und Antworten](faqs.md)
+* [Einschränkungen](limitations.md)
 
 ## Kompatibilität
 
-Siehe [Systemanforderungen](/de-de/requirements.md)
+Siehe [Systemanforderungen](requirements.md)
 
 ## Geschwindigkeit und Laufzeit
 
