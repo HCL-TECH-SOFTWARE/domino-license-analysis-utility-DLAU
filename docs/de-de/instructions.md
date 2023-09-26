@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Benutzung"
+title: "Anleitung"
 parent: "Home (German-Deutsch)"
 nav_order: 2
 description: "Schritt für Schritt Anleitung"
