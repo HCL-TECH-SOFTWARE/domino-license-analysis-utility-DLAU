@@ -22,6 +22,8 @@ The two (2) strategic licenses for HCL Domino, are:
 **Complete Collaboration Business Edition (CCB) -and-
 Complete Collaboration eXternal user (CCX)**
 
+### Complete Collaboration Business Edition (CCB)
+
 CCB entitlements are needed for all of the employees and contractors in your enterprise needing access to your Domino CCB servers – covering all B2E (Business-to-Employees) scenarios. All CCB users have access to the full spectrum of Domino capabilities.
 
 A server licensed under CCB also include unlimited external web user access as needed for most B2C (Business-to-Consumer/Citizen) scenarios:
@@ -32,6 +34,8 @@ A server licensed under CCB also include unlimited external web user access as n
 (see further here [“Licensing Update: Domino V12 and Key CCX Enhancement”](https://blog.hcltechsw.com/domino/licensing-update-domino-v12-and-key-ccx-enhancement/)).
 
 The volume of entitlements needed for a CCB configuration is the count of all credentials in Domino directories or any other authentication source used by the enterprise.
+
+### Complete Collaboration eXternal user (CCX)
 
 For B2B (Business-to-Business) or advanced B2C scenarios, where the external users need to fully engage in applications beyond the read/only access permitted for Known Guests, HCL introduced the CCX entitlement as an add-on for CCB environments. The typical CCX user is a business partner, external agents, etc.
 
