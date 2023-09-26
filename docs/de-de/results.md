@@ -7,6 +7,8 @@ description: "Ergebnisse verstehen"
 has_children: false
 ---
 
+Sie lesen die deutsche Übersetzung [dieser Seite](../results.md)
+
 <h1>Ergebnisse verstehen</h1>
 
 <details close markdown="block">

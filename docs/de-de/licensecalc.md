@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Lizensberechnung"
+title: "Lizenzberechnung"
 parent: "Home (German-Deutsch)"
 nav_order: 2
-description: "Lizensberechnung"
+description: "Lizenzberechnung"
 has_children: false
 ---
 
@@ -20,7 +20,7 @@ has_children: false
 
 Es gibt zwei Lizenzmodelle für HCL Domino die mit Hilfe von DLAU analysiert werden können, diese sind:
 
-**Complete Collaboration Business Edition (CCB) -and-
+**Complete Collaboration Business Edition (CCB) -und-
 Complete Collaboration eXternal user (CCX)**
 
 ## Complete Collaboration Business Edition (CCB) 
