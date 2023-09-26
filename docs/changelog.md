@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "CHANGELOG"
-nav_order: 4
+nav_order: 6
 description: "Change Log"
 has_children: false
 has_toc: true

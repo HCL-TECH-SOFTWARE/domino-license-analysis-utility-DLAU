@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Terms of use"
-nav_order: 3
+nav_order: 5
 description: "Terms of Use"
 has_children: false
 ---
