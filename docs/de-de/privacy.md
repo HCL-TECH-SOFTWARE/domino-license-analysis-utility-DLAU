@@ -24,4 +24,4 @@ Sie lesen die deutsche Übersetzung [dieser Seite](../privacy.md)
 
 ## Datenschutz
 
-Dieses Tool führt alle Prüfungen komplett lokal durch und hält alle Daten auch nur lokal vor. Zu keiner Zeit werden ohne Ihre explizite Zustimmung Daten an HCL übertragen. Damit Sie diese Aussage prüfen können steht der Quelltext dieser Anwendung offen als OpenSource Projekt zur Verfügung.
+Dieses Tool führt alle Prüfungen komplett lokal durch und hält alle Daten auch nur lokal vor. Zu keiner Zeit werden ohne Ihre explizite Zustimmung Daten an HCL übertragen. Damit Sie diese Aussage prüfen können, steht der Quelltext dieser Anwendung offen als OpenSource Projekt zur Verfügung.

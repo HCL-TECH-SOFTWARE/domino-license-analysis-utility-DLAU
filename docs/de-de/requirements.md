@@ -32,7 +32,7 @@ Die folgenden Voraussetzungen müssen erfüllt sein, um das Programm ausführen 
 - READ-Zugriff auf das Domino-Verzeichnis und andere Systemdatenbanken
 - ACL-Rolle "[DenyAccessRead]" im Domino-Verzeichnis
 - Gruppenmitgliedschaft in der Gruppe "LocalDomainAdmins".
-- 
+
 ## JavaScript-Unterstützung in den Notes-Client-Voreinstellungen
 
 We use JavaScript within DLAU to move through the different scan processes, therefore JavaScript support must be enabled.
@@ -56,6 +56,6 @@ Um die Informationen bereitzustellen, die DLAU für diese Berechnungen benötigt
  
 [License Tracking System Konfigurationsanleitung](https://help.hcltechsw.com/domino/9.0.1/admin/admin/conf_licensetracking_t.html)
 
-* Entitlement Tracking (wenn Domino V12) oder die Ergebnisse des User Report Tools: Diese Systeme versorgen DLAU mit der höchsten Zugriffskontrolllistenstufe jedes Domino-Benutzers.Dies ist nur wichtig, wenn der Client über externe Benutzer (CCX-Lizenzen) verfügt.
+* Entitlement Tracking (wenn Domino V12) oder die Ergebnisse des User Report Tools: Diese Systeme versorgen DLAU mit der höchsten Zugriffskontrolllistenstufe jedes Domino-Benutzers. Dies ist nur wichtig, wenn der Client über externe Benutzer (CCX-Lizenzen) verfügt.
 
 [Weitere Informationen](https://opensource.hcltechsw.com/domino-license-analysis-utility-DLAU/instructions/#schritt-6---entitlement-tracking--user-report-tool-scan)
