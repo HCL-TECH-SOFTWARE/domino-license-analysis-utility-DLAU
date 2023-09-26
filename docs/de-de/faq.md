@@ -38,7 +38,7 @@ Die Scans innerhalb des Dienstprogramms laufen in einer Hintergrundaufgabe. Der 
 ---
 
 ### Wie lange wird der Prozess dauern?
-Je nach Anzahl der Personendokumente und HCL-Domino-Server in der Umgebung sollte es 1 bis 3+ Stunden dauern. Ein kleiner Einsatz (~200 Benutzer) dauert beispielsweise 45 Minuten, ein mittlerer Einsatz (~5000 Benutzer) dauert weniger als 2 Stunden. 
+Je nach Anzahl der Personendokumente und HCL-Domino-Server in der Umgebung sollte es 1 bis 3+ Stunden dauern. In einer kleinen Umgebung (~200 Benutzer) dauert der Scan ca. 45 Minuten, bei mittelgroßen Umgebungen (~5000 Benutzer) sollte ein Scann weniger als 2 Stunden dauern. 
 
 Weitere Informationen darüber, wie lange der Prozess dauern kann, finden Sie auf der [Homepage](index.md#geschwindigkeit-und-laufzeit) dieses Projekts
 
