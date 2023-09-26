@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Home (German-Deutsch)"
-nav_order: 7
+nav_order: 2
 description: "HCL Domino License Analysis Utility"
 has_children: true
 ---

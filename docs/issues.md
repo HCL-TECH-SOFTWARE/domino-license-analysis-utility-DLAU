@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Reporting an Issue"
-nav_order: 2
+nav_order: 3
 description: "Reporting an Issue"
 has_children: false
 ---
