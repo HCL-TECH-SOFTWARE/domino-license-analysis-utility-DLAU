@@ -44,13 +44,13 @@ Weitere Informationen darüber, wie lange der Prozess dauern kann, finden Sie au
 
 ---
 
-### Wie kann ich die benötigten Berechtigungen nachweisen?
-Auf der Seite "Scan-Ergebnisse" gibt es eine Schaltfläche mit der Bezeichnung "Druckfähiges Ergebnis anzeigen". Wenn Sie auf diese Schaltfläche klicken, erhalten Sie einen druckbaren Bericht, den Sie HCL als PDF (Print to PDF) zur Verfügung stellen können, falls Sie ihn für Verlängerungsgespräche benötigen. Die in diesem PDF enthaltenen Daten stehen im Einklang mit unserer [Datenschutzerklärung](privacy.md)
+### Wie kann ich die benötigten Lizenzen nachweisen?
+Auf der Seite "Scan-Ergebnisse" gibt es eine Schaltfläche mit der Bezeichnung "Druckfähiges Ergebnis anzeigen". Wenn Sie auf diese Schaltfläche klicken, erhalten Sie einen druckbaren Bericht, den Sie HCL als PDF (Print to PDF) zur Verfügung stellen können, falls Sie ihn für Gespräche über Ihre Lizensierung benötigen. Die in diesem PDF enthaltenen Daten stehen im Einklang mit unserer [Datenschutzerklärung](privacy.md)
 
 ---
 
 ### Wie genau sind die Ergebnisse der Scans?
-Obwohl es sich nicht um ein Audit-Tool handelt, liefert es in der Regel genaue Informationen über Ihre aktuelle Umgebung. Wenn Sie Zweifel haben, dass der Bericht nicht korrekt ist, wenden Sie sich bitte an Ihren HCL-Vertreter oder [report an issue](issues.md).  
+Obwohl es sich nicht um ein Audit-Tool handelt, liefert es in der Regel genaue Informationen über Ihre aktuelle Umgebung. Wenn Sie Zweifel haben, dass der Bericht nicht korrekt ist, wenden Sie sich bitte an Ihren HCL-Vertreter oder [melden ein Problem](issues.md).  
 
 Statistisch gesehen berichten Kunden von einer Genauigkeit von 96 %. Bei den 4 % handelt es sich im Allgemeinen um Sonderfälle wie spezielle Verwaltungs- oder Design Signing-Benutzer. 
 

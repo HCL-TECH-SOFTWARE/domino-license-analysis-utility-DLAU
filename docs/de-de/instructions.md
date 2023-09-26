@@ -29,7 +29,7 @@ DLAU wurde so programmiert, daß es am besten von einem lokalen PC aus gestartet
 
 [Neueste Version laden](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/releases/latest){: .btn .btn-green }
 
-Prüfen Sie ebenfalls ob Ihre Umgebung die Mindestanforderungen erfüllt [Systemanforderungen](../requirements.md)
+Prüfen Sie ebenfalls ob Ihre Umgebung die [Mindestanforderungen](../requirements.md) erfüllt.
 
 ___
 ## Schritt 1 - Starten und signieren
@@ -167,7 +167,7 @@ Sobald der Entitlement Tracking / User Report Tool vollständig abgeschlossen is
 Um mit dem nächsten Schritt fortzufahren bentätigen Sie die Schaltfläche **"Next"** .
 
 ___
-## Schritt 7 - Completion of the Wizard and Review of Results
+## Schritt 7 - Zusammenfassung und Ansehen der Ergebnisse
 Jetzt sind alle Scanns abgeschlossen. Sie erhalten eine Erfolgsmeldung wie in nachfolgendem Bildschirmfoto dargestellt:
 
 ![Wizzard Complete](../assets/images/png/13-wizard-complete.png)
