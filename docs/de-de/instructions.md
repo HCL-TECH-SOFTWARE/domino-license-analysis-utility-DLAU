@@ -123,7 +123,7 @@ Um den HCL Domino Users Scan, zu starten betätigen Sie die Schaltfläche **Star
 Sobald der HCL Domino Users Scan erfolgreich beendet wurde, werden die Ergebnisse wie folgt dargestellt:
 ![User Scan Results](../assets/images/png/8-user-scan-results.png)
 
-Um mit dem nächsten Schritt fortzufahren bentätigen Sie die Schaltfläche **"Next"** .
+Um mit dem nächsten Schritt fortzufahren betätigen Sie die Schaltfläche **"Next"** .
 
 ___
 ## Schritt 5 - Deny Access Group Scan

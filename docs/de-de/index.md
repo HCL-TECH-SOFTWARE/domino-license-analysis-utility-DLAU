@@ -41,17 +41,17 @@ Weitere Informationen zum Lizenzmodell sind in diesem Blogpost verfügbar:
 Erfahren Sie mehr über das HCL Domino License Analysis Utility in folgenden Artikeln:
 
 * [Schritt für Schritt Anleitung](/de-de/instructions.md)
-* [Ergebnisse verstehen](results.md)
-* [Lizenzberechnung](licensecalc.md)
+* [Ergebnisse verstehen](/de-de/results.md)
+* [Lizenzberechnung](/de-de/licensecalc.md)
 * [Was ist das Domino License Utility (PDF)](../../assets/pdf/what-Is-the-domino-license-analysis-utility.pdf)
-* [Was wird gescannt](scanning.md)
-* [Erklärung der Observations](observations.md)
-* [Fragen und Antworten](faqs.md)
+* [Was wird gescannt](/de-de/scanning.md)
+* [Erklärung der Erkenntnisse](observations.md)
+* [Fragen und Antworten](/de-de/faqs.md)
 * [Einschränkungen](/de-de/limitations.md)
 
 ## Kompatibilität
 
-Siehe [Systemanforderungen](requirements.md)
+Siehe [Systemanforderungen](/de-de/requirements.md)
 
 ## Geschwindigkeit und Laufzeit
 
