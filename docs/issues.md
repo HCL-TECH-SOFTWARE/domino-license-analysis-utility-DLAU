@@ -35,6 +35,6 @@ Please note:
 * these issues are public, so any information shared in there will be visible to anyone on the internet!
 * Issues are not handled like a support ticket, if you do expect a timely response please open a [support ticket](https://support.hcltechsw.com/csm/)
 
-[Click here to Report a Defect in DLAU](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues){:target="_blank2"}
+[Click here to create a DLAU defect report specifically on GitHub](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues){:target="_blank2"}
 
  
