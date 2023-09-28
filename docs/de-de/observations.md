@@ -19,7 +19,7 @@ Sie lesen die deutsche Übersetzung [dieser Seite](../issues.md)
 1. TOC
 {:toc}
 </details>
-Während des Scanvorgangs wird eine Reihe von Beobachtungen erfasst. Diese können von einfachen Informationsbeobachtungen bis hin zu schwerwiegenderen potenziellen Sicherheitsschwachstellen in der HCL-Domino-Umgebung reichen.
+Während des Scanvorgangs wird eine Reihe von Anmerkungen erfasst. Diese können von einfachen Informationsbeobachtungen bis hin zu schwerwiegenderen potenziellen Sicherheitsschwachstellen in der HCL-Domino-Umgebung reichen.
 
 Diese Beobachtungen werden während der Scans erfasst und dem Benutzer zur Verfügung gestellt, sobald alle Scans abgeschlossen sind.
 
