@@ -32,9 +32,9 @@ Nachfolgend finden Sie eine Liste der erfassten Beobachtungen mit einer Beschrei
 ___
 ## Security Observations
 
-Der HCL Domino Server **_"Production/ACME"_** ist nicht ordnungsgemäß für HTTP-Verkehr gesichert
+The HCL Domino Server **_“Production/ACME”_** is not properly secured for HTTP traffic
 
-- Diese Beobachtung deutet darauf hin, dass die Serverzugriffseinstellungen für den HTTP-Verkehr nicht erzwungen werden. Wenn dies der Fall ist, kann der Benutzer mit einem Webbrowser auf die HCL Domino-Server zugreifen, selbst wenn der Name des Benutzers in einer Zugriffsverweigerungsgruppe aufgeführt ist. Der HTTP-Port muss ordnungsgemäß gesichert sein, damit Benutzer, die in einer Zugriffsverweigerungsgruppe aufgeführt sind, ordnungsgemäß gemeldet werden können, andernfalls werden sie als autorisierte Benutzer gezählt.
+- Diese Anmerkung deutet darauf hin, dass die Serverzugriffseinstellungen für den HTTP-Verkehr nicht erzwungen werden. Wenn dies der Fall ist, kann der Benutzer mit einem Webbrowser auf die HCL Domino-Server zugreifen, selbst wenn der Name des Benutzers in einer Zugriffsverweigerungsgruppe aufgeführt ist. Der HTTP-Port muss ordnungsgemäß gesichert sein, damit Benutzer, die in einer Zugriffsverweigerungsgruppe aufgeführt sind, ordnungsgemäß gemeldet werden können, andernfalls werden sie als autorisierte Benutzer gezählt.
 
 Der HCL Domino Server **_"Production/ACME"_** ist nicht ordnungsgemäß für den LDAP-Datenverkehr gesichert
 
