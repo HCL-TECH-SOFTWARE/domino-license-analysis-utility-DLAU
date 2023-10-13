@@ -35,11 +35,10 @@ Die folgenden Voraussetzungen müssen erfüllt sein, um das Programm ausführen 
 
 ## JavaScript-Unterstützung in den Notes-Client-Voreinstellungen
 
-We use JavaScript within DLAU to move through the different scan processes, therefore JavaScript support must be enabled.
+DLAU verwendet JavaScript für einige der internen Abläufe, deshalb ist es notwendig die Ausführung von JavaScript im Notes Client zu gestatten. Wenn die Verwendung von JavaScript im Notes Client nicht aktiviert ist wird DLAU nicht funktionieren.
 
-If JavaScript is not enabled for the Notes Client, DLAU will not work.
-
-In the Notes Client, this can be enabled by opening the Notes Client Preferences (from the Notes Client Menu, select "File -> Preferences...") and then enabling three (3) JavaScript options, as shown below:
+JavaScript kann im Notes Client wie folgt aktiviert werden:
+Im Notes Client, wählen Sie im Menü "Datei" den Punkt "Einstellungen" und aktivieren die folgenden drei (3) Optionen:
 
 ![Preferences](assets/images/png/notes-preferences.png)
 
