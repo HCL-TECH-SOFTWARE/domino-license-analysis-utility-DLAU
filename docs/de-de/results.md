@@ -21,9 +21,9 @@ Sie lesen die deutsche Übersetzung [dieser Seite](../results.md)
 </details>
 
 ___
-Sobald der Scan abgeschlossen ist wird Ihnen eine Übersicht der Ergebnisse angezeigt wie hier dargestellt::
+Sobald der Scan abgeschlossen ist wird Ihnen eine Übersicht der Ergebnisse angezeigt wie hier dargestellt:
 
-![Scan Results](assets/images/png/14-scan-results.png)
+![Scan Results](../assets/images/png/14-scan-results.png)
 
 Dies ist das Ergebnis der durchgeführten Scans. Was es bedeutet und wie die Informationen zu verstehen sind wird im nachfolgend beschrieben.
 
