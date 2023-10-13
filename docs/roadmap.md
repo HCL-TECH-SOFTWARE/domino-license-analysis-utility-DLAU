@@ -20,7 +20,8 @@ A brief description of what is planned for upcomming releases of DLAU
 ___
 
 ## Version 1.2.1
-ETA: November 2023
+ETA: November 2023 
+
 List of changes currently planned. Please note that plans can change!
 
 {: .fix }
@@ -57,9 +58,10 @@ DNEXT-23852	Display version number of DLAU in printable report
 [Issue #47](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/54) - DNEXT-24094 Log output: add extra line to separate logs of each run
 
 ___
-## V1.2.2
-
+## Version 1.2.2
 ETA: To be defined
+
+List of changes currently planned. Please note that plans can change!
 
 {: .fix }
 [Issue #19](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/19) - DNEXT-23870 Extend Export functionality	
