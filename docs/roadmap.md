@@ -30,13 +30,13 @@ List of changes currently planned. Please note that plans can change!
 [Issue #34](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/34) - DNEXT-23853 Export CCB Users does not provide content
 
 {: .fix }
-[Issue #46](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/46) - DNEXT-23854 Wrong counting when DA is not trusted for credentials	
+[Issue #46](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/46) - DNEXT-23854 Bug when DA is not trusted for credentials	
 
 {: .fix }
-[Issue #41](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/41) - DNEXT-23856 Unable to detect CCX if EDC not saved in root directory	
+[Issue #41](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/41) - DNEXT-23856 Issues with Directory Catalog not in root directory
 
 {: .fix }
-[Issue #47](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/47) - DNEXT-23857 External (CCX) Users Who Are Not Listed in Entitlement Tracking Are Being Recognized as CCB Users
+[Issue #47](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/47) - DNEXT-23857 External (CCX) Users Who are not listed in Entitlement Tracking are being recognized as CCB Users
 
 {: .new }
 [Issue #29](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/29) - DNEXT-23858 Honor "Access Allow" groups used in the server document	
