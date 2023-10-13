@@ -34,4 +34,6 @@ Please note:
 
 [Click here to report an issue here on GitHub](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues){:target="_blank2"}
 
- 
+## Community support - Discqord
+
+There also is a [Discord channel for DLAU](https://discord.com/channels/953760981241200721/1156614685194465383) provided by [OpenNTF.org](https://openntf.org) where the Domino community is discussing about DLAU. 

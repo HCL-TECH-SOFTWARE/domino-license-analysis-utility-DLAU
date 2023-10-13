@@ -54,4 +54,4 @@ The DLAU will only process additional Domino Directories if the Domino Administr
 If you have the scenario where your Domino Administration server does NOT use Directory Assistance, but one or more of your other Domino servers ARE using Directory Assistance, the additional Domino directories will not be processed.
 
 {: .highlight } 
-Note: this issue is being assesed now and plans for advanced Directory Assistance scanning will be scheduled for a near future release.
+Note: this issue is being investigated as issue DNEXT-23861 with plans to enhance Directory Assistance scanning in the near future.
