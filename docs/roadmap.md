@@ -39,9 +39,6 @@ List of changes currently planned. Please note that plans can change!
 {: .fix }
 [Issue #47](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/47) - DNEXT-23857 External (CCX) Users Who are not listed in Entitlement Tracking are being recognized as CCB Users
 
-{: .new }
-[Issue #29](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/29) - DNEXT-23858 Honor "Access Allow" groups used in the server document	
-
 {: .fix }
 DNEXT-23771	Pop-up help does not work on results page
 
@@ -62,6 +59,9 @@ ___
 ETA: To be defined
 
 List of changes currently planned. Please note that plans can change!
+
+{: .new }
+[Issue #29](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/29) - DNEXT-23858 Honor "Access Allow" groups used in the server document	
 
 {: .fix }
 [Issue #19](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/19) - DNEXT-23870 Extend Export functionality	
