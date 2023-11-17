@@ -54,6 +54,12 @@ DNEXT-23852	Display version number of DLAU in printable report
 {: .new }
 [Issue #47](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/54) - DNEXT-24094 Log output: add extra line to separate logs of each run
 
+{: .fix }
+DNEXT-24588 UI shifts when selecting an entry in the "Observations" field on the results page if there is a value that is too long
+
+{: .new }
+DNEXT-24589 Add the ability to have verbose logging to the status bar
+
 ___
 ## Version 1.2.2
 ETA: To be defined
@@ -61,7 +67,10 @@ ETA: To be defined
 List of changes currently planned. Please note that plans can change!
 
 {: .new }
-[Issue #29](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/29) - DNEXT-23858 Honor "Access Allow" groups used in the server document	
+[Issue #29](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/29) - DNEXT-24491 Server names are reported incorrectly in an Observation
+
+{: .new }
+DNEXT-23858 Honor "Access Allow" groups used in the server document	
 
 {: .fix }
 [Issue #19](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/19) - DNEXT-23870 Extend Export functionality	
