@@ -19,6 +19,49 @@ All notable changes to this project will be documented in this file.
 {:toc}
 </details>
 
+
+___
+## UPDATES INCLUDED IN V1.2.1
+
+{: .new }
+DNEXT-23861 - Added support for scanning Directory Assistance on all servers in the environment.
+
+{: .new }
+[Idea Domino-I-2499](https://domino-ideas.hcltechsw.com/ideas/DOMINO-I-2499) - DNEXT-23784 - The Customer Name, HCL Customer, etc. can now be stored in a configuration document.
+
+{: .new }
+DNEXT-24589 - Added the ability to output logging to the status bar to give the scanner an improved experience to understand progress. Set *DLAU_VERBOSE_MODE=1* in the Notes.INI before beginning the scan.
+
+{: .new }
+DNEXT-23852 - Version of DLAU is now included in the printable report as well as it is stored on the results of each scan to see how scans change over releases.
+
+{: .new }
+DNEXT-23855 - Addressing an issue when Domino is used as LDAP server
+
+{: .update }
+[Issue #54](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/54) - DNEXT-24094 - Logging improvements have additional spaces around each functional area of scanning for visual improvements.
+
+{: .fix }
+[Issue #34](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/34) - DNEXT-23853 - Export CCB Users does not provide content
+
+{: .fix }
+[Issue #39](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/39) - DNEXT-23780 - Clicking on "Deny Access Users" opens the view "dagroups" instead of "UserInfo"
+
+{: .fix }
+[Issue #41](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/41) - DNEXT-23856 - Issues with Directory Catalog not in root directory
+
+{: .fix }
+[Issue #46](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/46) - DNEXT-23854 - Bug when DA is not trusted for credentials
+
+{: .fix }
+[Issue #47](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/47) - DNEXT-23857 - External (CCX) Users Who are not listed in Entitlement Tracking are being recognized as CCB Users
+
+{: .fix }
+DNEXT-23771 - Clicking on the pop-up help does not work and is missing in certain situations.
+
+{: .fix }
+DNEXT-24588 - UI shifts when selecting an entry in the "Observations" field on the results page if there is a value that is too long
+
 ___
 ## UPDATES INCLUDED IN V1.2.0
 
