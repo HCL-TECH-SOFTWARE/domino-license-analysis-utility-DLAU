@@ -30,7 +30,7 @@ The following requirements must be met in order to run the utility.
 ## Access rights
 
 - READ access to the Domino Directory and other system databases
-- ACL role "[DenyAccessRead]" in the Domino Directory
+- ACL role "[GroupModifier]" in the Domino Directory
 - Group membership in the "LocalDomainAdmins" Group
 
 ## JavaScript Support in Notes Client Preferences
