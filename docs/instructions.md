@@ -80,6 +80,7 @@ The first scan is the "HCL Domino Environment Scan". This scan concentrates on t
 A listing of what is scanned during this step is below:
 
 * Discovery of Domino Administration server
+  * If the Administration server can not be detected, you will be prompted to select your Domino Directory. Typically the file name is "names.nsf"
 * Domino server names
 * Domino Server availability (Online or Offline)
 * Directory Assistance Usage
