@@ -62,6 +62,9 @@ DNEXT-23771 - Clicking on the pop-up help does not work and is missing in certai
 {: .fix }
 DNEXT-24588 - UI shifts when selecting an entry in the "Observations" field on the results page if there is a value that is too long
 
+{: .new }
+[Issue #29](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/29) - DNEXT-24491 Server names are reported incorrectly in an Observation
+
 ___
 ## UPDATES INCLUDED IN V1.2.0
 
