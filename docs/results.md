@@ -35,11 +35,11 @@ The "Authorized Users" value is the total number of users who are authorized, or
 3. The user's name is not listed in any of the Deny Access Groups that are in use on the HCL Domino servers
 4. If the user IS listed in a Deny Access Group, the user may still be counted as an Authorized User IF the HTTP and/or LDAP ports are enabled but NOT using the same security that is in use for the remainder of the HCL Domino servers. For more information on this topic, please see the [Anmerkungen](de-de/observations.md) page.
 
-The Authorized Users number is what is used for license purposes.
+The Authorized Users number is what is used for license purposes.***
 
 ___
 ### CCB Users
-The "CCB Users" value is the total number of Internal Employees of the organization that have the ability to use and access the Domino environment.
+The "CCB Users" value is the total number of Internal Employees of the organization that have the ability to use and access the Domino environment.***
 
 As noted in the CCB License Agreement:
 
@@ -49,7 +49,7 @@ In addition, Licensee must obtain separate, dedicated CCB entitlements to assign
 
 ___
 ### CCX Users
-The "CCX Users" value is the total number of External Users of the organization that have gthe ability to Create and Read documents in the Domino environment.
+The "CCX Users" value is the total number of External Users of the organization that have gthe ability to Create and Read documents in the Domino environment.***
 
 As noted in the CCB License Agreement:
 
@@ -58,7 +58,7 @@ each External User. An "External User" is a unique person not included in above 
 
 ___
 ### Person Documents
-The "Person Documents" value is the total number of Person documents contained within all Domino Directories within the HCL Domino environment.
+The "Person Documents" value is the total number of Person documents contained within all Domino Directories within the HCL Domino environment.***
 
 ___
 ### Mail Users
@@ -112,7 +112,9 @@ The values shown in the 'Observations" section list all Environment Observations
 
 The Observations can range from "Informational" (minor items that can improve the value of the data collected), "Warnings" (items that may be an issue in your HCL Domino environment), and "Security" (items that will affect the secure nature of your HCL Domino environment and will have an effect on the "Authorized User" count).
 
-{: .notice } 
+{: .notice }
 For "Security" Observations, it is recommended to address each of them and then run the scan again. This will provide a better representation of the true Authorized Users.
 
 For more information on each possible Observation, please open this link [Anmerkungen](de-/deobservations.md)
+
+*** If there were any non-Domino users found in the Entitlement Tracking part of the scan, they will be included in these counts.

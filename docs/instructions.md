@@ -27,6 +27,10 @@ DLAU is designed to work most efficiently on a local hard drive, so there is no 
 
 [Download Latest Release](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/releases/latest){: .btn .btn-green }
 
+{: .new }
+![Check-For-New-Version](assets/images/png/check-for-new-version.png)
+DLAU 1.2.2 introduces a new feature to check for the latest version. We recommend you are always on the latest and greatest version. The code will look at the latest releases posted here and alert  you if there is a new version available.
+
 Please verify if your environment meets the [system requirements](requirements.md)
 
 ___
@@ -159,7 +163,7 @@ ___
 ## Step 6 - Entitlement Tracking / User Report Tool Scan
 The fourth and final scan is the "Entitlement Tracking / User Report Tool Scan". This scan will look at one of the next two systems:
 
-1. Entitlement Tracking: this is a new system that was introduced in HCL Domino V12. If the client is using HCL Domino V12, this scan will always occur
+1. Entitlement Tracking: this is a new system that was introduced in HCL Domino V12. If the client is using HCL Domino V12, this scan will always occur.
 
 2. User Report Tool Results: this is an optional system that is based on the Entitlement Tracking system that is in HCL domino V12, but has been made to be backwards compatible to Domino V9.x. the client will need to download and run the User Report Tool prior to using the DLAU.
 

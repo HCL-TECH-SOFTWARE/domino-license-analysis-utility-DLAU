@@ -26,11 +26,9 @@ No. This utility does not require any additional functionality to be added to AN
 
 It is important to note that DLAU is not conducting a license audit, which is always an in-depth hindsight analysis. Instead, DLAU is creating a baseline to help you and HCLSoftware have a meaningful forward-looking conversation for your renewal or restart or move to CCB or Volt MX Go. The baseline must be augmented by the customer in terms of future deployment plans as the customer is continually responsible for license compliance going forward.
 
-
 ### Will the process block my Notes Client?
 
 The scans within the utility run in a background task. The user’s Notes Client can be used as normal during the scanning processes. The user only needs to “check in” periodically to see if the current scan is complete and to progress to the next scan.
-
 
 ### How long will the process take?
 
@@ -39,16 +37,15 @@ Further reference information on how long the process may take on the [home page
 
 ### How do I see scanning updates in the status bar?
 
-Set *DLAU_VERBOSE_MODE=1* in your Notes.INI, restart the Notes client, then begin the scan. While the scan is taking place you will now see additional output in the Notes Client's status bar including a time stamp to help ensure you that progress is continuing.
+Set *DLAU_VERBOSE_MODE=1* in your Notes.INI, restart the Notes client, then begin the scan. While the scan is taking place you will now see additional output in the Notes Client's status bar including a time stamp to help ensure you that progress is continuing. As of DLAU 1.2.2 the additional output will also appear in the scan log.
 
 ### How can I substantiate needed entitlements?
 
 Within the “Scan Results” page, there is a button labeled “View Printable Result”. When that is clicked, you will be presented with a printable report that you can share with HCL as a PDF (Print to PDF) if needed for renewal discussions. The data contained in this PDF is in line with our [privacy statement](privacy.md)
 
-
 ### How accurate are the results of the scans?
 
-While this is not an audit tool, it usually provides acurate information of your current environment. If you have any doubts of the report being incorrect, please reach out to your HCL representative or [report an issue](issues.md).
+While this is not an audit tool, it usually provides accurate information of your current environment. If you have any doubts of the report being incorrect, please reach out to your HCL representative or [report an issue](issues.md).
 Statistically, our early adopters of the utility are reporting a 96% accuracy. The 4% generally are seen to be special Administration or Design Signing users.
 
 add new FAQ about CCB / CCX calculations and then link to the June 29 Blog Post

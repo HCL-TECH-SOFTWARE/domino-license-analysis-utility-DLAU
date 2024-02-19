@@ -20,17 +20,9 @@ Below is a list of current limitations that will be encountered in certain HCL D
 </details>
 
 ___
-## LDAP/ActiveDirectory 
+## LDAP/Active Directory
 
-Coming soon
-{: .label .label-yellow }
-
-If one or more of your Domino servers are configured to use an external LDAP/Active Directory for authentication of web users, these types of directory connections are not currently being scanned.
-
-Therefore, a manual counting of all users who are accessing the HCL domino server(s) in this manner will need to take place. 
-
-{: .highlight } 
-We are working on scanning LDAP / AD directories and cross reference the users found in those against the findings in the License Tracking System.
+Direct scanning of LDAP/Active Directories is not supported. However, as of DLAU 1.2.2, you can now leverage Entitlement Tracking to make sure those users are counted.
 
 ___
 ## Multiple/disconnected HCL Domino Domains
@@ -51,5 +43,5 @@ ___
 
 As of DLAU 1.2.1 this limitation has been removed.
 
-{: .highlight } 
+{: .highlight }
 Note: this limitation was removed as part of the work done in DNEXT-23861 to enhance Directory Assistance scanning.

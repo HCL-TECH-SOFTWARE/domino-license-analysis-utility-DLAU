@@ -19,7 +19,35 @@ All notable changes to this project will be documented in this file.
 {:toc}
 </details>
 
+___
+## UPDATES INCLUDED IN V1.2.2
 
+{: .new }
+DNEXT-23866	- Check for new version
+
+{: .new }
+DNEXT-24943 - Include user names from entitlement tracking in user counting
+
+{: .fix }
+DNEXT-24797 - Fix string in dialog that warns the user they don't have appropriate rights to the names.nsf
+
+{: .fix }
+DNEXT-24798	- Fix string in dialog that warns the user they don't have the appropriate role in the Domino Directory
+
+{: .fix }
+[Issue #50](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/50) - DNEXT-25113 Observation information is not accurate when non-Domino LDAP is used as authentication
+
+{: .fix }
+DNEXT-25221, DNEXT-25419 - Admin server is changing when additional directories are identified
+
+{: .fix }
+DNEXT-25782, DNEXT-25635 - Incorrect error message due to improper casing on file naming comparison
+
+{: .fix }
+DNEXT-25742	Corrected misspelled word
+
+{: .update }
+*DLAU_VERBOSE_MODE=1* with the Notes.INI set before beginning the scan, the logging has been enhanced to capture the output in the scan log as well as logging additional information.
 ___
 ## UPDATES INCLUDED IN V1.2.1
 

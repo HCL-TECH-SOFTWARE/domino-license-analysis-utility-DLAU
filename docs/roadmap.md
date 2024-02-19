@@ -20,32 +20,6 @@ A brief description of what is planned for upcomming releases of DLAU
 ___
 
 ___
-## Version 1.2.2
-ETA: Feb. 2024
-
-List of changes currently planned. Please note that plans can change!
-
-{: .new }
-DNEXT-23866	Check for new version
-
-{: .new }
-DNEXT-24943 Include user names from entitlement tracking in user counting
-
-{: .fix }
-DNEXT-24797 Fix string in dialog that warns the user they don't have appropriate rights to the names.nsf
-
-{: .fix }
-DNEXT-24798	Fix string in dialog that warns the user they don't have the appropriate role in the Domino Directory
-
-{: .fix }
-DNEXT-25113 Observation information is not accurate when non-Domino LDAP is used as authentication
-
-{: .fix }
-DNEXT-25221	Admin server is changing when additional directories are identified
-
-{: .fix }
-DNEXT-25742	Spelling mistake in the fmGroup form
-
 ## Version 1.2.3
 ETA: To be defined
 
@@ -73,6 +47,11 @@ DNEXT-23869	Display Domino version
 
 {: .new }
 DNEXT-23871 Include the standalone user report tool for preV12 servers
+
+## Version 1.2.2
+February 2024
+
+For the full list of changes please see the [V1.2.2 changelog](https://opensource.hcltechsw.com/domino-license-analysis-utility-DLAU/changelog/#updates-included-in-v122).
 
 ## Version 1.2.1
 November 2023
