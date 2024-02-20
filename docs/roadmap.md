@@ -48,6 +48,11 @@ DNEXT-23869	Display Domino version
 {: .new }
 DNEXT-23871 Include the standalone user report tool for preV12 servers
 
+{: .new }
+[Idea DOMINO-I-2672](https://domino-ideas.hcltechsw.com/ideas/DOMINO-I-2672) - DNEXT-25874 Scan Deny Access groups even if they are stored in a secondary Domino directory
+
+
+
 ## Version 1.2.2
 February 2024
 
