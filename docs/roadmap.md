@@ -20,7 +20,7 @@ A brief description of what is planned for upcomming releases of DLAU
 ___
 
 ___
-## Version 1.2.3
+## Version 1.2.4
 ETA: To be defined
 
 {: .new }
@@ -52,6 +52,10 @@ DNEXT-23871 Include the standalone user report tool for preV12 servers
 [Idea DOMINO-I-2672](https://domino-ideas.hcltechsw.com/ideas/DOMINO-I-2672) - DNEXT-25874 Scan Deny Access groups even if they are stored in a secondary Domino directory
 
 
+## Version 1.2.3
+March 2024
+
+For the full list of changes please see the [V1.2.3 changelog](https://opensource.hcltechsw.com/domino-license-analysis-utility-DLAU/changelog/#updates-included-in-v123).
 
 ## Version 1.2.2
 February 2024

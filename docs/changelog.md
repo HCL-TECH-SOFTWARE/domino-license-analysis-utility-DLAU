@@ -20,6 +20,23 @@ All notable changes to this project will be documented in this file.
 </details>
 
 ___
+## UPDATES INCLUDED IN V1.2.3
+{: .new }
+DNEXT-26195 - Include DLAU version in the emailed report
+
+{: .fix }
+DNEXT-26190 - Global variable was being updated incorrectly causing incorrect error message
+
+{: .fix }
+DNEXT-25836, DNEXT-25837 - addressed typo and string updates
+
+{: .fix }
+DNEXT-26194 - Recompiled LotusScript with 32-bit compiler
+
+{: .update }
+DNEXT-25997 - added additional logging output behind Notes.ini *DLAU_VERBOSE_MODE=1*
+
+___
 ## UPDATES INCLUDED IN V1.2.2
 
 {: .new }
