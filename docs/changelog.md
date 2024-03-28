@@ -21,6 +21,7 @@ All notable changes to this project will be documented in this file.
 
 ___
 ## UPDATES INCLUDED IN V1.2.3
+
 {: .new }
 DNEXT-26195 - Include DLAU version in the emailed report
 
