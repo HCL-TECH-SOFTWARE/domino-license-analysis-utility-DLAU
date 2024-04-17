@@ -63,6 +63,10 @@ The Directory Assistance configuration **_"DomainName" (DomainTitle)_** Is a LDA
 
 - This observation indicates that the HCL Domino environment has a Directory Assistance configuration that connects to a LDAP Directory. Scanning of LDAP Directories is not yet supported by this utility. Therefore, the total Authorized Users that are being reported may not be representative of the total number of possible Authorized Users in your environment.
 
+The HCL Domino Server is configured to allow wildcard group access
+
+- This observation indicates that the HCL Domino environment allows for users to access server(s) that may be uncounted as part of the scan.
+
 ___
 ## Informational Observations
 

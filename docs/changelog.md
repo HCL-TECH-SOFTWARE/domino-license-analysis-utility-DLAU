@@ -20,6 +20,45 @@ All notable changes to this project will be documented in this file.
 </details>
 
 ___
+## UPDATES INCLUDED IN V1.2.4
+
+{: .new }
+DNEXT-23869	Report to include Domino server versions
+
+{: .new }
+DNEXT-24782	Make DLAU work with a readonly user with the appropriate rights
+
+{: .new }
+[Idea DOMINO-I-2537](https://hcl-software.aha.io/ideas/ideas/DOMINO-I-2537) - DNEXT-23865	Support MacOS
+
+{: .new }
+DNEXT-26713	Save the server versions as a reference for each scan
+
+{: .new }
+DNEXT-23868	Note when server access is setup to allow wildcarded usernames
+
+{: .new }
+[Issue #19](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/19) - DNEXT-23870	Add new export category and create directory if it does not exist
+
+{: .fix }
+DNEXT-26644	New version available string is missing the new version title
+
+{: .fix }
+DNEXT-26672	Error when dividing by zero when creating the digital signature
+
+{: .fix }
+DNEXT-26677	User information from primary directory is lost when they also exist in another scanned directory
+ 	
+{: .fix }
+DNEXT-26710	Attempt to fix situations where user receives ERROR: Object variable not set #: 91, line: 3
+
+{: .fix }
+DNEXT-26795	Correct the spelling of "signing" on "signing" page
+
+{: .fix }
+DNEXT-26878	utility is duplicated on the Nomad page
+
+___
 ## UPDATES INCLUDED IN V1.2.3
 
 {: .new }

@@ -29,9 +29,16 @@ The following requirements must be met in order to run the utility.
 
 ## Access rights
 
-- READ access to the Domino Directory and other system databases
+- READ access to the Domino Directory and other system databases<sup><a href="#systemapps">1</a></sub>
 - ACL role "[GroupModifier]" in the Domino Directory
-- Group membership in the "LocalDomainAdmins" Group
+- Group membership in the "LocalDomainAdmins" Group or at least reader access to the other system databases<sup><a href="#systemapps">1</a></sup>
+
+<sup id="systemapps">1 - The list of applications the user needs access to are:</sup> 
+ - entitlements.nsf
+ - userlicenses.nsf
+ - names.nsf
+ - log.nsf
+ - Any directory assistance application in use as well as the associated directories
 
 ## JavaScript Support in Notes Client Preferences
 
@@ -55,9 +62,9 @@ Similarly, a Known Guest is only allowed to have a maximum Access Control List l
 To provide the information that DLAU requires to make these calculations, two additional systems must be running in your Domino server environment:
 
 * License Tracking System: this is a system that is built into Domino (since V7 I believe) that captures the date, time, and protocol that was used when a user authenticates to Domino
- 
+
 [License Tracking System Setup Instructions](https://help.hcltechsw.com/domino/9.0.1/admin/admin/conf_licensetracking_t.html)
 
-* Entitlement Tracking (if Domino V12) or the results from the user Report Tool: These systems will provide DLAU with each Domino user's highest Access Control List level. This is important only if the client has External Users (CCX licenses) 
+* Entitlement Tracking (if Domino V12) or the results from the user Report Tool: These systems will provide DLAU with each Domino user's highest Access Control List level. This is important only if the client has External Users (CCX licenses)
 
 [Click here for more information](https://opensource.hcltechsw.com/domino-license-analysis-utility-DLAU/instructions/#step-6---entitlement-tracking--user-report-tool-scan)
