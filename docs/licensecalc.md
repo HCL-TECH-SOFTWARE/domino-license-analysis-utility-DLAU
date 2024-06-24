@@ -57,7 +57,7 @@ The Domino User License Tracking is a system that is built into every Domino ser
 
 The information that is captured is used in the DLAU scans to determine the last login date for each user. This, in turn, allows the DLAU to determine when a potential CCX user was last active.
 
-CCX Licenses are calculated on the average number of users who have accessed a Domino server over a twelve (12) month period, having this system active is required.
+CCX Licenses are calculated on the number of users who have accessed a Domino server over a twelve (12) month period, having this system active is required.
 
 For example, if the following number of CCX users accessed the Domino environment over a twelve (12) month period, the CCX licenses would be the high-water mark of the twelve (12) months’ worth of findings:
 
