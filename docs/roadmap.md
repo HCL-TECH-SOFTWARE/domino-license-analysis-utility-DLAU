@@ -44,7 +44,7 @@ DNEXT-23871 Include the standalone user report tool for preV12 servers
 ## Version 1.2.4
 April 2024
 
-For the full list of changes please see the [V1.2.3 changelog](https://opensource.hcltechsw.com/domino-license-analysis-utility-DLAU/changelog/#updates-included-in-v124).
+For the full list of changes please see the [V1.2.4 changelog](https://opensource.hcltechsw.com/domino-license-analysis-utility-DLAU/changelog/#updates-included-in-v124).
 
 ## Version 1.2.3
 March 2024
