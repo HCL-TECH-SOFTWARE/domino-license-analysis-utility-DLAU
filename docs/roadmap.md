@@ -44,19 +44,19 @@ DNEXT-23871 Include the standalone user report tool for preV12 servers
 ## Version 1.2.5
 October 2024
 
-{: .update} - Change to CCX "Highest Access Level" logic to match new CCX Licensing requirements (now allowing "Editor" ACL Level for CCX licensed users)
+{: .update } - Change to CCX "Highest Access Level" logic to match new CCX Licensing requirements (now allowing "Editor" ACL Level for CCX licensed users)
 
-{: .fix} [GitHub Issue #74](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/74) Regression Issue: Directory Assistance "Disabled" Flag only honored when "Domain Type" is set to "LDAP"
+{: .fix } [GitHub Issue #74](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/74) Regression Issue: Directory Assistance "Disabled" Flag only honored when "Domain Type" is set to "LDAP"
 
-{: .fix} [GitHub Issue #71](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/71) External (CCX) Users Who Are Not Listed in Entitlement Tracking Are Being Recognized as CCB Users when selecting External Organization
+{: .fix } [GitHub Issue #71](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/71) External (CCX) Users Who Are Not Listed in Entitlement Tracking Are Being Recognized as CCB Users when selecting External Organization
   
-{: .fix} [GitHub Issue #70](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/70) Wrong categorization in "User Information" view due to spelling mistake
+{: .fix } [GitHub Issue #70](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/70) Wrong categorization in "User Information" view due to spelling mistake
 
-{: .fix} [GitHub Issue #66](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/66) Known guests specified by org calculating as CCB due to missing logic
+{: .fix } [GitHub Issue #66](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/66) Known guests specified by org calculating as CCB due to missing logic
 
-{: .fix} [GitHub Issue #64](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/64) Selected Org/OrgUnit in the Known Guest Identification dialog are not marked as Known Guests. (a part of #66)
+{: .fix } [GitHub Issue #64](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/64) Selected Org/OrgUnit in the Known Guest Identification dialog are not marked as Known Guests. (a part of #66)
 
-{: .fix} [GitHub Issue #53](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/53) CCX not properly detected by OU/OrgSelected
+{: .fix } [GitHub Issue #53](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/53) CCX not properly detected by OU/OrgSelected
 
 
 
