@@ -33,7 +33,7 @@ The "Authorized Users" value is the total number of users who are authorized, or
 2. These Person documents have a Valid Notes Certificate
   - If there is no Notes Certificate on the Person document, there will still be an Internet Password available
 3. The user's name is not listed in any of the Deny Access Groups that are in use on the HCL Domino servers
-4. If the user IS listed in a Deny Access Group, the user may still be counted as an Authorized User IF the HTTP and/or LDAP ports are enabled but NOT using the same security that is in use for the remainder of the HCL Domino servers. For more information on this topic, please see the [Anmerkungen](de-de/observations.md) page.
+4. If the user IS listed in a Deny Access Group, the user may still be counted as an Authorized User IF the HTTP and/or LDAP ports are enabled but NOT using the same security that is in use for the remainder of the HCL Domino servers. For more information on this topic, please see the [Observations](de-de/observations.md) page.
 
 The Authorized Users number is what is used for license purposes.***
 

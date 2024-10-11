@@ -110,6 +110,13 @@ If you select "yes" as your answer, you will be presented with the following dia
 
 ![External Selections](assets/images/png/5-environment-scan-external-selections.png)
 
+If your environment is running Domino V11 or older, you will also be asked to provide the results from the **User Report Tool**. 
+
+{: .new }
+As of DLAU V1.2.5, the results from a recent User Report Tool process **MUST** be provided. **Failure to provide the results will cause DLAU to stop the remainder of the process and close.**
+
+![URT Question](assets/images/png/5a-environment-scan-URT-question.png)
+
 Once the HCL Domino Environment Scan is complete, you will be presented with the results, as shown below:
 
 ![Results](assets/images/png/6-environment-scan-results.png)
@@ -163,24 +170,35 @@ ___
 ## Step 6 - Entitlement Tracking / User Report Tool Scan
 The fourth and final scan is the "Entitlement Tracking / User Report Tool Scan". This scan will look at one of the next two systems:
 
-1. Entitlement Tracking: this is a new system that was introduced in HCL Domino V12. If the client is using HCL Domino V12, this scan will always occur.
+1. **Entitlement Tracking System**: this is a new system that was introduced in HCL Domino V12. If the client is using HCL Domino V12, this scan will always occur.
 
-2. User Report Tool Results: this is an optional system that is based on the Entitlement Tracking system that is in HCL domino V12, but has been made to be backwards compatible to Domino V9.x. the client will need to download and run the User Report Tool prior to using the DLAU.
+2. **User Report Tool Results**: this is an optional system that is based on the Entitlement Tracking system that is in HCL domino V12, but has been made to be backwards compatible to Domino V9.x. the client will need to download and run the User Report Tool prior to using the DLAU.
 
 Here is a link to the User Report Tool: [User Report Tool - HCL Knowledgebase Article KB0095328](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095328)
 
 
 The information that this scan retrieves will display the highest **Access Control List (ACL)** level that each user has to the HCL Domino environment. This is useful in determining if the user is a CCB or a CCX license user.
 
-To begin the Entitlement Tracking / User Report Tool Scan, click the **Start Entitlement Tracking / User Report Tool Scan Now** button:
+**To begin the Entitlement Tracking Scan**, click the **Start Entitlement Tracking Scan Now** button:
 
 ![Scan Entitlements](assets/images/png/11-entitlement-scan-start.png)
 
-Once the Entitlement Tracking / User Report Tool is complete, you will be presented with the results, as shown below:
+Once the Entitlement Tracking Scan is complete, you will be presented with the results, as shown below:
 
 ![Entitlements Results](assets/images/png/12-entitlement-scan-results.png)
 
 To progress to the next screen, click the **"Next"** button.
+
+**To begin the User Report Tool Scan**, click the **Start User Report Tool Scan Now** button:
+
+![Scan URT](assets/images/png/11-urt-scan-start.png)
+
+Once the User Report Tool Scan is complete, you will be presented with the results, as shown below:
+
+![URT Results](assets/images/png/12-urt-scan-results.png)
+
+To progress to the next screen, click the **"Next"** button.
+
 
 ___
 ## Step 7 - Completion of the Wizard and Review of Results
