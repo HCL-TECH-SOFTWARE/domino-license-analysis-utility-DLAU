@@ -172,7 +172,7 @@ The fourth and final scan is the "Entitlement Tracking / User Report Tool Scan".
 
 1. **Entitlement Tracking System**: this is a new system that was introduced in HCL Domino V12. If the client is using HCL Domino V12, this scan will always occur.
 
-2. **User Report Tool Results**: this is an optional system that is based on the Entitlement Tracking system that is in HCL domino V12, but has been made to be backwards compatible to Domino V9.x. the client will need to download and run the User Report Tool prior to using the DLAU.
+2. **User Report Tool Results**: this is a REQUIRED system that is based on the Entitlement Tracking system that is in HCL domino V12, but has been made to be backwards compatible to Domino V9.x. The user will need to download and run the User Report Tool prior to using the DLAU.
 
 Here is a link to the User Report Tool: [User Report Tool - HCL Knowledgebase Article KB0095328](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095328)
 

@@ -20,6 +20,33 @@ All notable changes to this project will be documented in this file.
 </details>
 
 ___
+## UPDATES INCLUDED IN V1.2.5
+
+{: .new }
+With DLAU V1.2.5, the new "Highest Access Level" change for External Users (CCX Licenses) now allows these users to have "Editor" ACL Access. In order to properly calculate this new level, the "User Report Tool" has now become a reuiqrement for calculating External users (CCX Licenses). Please refer to the following webpage for more details: [User Report Tool Instructions](https://opensource.hcltechsw.com/domino-license-analysis-utility-DLAU/instructions/#step-6---entitlement-tracking--user-report-tool-scan)
+
+{: .update }
+Change to CCX "Highest Access Level" logic to match new CCX Licensing requirements (now allowing "Editor" ACL Level for CCX licensed users)
+
+{: .fix }
+[GitHub Issue #74](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/74) Regression Issue: Directory Assistance "Disabled" Flag only honored when "Domain Type" is set to "LDAP"
+
+{: .fix }
+[GitHub Issue #71](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/71) External (CCX) Users Who Are Not Listed in Entitlement Tracking Are Being Recognized as CCB Users when selecting External Organization
+  
+{: .fix }
+[GitHub Issue #70](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/70) Wrong categorization in "User Information" view due to spelling mistake
+
+{: .fix }
+[GitHub Issue #66](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/66) Known guests specified by org calculating as CCB due to missing logic
+
+{: .fix }
+[GitHub Issue #64](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/64) Selected Org/OrgUnit in the Known Guest Identification dialog are not marked as Known Guests. (a part of #66)
+
+{: .fix }
+[GitHub Issue #53](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/53) CCX not properly detected by OU/OrgSelected
+
+___
 ## UPDATES INCLUDED IN V1.2.4
 
 {: .new }
