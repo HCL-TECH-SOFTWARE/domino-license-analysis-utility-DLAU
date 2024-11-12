@@ -48,7 +48,7 @@ CCX Benutzer können den vollständigen Funktionsumfang der Domino und, sofern i
 
 Beachten Sie in diesem Zusammenhang, Sie müssen genügend CCX Lizenzen vorhalten um die aktuelle und ggf zukünftige/schwankende Benutzermenge abzudecken.
 
-Das CCX Lizenzmodell unterliegt einigen Einschränkungen, werden diese nicht erfüllt gilt ein Benutzer nicht als CCX sondern als CCB Benutzer. Die wichtigste Einschränkung für CCX Benutzer ist das dieser höchstens die Berechtigungsstufe "Author" haben darf, d.h. ein CCX Benutzer kann zwar Dokumente in einer Datenbank erstellen, aber keine Dokumente von anderen Benutzern editieren (dafür sind Editoren-Rechte erforderlich). 
+Das CCX Lizenzmodell unterliegt einigen Einschränkungen, werden diese nicht erfüllt gilt ein Benutzer nicht als CCX sondern als CCB Benutzer. Die wichtigste Einschränkung für CCX Benutzer ist das dieser höchstens die Berechtigungsstufe "Editor" haben darf, d.h. ein CCX Benutzer kann Dokumente in einer Datenbank erstellen, und auch Dokumente anderer Benutzern editieren (dafür sind Editoren-Rechte erforderlich). Bisher waren nur Author-Rechte gestattet, seit Sept. 2024 dürfen CCX Benutzer auch Editor-Rechte erhalten.
 
 Die Berechnung von CCB Lizenzen ist relativ einfach: Gezählt werden die Anzahl gültiger Personendokumente - gültig in diesem Fall heisst, daß es eine NotesID oder ein Kennwort zur Authentifizierung gibt, der Benutzername nicht in einer Deny-Access Gruppe aufgeführt ist, und der Benutzer mindestens zu einem Server der Umgebung Zugriff hat.
 
@@ -88,7 +88,7 @@ ___
 
 ## Entitlement Tracking / Domino User Report Tool
 
-Ein weiter wichtiger Aspekt zur richtigen Berechnung von CCX Benutzern ist das CCX Bentzer in der Zugriffskontrollliste von Datenbanken maximal nurz Authorenrechte haben dürfen - bezogen auf alle Domino Server und alle Datenbanken.
+Ein weiter wichtiger Aspekt zur richtigen Berechnung von CCX Benutzern ist das CCX Bentzer in der Zugriffskontrollliste von Datenbanken maximal nur Editor-Rechte haben dürfen - bezogen auf alle Domino Server und alle Datenbanken.
 
 HCL hat für die Berechnung der Zugriffsrechte zwei Methoden bereitgestellt:
 
