@@ -20,14 +20,14 @@ A brief description of what is planned for upcomming releases of DLAU
 ___
 
 ___
-## Version 1.2.6
+## Version 1.2.7
 ETA: To be defined
 
 {: .new }
 DNEXT-23858 Honor "Access Allow" groups used in the server document
 
 {: .new }
-[Issue #19](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/19) - DNEXT-26870 - Export functionality enhancements to rename file and add user license category to exported file
+[GitHub Issue #19](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/19) - DNEXT-26870 - Export functionality enhancements to rename file and add user license category to exported file
 
 {: .new }
 DNEXT-25788	Identify external users by using a field/property from the person document
@@ -42,31 +42,32 @@ DNEXT-23871 Include the standalone user report tool for preV12 servers
 [Idea DOMINO-I-2672](https://domino-ideas.hcltechsw.com/ideas/DOMINO-I-2672) - DNEXT-25874 Scan Deny Access groups even if they are stored in a secondary Domino directory
 
 
+## Version 1.2.6
+ETA: November 2024
+
+{: .fix }
+[GitHub Issue #79](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/79) - "External Org" users getting improperly categorized as Known Guests
+
+{: .fix }
+[GitHub Issue #78] (https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/78) - External users by organization name is case sensitive
+
+{: .fix }
+[GitHub Issue #72] (https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/72) - Directory Assistance processed differently based on sequence of loading server docs
+
+{: ,fix }
+UI/UX Issues in Scan Wizard<br>
+-	“Environment Scan Results” is not displaying the list of additional Domino Directories found<br>
+-	“User Report Tool” Scan tab should no longer allow the user to change the location of the User Report Tool.
+
+{: .update }
+User Report Tool Selection Change<br>
+The User Report Tool should only be enforced if the user indicates that they are calculating External Users. If they are only calculating CCB users, the User Report Tool should be optional
+
+
 ## Version 1.2.5
 October 2024
 
-{: .update }
-Change to CCX "Highest Access Level" logic to match new CCX Licensing requirements (now allowing "Editor" ACL Level for CCX licensed users)
-
-{: .fix }
-[GitHub Issue #74](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/74) Regression Issue: Directory Assistance "Disabled" Flag only honored when "Domain Type" is set to "LDAP"
-
-{: .fix }
-[GitHub Issue #71](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/71) External (CCX) Users Who Are Not Listed in Entitlement Tracking Are Being Recognized as CCB Users when selecting External Organization
-  
-{: .fix }
-[GitHub Issue #70](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/70) Wrong categorization in "User Information" view due to spelling mistake
-
-{: .fix }
-[GitHub Issue #66](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/66) Known guests specified by org calculating as CCB due to missing logic
-
-{: .fix }
-[GitHub Issue #64](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/64) Selected Org/OrgUnit in the Known Guest Identification dialog are not marked as Known Guests. (a part of #66)
-
-{: .fix }
-[GitHub Issue #53](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/53) CCX not properly detected by OU/OrgSelected
-
-
+For the full list of changes please see the [V1.2.5 changelog](https://opensource.hcltechsw.com/domino-license-analysis-utility-DLAU/changelog/#updates-included-in-v125).
 
 ## Version 1.2.4
 April 2024
