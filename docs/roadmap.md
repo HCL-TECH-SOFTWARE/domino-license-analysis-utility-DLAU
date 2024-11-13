@@ -54,7 +54,7 @@ ETA: November 2024
 {: .fix }
 [GitHub Issue #72] (https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/72) - Directory Assistance processed differently based on sequence of loading server docs
 
-{: ,fix }
+{: .fix }
 UI/UX Issues in Scan Wizard<br>
 -	“Environment Scan Results” is not displaying the list of additional Domino Directories found<br>
 -	“User Report Tool” Scan tab should no longer allow the user to change the location of the User Report Tool.
