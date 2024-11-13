@@ -49,10 +49,10 @@ ETA: November 2024
 [GitHub Issue #79](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/79) - "External Org" users getting improperly categorized as Known Guests
 
 {: .fix }
-[GitHub Issue #78] (https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/78) - External users by organization name is case sensitive
+[GitHub Issue #78](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/78) - External users by organization name is case sensitive
 
 {: .fix }
-[GitHub Issue #72] (https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/72) - Directory Assistance processed differently based on sequence of loading server docs
+[GitHub Issue #72](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/72) - Directory Assistance processed differently based on sequence of loading server docs
 
 {: .fix }
 UI/UX Issues in Scan Wizard<br>-	“Environment Scan Results” is not displaying the list of additional Domino Directories found<br>-	“User Report Tool” Scan tab should no longer allow the user to change the location of the User Report Tool.
