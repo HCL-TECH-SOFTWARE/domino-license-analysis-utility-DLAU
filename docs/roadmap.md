@@ -43,23 +43,9 @@ DNEXT-23871 Include the standalone user report tool for preV12 servers
 
 
 ## Version 1.2.6
-ETA: November 2024
+November 2024
 
-{: .fix }
-[GitHub Issue #79](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/79) - "External Org" users getting improperly categorized as Known Guests
-
-{: .fix }
-[GitHub Issue #78](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/78) - External users by organization name is case sensitive
-
-{: .fix }
-[GitHub Issue #72](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/72) - Directory Assistance processed differently based on sequence of loading server docs
-
-{: .fix }
-UI/UX Issues in Scan Wizard<br>-	“Environment Scan Results” is not displaying the list of additional Domino Directories found<br>-	“User Report Tool” Scan tab should no longer allow the user to change the location of the User Report Tool.
-
-{: .update }
-User Report Tool Selection Change<br>
-The User Report Tool should only be enforced if the user indicates that they are calculating External Users. If they are only calculating CCB users, the User Report Tool should be optional
+For the full list of changes please see the [V1.2.6 changelog](https://opensource.hcltechsw.com/domino-license-analysis-utility-DLAU/changelog/#updates-included-in-v126).
 
 
 ## Version 1.2.5
