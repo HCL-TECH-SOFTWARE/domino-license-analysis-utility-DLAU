@@ -26,14 +26,7 @@ If you need assistence with the execution of DLAU or if you encounter an issue, 
 
 [Click here to open a support ticket](https://support.hcltechsw.com/csm/){:target="_blank"}
 
-## Github Issue
-This is an open source project and you are also welcome to report technical issues (e.g. an error number that references a portion of the design code) by submitting a [Github issue](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues){:target="_blank2"}
-Please note:
-* these issues are public, so any information shared in there will be visible to anyone on the internet!
-* Issues are not handled like a support ticket, if you do expect a timely response please open a [support ticket](https://support.hcltechsw.com/csm/)
 
-[Click here to report an issue here on GitHub](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues){:target="_blank2"}
-
-## Community support - Discqord
+## Community support - Discord
 
 There also is a [Discord channel for DLAU](https://discord.com/channels/953760981241200721/1156614685194465383) provided by [OpenNTF.org](https://openntf.org) where the Domino community is discussing about DLAU. 
