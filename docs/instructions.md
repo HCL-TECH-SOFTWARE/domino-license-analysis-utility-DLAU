@@ -100,7 +100,7 @@ To begin the HCL Domino Environment Scan, click the **Start Environment Scan Now
 
 The HCL Domino Environment scan will take approximately **5 minutes** to complete, depending on the number of HCL Domino Servers in your environment.
 
-If your organization is using additional Domino Directories via the Directory Assistance Catalog, you will be asked if any of those additional Domino directories are being used to register **External Users**. An **External User** is a user that is not a direct employee of your organization and has a maximum Access Control List level of "Author" to the Domino applications on your HCL Domino servers. This is better known as a **Complete Collaboration for External Users** (CCX) license.
+If your organization is using additional Domino Directories via the Directory Assistance Catalog, you will be asked if any of those additional Domino directories are being used to register **External Users**. An **External User** is a user that is not a direct employee of your organization and has a maximum Access Control List level of "Editor" to the Domino applications on your HCL Domino servers. This is better known as a **Complete Collaboration for External Users** (CCX) license.
 
 If this is the scenario in your environment, you will be presented the following message:
 
