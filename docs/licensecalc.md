@@ -43,7 +43,7 @@ CCX users have full functionality to use Domino and Domino Leap (if installed) a
 
 Like the CCB Authorized User entitlement, the CCX Authorized User entitlement is also unique, however, can logically be reassigned after 30 days of inactivity. Consequently, you need entitlements to cover actual/expected CCX users in any 30-day period.
 
-This level of licensing has some restrictions that must be in place to identify them correctly. The most important restriction is that the CCX users cannot have an Access Control List level higher than “Author” access. This means that a CCX user can create data (on documents) within a HCL Domino application but cannot modify those or other documents or data.
+This level of licensing has some restrictions that must be in place to identify them correctly. The most important restriction is that the CCX users cannot have an Access Control List level higher than “Editor” access. This means that a CCX user can create data (on documents) within a HCL Domino application but cannot modify those or other documents or data.
 
 Calculating CCB licenses is very straight forward: Count the number of valid Person Documents (valid meaning that there is a Notes ID associated with the Person document, the user listed on the Person Document is not a member of an active Deny Access Group, and the “CCB User” has access to at least one of the Domino servers).
 
@@ -81,7 +81,7 @@ To obtain this information for use in the DLAU, you must enable the License Trac
 ___
 
 ## Entitlement Tracking / Domino User Report Tool
-Another important aspect of calculating CCX licenses is ensuring that CCX users have a maximum Access Control List (ACL) level of “Author” to all Domino applications.
+Another important aspect of calculating CCX licenses is ensuring that CCX users have a maximum Access Control List (ACL) level of “Editor” to all Domino applications.
 
 HCL has created two (2) systems for reporting on the ACL Levels of Domino Users. 
 
