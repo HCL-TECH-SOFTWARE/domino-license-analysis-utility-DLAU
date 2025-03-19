@@ -29,7 +29,7 @@ The following requirements must be met in order to run the utility.
 
 ## Access rights
 
-- READ access to the Domino Directory and other system databases<sup><a href="#systemapps">1</a></sub>
+- READ access to the Domino Directory and other system databases<sup><a href="#systemapps">1</a></sup>
 - ACL role "[GroupModifier]" in the Domino Directory
 - Group membership in the "LocalDomainAdmins" Group or at least reader access to the other system databases<sup><a href="#systemapps">1</a></sup>
 
