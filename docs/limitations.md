@@ -29,6 +29,8 @@ ___
 
 For HCL Domino environments that have different, unique Domino Domains that are not connected using any type of Directory Assistance, the DLAU will only scan the Domino Domain that was discovered based on your current HCL Notes Location document.
 
+A common scenario are test or development Domains, or Domains that were put up for specific business functions isolated from the rest of your production environments. Please keep in mind that all of them need to be scanned to get a complete picture of the license needs.
+
 In order to scan all domino Domains in this scenario, you will need to create / use different Location documents, one per Domino domain, that list the Domino Administration server as the "Home/Mail Server".
 
 It is required that you use different copies of the DLAU, one copy per Domino Domain. By using multiple copies of DLAU, you will retain the informaiton for each Domino Domain that has been scanned.
