@@ -57,6 +57,14 @@ As noted in the CCB License Agreement:
 each External User. An "External User" is a unique person not included in above Internal Users, who is assigned Authorized User access to the Program with restricted maximum level of Domino application access (ACL) as "AUTHOR". A CCX A/U entitlement is unique, but may be reassigned to another user after thirty (30) days of inactivity.*
 
 ___
+### Inactive CCX Users
+
+This number is for informational purposes only. An inactive CCX user will not count towards CCX entitlements.
+Those are CCX users who technically can log in, but have not been logging in within the past 30 days of time.
+Inactive CCX Users shown in the column "All 365 days" is the number of CCX users who have never logged in within the past 365 days.
+
+___
+
 ### Person Documents
 The "Person Documents" value is the total number of Person documents contained within all Domino Directories within the HCL Domino environment.***
 
