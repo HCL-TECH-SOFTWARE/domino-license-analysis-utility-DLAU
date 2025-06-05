@@ -28,6 +28,10 @@ The purpose of this utility is to provide fast and accurate Authorized User coun
 For more information, please refer this HCL Blog Post: 
 [All You Ever Wanted to Know About Domino CCB Licensing and DLAU Tool](https://www.hcl-software.com/blog/domino/all-you-ever-wanted-to-know-about-domino-ccb-licensing-and-dlau-tool/)
 
+## When to use
+
+The HCL Domino License Analysis Utility (DLAU) should be used in environments where at least one of the HCL Domino Servers is running on a version lower than 14.5. If all of your Domino Servers are running version 14.5 (or above), you should use the integrated Domino License Dashboard which also produces a DLAU report in exactly the same format.
+
 ## Intro
 
 {% include youtube.html id="zBPAdHMGzzo" %}
