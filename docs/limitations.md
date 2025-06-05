@@ -47,3 +47,10 @@ As of DLAU 1.2.1 this limitation has been removed.
 
 {: .highlight }
 Note: this limitation was removed as part of the work done in DNEXT-23861 to enhance Directory Assistance scanning.
+
+## List of Domino Servers in the report
+
+On the results page, DLAU will display a list of Domino server versions found. 
+This information is retrieved from the Domino Directory. It does however not check if all of the servers listed are existing and/or running at present.
+
+This limitation applies to the standalone DLAU Tool provided here, but does not apply to the integrated Domino License Dashboard which is integrated in Domino version 14.5 (and above)
