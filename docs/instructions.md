@@ -27,12 +27,6 @@ DLAU is designed to work most efficiently on a local hard drive, so there is no 
 
 [Download Latest Release](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/releases/latest){: .btn .btn-green }
 
-{: .new }
-![Check-For-New-Version](assets/images/png/check-for-new-version.png)
-DLAU 1.2.2 introduces a new feature to check for the latest version. We recommend you are always on the latest and greatest version. The code will look at the latest releases posted here and alert  you if there is a new version available.
-
-Please verify if your environment meets the [system requirements](requirements.md)
-
 ___
 ## Recommendations
 
