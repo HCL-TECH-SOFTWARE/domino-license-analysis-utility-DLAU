@@ -36,7 +36,7 @@ Before starting, please acknowledge a few comments which we have received from c
 - Review access levels of your Domino applications prior running DLAU. This can be done e.g. by using the database catalog (catalog.nsf)
 
 ## Step 1 - Create the Application from the Template
-As of release 1.2.0, DLAU is now shipped as a template and you must create an application from the template. Save the [NTF](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/releases/latest) from the latest release to your Notes Data directory. Once it is there, open the HCL Notes Client and proceed to File - New Application.
+DLAU is provided as a template and you must create an application from the template. Save the [NTF](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/releases/latest) from the latest release to your Notes Data directory. Once it is there, open the HCL Notes Client and proceed to File - New Application.
 
 
 ![New-Application](assets/images/png/new-application.png)

@@ -19,9 +19,15 @@ A brief description of what is planned for upcomming releases of DLAU
 </details>
 ___
 
-___
-## Version 1.2.7
+## Version 1.2.8
 ETA: To be defined
+
+{: .update }
+Remove Limitation - DNEXT-23867 Multi-Domain support. Currently only a single Domain is supported
+
+
+## Version 1.2.7
+ETA: Sept. 2025
 
 {: .new }
 DNEXT-23858 Honor "Access Allow" groups used in the server document
@@ -32,14 +38,17 @@ DNEXT-23858 Honor "Access Allow" groups used in the server document
 {: .new }
 DNEXT-25788	Identify external users by using a field/property from the person document
 
-{: .update }
-Remove Limitation - DNEXT-23867 Multi-Domain support. Currently only a single Domain is supported
-
 {: .new }
 DNEXT-23871 Include the standalone user report tool for preV12 servers
 
 {: .new }
 [Idea DOMINO-I-2672](https://domino-ideas.hcltechsw.com/ideas/DOMINO-I-2672) - DNEXT-25874 Scan Deny Access groups even if they are stored in a secondary Domino directory
+
+{: .fix }
+DNEXT-30961 - Highest Access Level in Entitlement Tracking database not calculated
+
+{: .fix }
+DNEXT-29998 - Not reporting flat users
 
 
 ## Version 1.2.6
