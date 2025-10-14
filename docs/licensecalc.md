@@ -114,7 +114,7 @@ On the Basics tab of the Directory Assistance document, change the "Directory co
 This field was introduced in the Directory Assistance template (da.ntf) of version 14.5. The Template is  compatible with HCL Domino version 12.0.x and later.
 
 For more information see:
-https://help.hcl-software.com/domino/14.5.0/admin/admn_dla_first_steps.html
+[HCL License Dashboard: Background and first steps](https://help.hcl-software.com/domino/14.5.0/admin/admn_dla_first_steps.html)
 
 ### Person Document
 
@@ -156,6 +156,4 @@ While Not(PersonDoc Is Nothing)
 Wend
 ```
 
-For more information see:
-https://help.hcl-software.com/domino/14.5.0/admin/othr_persondocuments_r.html
- 
+For more information see: [Understanding the Person document](https://help.hcl-software.com/domino/14.5.0/admin/othr_persondocuments_r.html)
