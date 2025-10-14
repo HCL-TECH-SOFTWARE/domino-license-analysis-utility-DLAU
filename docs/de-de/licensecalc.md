@@ -120,7 +120,7 @@ Vorausssetzungen:
 - Das Adressbuch muss in der Directory Assistance datenbank konfiguriert sein. 
 - Directory Assistance Datenbank muss das Template (da.ntf) der Version v14.5 oder höher benutzen.
 
-![Directory Assistance](assets/images/png/categorize-directory.png)
+![Directory Assistance](../assets/images/png/categorize-directory.png)
 
 Im Reiter 'Basics' des Directory Assistance Dokumentes, kann die Einstellung "Verzeichnis enthält externe Benutzer" auf "Ja" geändert werden um der License Administration-Funktion die Information zu übergeben das alle Benutzer in diesem Directory als externe Benutzer zu betrachten sind.
 
@@ -136,7 +136,7 @@ Ein Personendokument in einem Domino Directory can als externer User Account mar
 Die entsprechende Einstellung findet sich im Reiter "Erweitert" innerhalb des Personendokuments.
 Das Feld "Account Type" kann auf "External" gesetzt werden um der License Administration-Funktion  die Information zu übergeben das es sich bei diesem Benutzer um einen externen Benutzer handelt.
 
-![Person Document](assets/images/png/categorize-person.png)
+![Person Document](../assets/images/png/categorize-person.png)
 
 Beachte:
 Wenn die tatsächlichen Berechtigungen des Accounts über den Lizenzbeschränkungen für externe Benutzer liegen, dann wird ein Benutzer als 'Intern' gezählt auch wenn der Account-Typ im Personendokument auf 'Extern' steht.
