@@ -19,6 +19,23 @@ All notable changes to this project will be documented in this file.
 {:toc}
 </details>
 
+___
+## UPDATES INCLUDED IN V1.2.7
+
+{: .update }
+CCX users will be displayed with empty if CCX user count is zero. This ensures complete visibility of all types of users.
+
+{: .update }
+The summary report will now displays list of Domino servers in which entitlement tracking is not running as well. This provides more comprehensive reporting data.
+
+{: .update }
+User Interface update: Customer name, Customer ID, and Domino DOMAIN fields have been moved to the top of the report for more legibility.
+ 
+ {: .fix }
+DNEXT-29998 - SPR: MOBNDB8K7J – DLAU was not reporting flat users correctly.
+
+{: .fix }
+SPR: HNAKDFABUJ – Fail with an overflow error when processing large number of servers.
 
 ___
 ## UPDATES INCLUDED IN V1.2.6

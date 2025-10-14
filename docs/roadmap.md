@@ -25,9 +25,8 @@ ETA: To be defined
 {: .update }
 Remove Limitation - DNEXT-23867 Multi-Domain support. Currently only a single Domain is supported
 
-
-## Version 1.2.7
-ETA: Sept. 2025
+{: .new }
+DNEXT-23871 Include the standalone user report tool for preV12 servers
 
 {: .new }
 DNEXT-23858 Honor "Access Allow" groups used in the server document
@@ -39,16 +38,15 @@ DNEXT-23858 Honor "Access Allow" groups used in the server document
 DNEXT-25788	Identify external users by using a field/property from the person document
 
 {: .new }
-DNEXT-23871 Include the standalone user report tool for preV12 servers
-
-{: .new }
 [Idea DOMINO-I-2672](https://domino-ideas.hcltechsw.com/ideas/DOMINO-I-2672) - DNEXT-25874 Scan Deny Access groups even if they are stored in a secondary Domino directory
 
 {: .fix }
 DNEXT-30961 - Highest Access Level in Entitlement Tracking database not calculated
 
-{: .fix }
-DNEXT-29998 - Not reporting flat users
+## Version 1.2.7
+October 2025
+
+For the full list of changes please see the [V1.2.7 changelog](https://opensource.hcltechsw.com/domino-license-analysis-utility-DLAU/changelog/#updates-included-in-v127).
 
 
 ## Version 1.2.6
