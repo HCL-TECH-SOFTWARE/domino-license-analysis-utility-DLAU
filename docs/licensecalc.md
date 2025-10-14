@@ -132,10 +132,10 @@ Technical details:
 
 Field | Details
 --- | --- 
-Name | $$PersonClassification
+Field Name | $$PersonClassification
 Data Type | Text
-Flags | SUMMARY
-Value | "0" (default) for Internal, "1" for External
+Field Flags | SUMMARY
+Field Value | "0" (default) for Internal, "1" for External
 
 To set this field programmatically, use e.g. a LotusScript agent to process selected documents:
 
