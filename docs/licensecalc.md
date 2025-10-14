@@ -95,5 +95,67 @@ The Domino User Report Tool is provided as an executable program which can run o
 
 To obtain the Domino User Report Tool, follow this URL link: [User Report Tool for gathering data on users' maximum access levels across a set of servers](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095328)
 
+## Categorizing Users or Directories as 'External'
 
+In order to identify if a user or account is an internal or external account, Directories and Person documents can be tagged. This tagging helps
+
+### Directory
+
+An entire Directory can be tagged to only(!) contain external user accounts. This is done in the Directory Assistance database. 
+
+Prerequsites:
+- The Directory must be configured in the Directory Assistance database. 
+- Directory Assistance database must be updated with v14.5 of the template (da.ntf).
+
+![Directory Assistance](assets/images/png/categorize-directory.png)
+
+On the Basics tab of the Directory Assistance document, change the "Directory contains external users" item to "Yes" to tell the License Administration feature that any users in this directory are external users.
+
+This field was introduced in the Directory Assistance template (da.ntf) of version 14.5. The Template is  compatible with HCL Domino version 12.0.x and later.
+
+For more information see:
+https://help.hcl-software.com/domino/14.5.0/admin/admn_dla_first_steps.html
+
+### Person Document
+
+An Person document in the Domino Directory can be tagged as external user account.
+
+On the Advanced tab of the Person document, change the "Account Type" item to "External" to indicate the License Administration that this user is an external user.
+
+![Person Document](assets/images/png/categorize-person.png)
+
+Please note: 
+If the actual permissions of the user are above the license restrictions for external users, the user will still be counted as 'Internal' even though the person document is set to be 'external'
+
+
+Technical details:
+
+Field Name: $$PersonClassification
+Data Type: Text
+Field Flags: SUMMARY 
+Field Value : 
+"0" (default) for Internal
+"1" for External
+
+To set this field programmatically, use e.g. a LotusScript agent to process selected documents:
+
+```
+Dim session As New NotesSession
+Dim collection As NotesDocumentCollection
+
+Set collection = session.CurrentDatabase.UnprocessedDocuments
+Set PersonDoc = collection.GetFirstDocument()
+While Not(PersonDoc Is Nothing)
+
+  If not (PersonDoc.GetItemValue ("$$PersonClassification")(0) = "1") then
+    Call PersonDoc.ReplaceItemValue ("$$PersonClassification","1")
+    Call PersonDoc.Save (True,False)
+  end if 
+
+  Set doc = collection.GetNextDocument(PersonDoc)
+Wend
+```
+
+For more information see:
+https://help.hcl-software.com/domino/14.5.0/admin/othr_persondocuments_r.html
  
