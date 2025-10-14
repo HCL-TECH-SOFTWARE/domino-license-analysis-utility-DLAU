@@ -130,12 +130,12 @@ If the actual permissions of the user are above the license restrictions for ext
 
 Technical details:
 
-Field Name: $$PersonClassification
-Data Type: Text
-Field Flags: SUMMARY 
-Field Value : 
-"0" (default) for Internal
-"1" for External
+- Field Name: $$PersonClassification
+- Data Type: Text
+- Field Flags: SUMMARY 
+- Field Value : 
+  "0" (default) for Internal
+  "1" for External
 
 To set this field programmatically, use e.g. a LotusScript agent to process selected documents:
 
