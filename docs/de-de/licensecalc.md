@@ -108,5 +108,65 @@ Verfügbar ist das Tool als Download und wird vom Administrator der Umgebung aus
 
 Sie können das Tool über diesen Link herunterladen: [User Report Tool for gathering data on users' maximum access levels across a set of servers](https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0095328)
 
+## Categorizing Users or Directories as 'External'
 
- 
+In order to identify if a user or account is an internal or external account, Directories and Person documents can be tagged. This tagging helps
+
+### Adressbuch
+
+Ein Adressbuch (Directory) welches nur(!) externe Benutzer enthält kann in der Directory Assistance datenbank als solches markiert werden.
+
+Vorausssetzungen:
+- Das Adressbuch muss in der Directory Assistance datenbank konfiguriert sein. 
+- Directory Assistance Datenbank muss das Template (da.ntf) der Version v14.5 oder höher benutzen.
+
+![Directory Assistance](assets/images/png/categorize-directory.png)
+
+Im Reiter 'Basics' des Directory Assistance Dokumentes, kann die Einstellung "Verzeichnis enthält externe Benutzer" auf "Ja" geändert werden um der License Administration-Funktion die Information zu übergeben das alle Benutzer in diesem Directory als externe Benutzer zu betrachten sind.
+
+Das Feld wurde im Directory Assistance template (da.ntf) der version 14.5 einfgeführt. Das Template ist  kompatibel mit HCL Domino Version 12.0.x und höher.
+
+Für weitere Informationen siehe:
+[HCL License Dashboard: Background and first steps](https://help.hcl-software.com/domino/14.5.0/admin/admn_dla_first_steps.html)
+
+### Personendokument
+
+Ein Personendokument in einem Domino Directory can als externer User Account markiert werden.
+
+Die entsprechende Einstellung findet sich im Reiter "Erweitert" innerhalb des Personendokuments.
+Das Feld "Account Type" kann auf "External" gesetzt werden um der License Administration-Funktion  die Information zu übergeben das es sich bei diesem Benutzer um einen externen Benutzer handelt.
+
+![Person Document](assets/images/png/categorize-person.png)
+
+Beachte:
+Wenn die tatsächlichen Berechtigungen des Accounts über den Lizenzbeschränkungen für externe Benutzer liegen, dann wird ein Benutzer als 'Intern' gezählt auch wenn der Account-Typ im Personendokument auf 'Extern' steht.
+
+Technische Details:
+
+Feld | Details
+--- | --- 
+Field Name | $$PersonClassification
+Data Type | Text
+Field Flags | SUMMARY
+Field Value | "0" (default) for Internal, "1" for External
+
+Um das Feld programmatisch zu setzen, kann z.B. ein LotusScript Agent verwendet werden der das Feld für alle markierten Dokumente in einer Ansicht setzt:
+
+```
+Dim session As New NotesSession
+Dim collection As NotesDocumentCollection
+
+Set collection = session.CurrentDatabase.UnprocessedDocuments
+Set PersonDoc = collection.GetFirstDocument()
+While Not(PersonDoc Is Nothing)
+
+  If not (PersonDoc.GetItemValue ("$$PersonClassification")(0) = "1") then
+    Call PersonDoc.ReplaceItemValue ("$$PersonClassification","1")
+    Call PersonDoc.Save (True,False)
+  end if 
+
+  Set doc = collection.GetNextDocument(PersonDoc)
+Wend
+```
+
+Für weitere Informationen siehe: [Understanding the Person document](https://help.hcl-software.com/domino/14.5.0/admin/othr_persondocuments_r.html)
