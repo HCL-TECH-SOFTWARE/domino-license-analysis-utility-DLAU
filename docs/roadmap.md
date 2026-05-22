@@ -19,7 +19,7 @@ A brief description of what is planned for upcomming releases of DLAU
 </details>
 ___
 
-## Version 1.2.8
+## Version 1.2.9
 ETA: To be defined
 
 {: .update }
@@ -29,10 +29,14 @@ Remove Limitation - DNEXT-23867 Multi-Domain support. Currently only a single Do
 DNEXT-23871 Include the standalone user report tool for preV12 servers
 
 {: .new }
-DNEXT-23858 Honor "Access Allow" groups used in the server document
+[GitHub Issue #19](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/19) - DNEXT-26870 - Export functionality enhancements to rename file and add user license category to exported file
+
+
+## Version 1.2.8
+ETA: Mid. Sept. 2026
 
 {: .new }
-[GitHub Issue #19](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/19) - DNEXT-26870 - Export functionality enhancements to rename file and add user license category to exported file
+DNEXT-23858 Honor "Access Allow" groups used in the server document
 
 {: .new }
 DNEXT-25788	Identify external users by using a field/property from the person document
@@ -40,8 +44,13 @@ DNEXT-25788	Identify external users by using a field/property from the person do
 {: .new }
 [Idea DOMINO-I-2672](https://domino-ideas.hcltechsw.com/ideas/DOMINO-I-2672) - DNEXT-25874 Scan Deny Access groups even if they are stored in a secondary Domino directory
 
+
 {: .fix }
-DNEXT-30961 - Highest Access Level in Entitlement Tracking database not calculated
+[Github Issue #80](https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU/issues/80) -  Spelling mistake: "alrernatively"
+
+{: .fix }
+DNEXT-23863 - Remove limits which might occur when running in environments with large number of servers
+
 
 ## Version 1.2.7
 October 2025

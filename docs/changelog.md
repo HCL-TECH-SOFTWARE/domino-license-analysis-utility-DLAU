@@ -37,6 +37,9 @@ DNEXT-29998 - SPR: MOBNDB8K7J – DLAU was not reporting flat users correctly.
 {: .fix }
 SPR: HNAKDFABUJ – Fail with an overflow error when processing large number of servers.
 
+{: .fix }
+DNEXT-30961 - Highest Access Level in Entitlement Tracking database not calculated
+
 ___
 ## UPDATES INCLUDED IN V1.2.6
 
